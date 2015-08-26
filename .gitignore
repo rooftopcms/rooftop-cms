@@ -34,3 +34,5 @@ node_modules
 bin
 .vagrant
 .idea
+public/vendor
+public/web/app/mu-plugins

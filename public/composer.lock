@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f3a9fa4567f1142ed0ba343d98ca0180",
+    "hash": "3ea3b3ca69e71512a33ee38d2ed3dde7",
     "packages": [
         {
             "name": "composer/installers",
@@ -100,6 +100,30 @@
                 "zikula"
             ],
             "time": "2015-02-18 17:17:01"
+        },
+        {
+            "name": "error/justified-wordpress-api-authentication",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "ssh://git@bitbucket.org/errorstudio/justified-wordpress-api-authentication",
+                "reference": "08b62cd70bb7800a157dc0117f292c8348f347ed"
+            },
+            "require": {
+                "wpackagist-plugin/posts-to-posts": "1.6.4"
+            },
+            "type": "wordpress-muplugin",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Error",
+                    "email": "info@errorstudio.co.uk"
+                }
+            ],
+            "description": "Authenticates requests to the API",
+            "time": "2015-08-26 15:30:19"
         },
         {
             "name": "johnpbloch/wordpress",
@@ -231,12 +255,34 @@
                 "environment"
             ],
             "time": "2015-05-30 16:15:01"
+        },
+        {
+            "name": "wpackagist-plugin/posts-to-posts",
+            "version": "1.6.4",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/posts-to-posts/",
+                "reference": "tags/1.6.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/posts-to-posts.1.6.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/posts-to-posts/"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "error/justified-wordpress-api-authentication": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

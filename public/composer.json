@@ -30,19 +30,23 @@
     {
       "type": "composer",
       "url": "http://wpackagist.org"
+    },
+    {
+      "type": "vcs",
+      "url": "ssh://git@bitbucket.org/errorstudio/justified-wordpress-api-authentication"
     }
   ],
   "require": {
     "php": ">=5.4",
     "composer/installers": "~1.0.12",
     "vlucas/phpdotenv"
-    : "^2.0.1",
-    "johnpbloch/wordpress": "4.2.4"
+      : "^2.0.1",
+    "johnpbloch/wordpress": "4.2.4",
+    "error/justified-wordpress-api-authentication": "dev-master"
   },
   "extra": {
     "installer-paths": {
-      "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
-      "web/app/plugins/{$name}/": ["type:wordpress-plugin"],
+      "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin", "type:wordpress-plugin"],
       "web/app/themes/{$name}/": ["type:wordpress-theme"]
     },
     "wordpress-install-dir": "web/wp"

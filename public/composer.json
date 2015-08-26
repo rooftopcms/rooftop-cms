@@ -31,32 +31,19 @@
       "type": "composer",
       "url": "http://wpackagist.org"
     }
-    // {
-    //   "type": "package",
-    //   "package": {
-    //     "name": "justified-wordpress-posts2posts-exposer", //give package name to anything, must be unique
-    //     "version": "0.1",
-    //     "source": {
-    //         "url": "ssh://git@bitbucket.org/errorstudio/justified-wordpress-posts2posts-exposer.git", //git url
-    //         "type": "git",
-    //         "reference": "master" //git branch-name
-    //     }
-    //   }
-    // }
   ],
   "require": {
     "php": ">=5.4",
     "composer/installers": "~1.0.12",
     "vlucas/phpdotenv"
     : "^2.0.1",
-    "johnpbloch/wordpress": "4.2.4"//,
-    // "justified-wordpress-posts2posts-exposer": "0.1"
+    "johnpbloch/wordpress": "4.2.4"
   },
   "extra": {
     "installer-paths": {
       "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
       "web/app/plugins/{$name}/": ["type:wordpress-plugin"],
-      "web/app/themes/{$name}/": ["type:wordpress-theme"],
+      "web/app/themes/{$name}/": ["type:wordpress-theme"]
     },
     "wordpress-install-dir": "web/wp"
   }

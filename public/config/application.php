@@ -7,8 +7,8 @@ $webroot_dir = $root_dir . '/web';
  */
 $dotenv = new Dotenv\Dotenv($root_dir);
 if (file_exists($root_dir . '/.env')) {
-  $dotenv->load();
-  $dotenv->required(['DB_NAME', 'DB_USER', 'DB_PASSWORD', 'WP_HOME', 'WP_SITEURL']);
+    $dotenv->load();
+    $dotenv->required(['DB_NAME', 'DB_USER', 'DB_PASSWORD', 'WP_HOME', 'WP_SITEURL']);
 }
 
 /**
@@ -20,7 +20,7 @@ define('WP_ENV', getenv('WP_ENV') ?: 'development');
 $env_config = __DIR__ . '/environments/' . WP_ENV . '.php';
 
 if (file_exists($env_config)) {
-  require_once $env_config;
+    require_once $env_config;
 }
 
 /**
@@ -66,9 +66,12 @@ define('AUTOMATIC_UPDATER_DISABLED', true);
 define('DISABLE_WP_CRON', true);
 define('DISALLOW_FILE_EDIT', true);
 
+// Allow multisite
+define( 'WP_ALLOW_MULTISITE', true );
+
 /**
  * Bootstrap WordPress
  */
 if (!defined('ABSPATH')) {
-  define('ABSPATH', $webroot_dir . '/wp/');
+    define('ABSPATH', $webroot_dir . '/wp/');
 }

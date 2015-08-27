@@ -53,10 +53,6 @@
     },
     {
         "type": "vcs",
-        "url": "ssh://git@bitbucket.org/errorstudio/rooftop-preview-mode"
-    },
-    {
-        "type": "vcs",
         "url": "ssh://git@bitbucket.org/errorstudio/rooftop-posts2posts-exposer"
     }
   ],

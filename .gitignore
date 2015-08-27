@@ -1,14 +1,15 @@
 # Application
-web/app/plugins/*
-!web/app/plugins/.gitkeep
-web/app/mu-plugins/*
-!web/app/mu-plugins/.gitkeep
-web/app/upgrade
-web/app/uploads/*
-!web/app/uploads/.gitkeep
-!web/app/mu-plugins/disallow-indexing.php
-!web/app/mu-plugins/register-theme-directory.php
-!web/app/mu-plugins/bedrock-autoloader.php
+public/web/app/plugins/*
+!public/web/app/plugins/.gitkeep
+public/web/app/mu-plugins/*
+!public/web/app/mu-plugins/.gitkeep
+public/web/app/upgrade
+public/web/app/uploads/*
+!public/web/app/uploads/.gitkeep
+!public/web/app/mu-plugins/disallow-indexing.php
+!public/web/app/mu-plugins/register-theme-directory.php
+!public/web/app/mu-plugins/bedrock-autoloader.php
+public/web/app/languages
 
 # WordPress
 web/wp

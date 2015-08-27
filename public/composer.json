@@ -33,7 +33,31 @@
     },
     {
       "type": "vcs",
-      "url": "ssh://git@bitbucket.org/errorstudio/justified-wordpress-api-authentication"
+      "url": "ssh://git@bitbucket.org/errorstudio/rooftop-api-authentication"
+    },
+    {
+        "type": "vcs",
+        "url": "ssh://git@bitbucket.org/errorstudio/rooftop-admin-theme"
+    },
+    {
+        "type": "vcs",
+        "url": "ssh://git@bitbucket.org/errorstudio/rooftop-response-sanitiser"
+    },
+    {
+        "type": "vcs",
+        "url": "ssh://git@bitbucket.org/errorstudio/rooftop-gravityforms-exposer"
+    },
+    {
+        "type": "vcs",
+        "url": "ssh://git@bitbucket.org/errorstudio/rooftop-events"
+    },
+    {
+        "type": "vcs",
+        "url": "ssh://git@bitbucket.org/errorstudio/rooftop-preview-mode"
+    },
+    {
+        "type": "vcs",
+        "url": "ssh://git@bitbucket.org/errorstudio/rooftop-posts2posts-exposer"
     }
   ],
   "require": {
@@ -42,7 +66,13 @@
     "vlucas/phpdotenv"
       : "^2.0.1",
     "johnpbloch/wordpress": "4.2.4",
-    "error/justified-wordpress-api-authentication": "dev-master"
+    "error/rooftop-api-authentication": "dev-development",
+    "error/rooftop-admin-theme": "dev-development",
+    "error/rooftop-response-sanitiser": "dev-development",
+    "error/rooftop-gravityforms-exposer": "dev-development",
+    "error/rooftop-events": "dev-development",
+    "error/rooftop-preview-mode": "dev-development",
+    "error/rooftop-posts2posts-exposer": "dev-development"
   },
   "extra": {
     "installer-paths": {

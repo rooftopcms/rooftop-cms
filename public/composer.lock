@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3ea3b3ca69e71512a33ee38d2ed3dde7",
+    "hash": "e2824b46628b698f796dd407b9cdbf75",
     "packages": [
         {
             "name": "composer/installers",
@@ -102,12 +102,12 @@
             "time": "2015-02-18 17:17:01"
         },
         {
-            "name": "error/justified-wordpress-api-authentication",
-            "version": "dev-master",
+            "name": "error/rooftop-admin-theme",
+            "version": "dev-development",
             "source": {
                 "type": "git",
-                "url": "ssh://git@bitbucket.org/errorstudio/justified-wordpress-api-authentication",
-                "reference": "08b62cd70bb7800a157dc0117f292c8348f347ed"
+                "url": "ssh://git@bitbucket.org/errorstudio/rooftop-admin-theme",
+                "reference": "755cf0fa1179e141293c52fa742a4314ddd007b2"
             },
             "require": {
                 "wpackagist-plugin/posts-to-posts": "1.6.4"
@@ -123,7 +123,136 @@
                 }
             ],
             "description": "Authenticates requests to the API",
-            "time": "2015-08-26 15:30:19"
+            "time": "2015-08-27 14:51:29"
+        },
+        {
+            "name": "error/rooftop-api-authentication",
+            "version": "dev-development",
+            "source": {
+                "type": "git",
+                "url": "ssh://git@bitbucket.org/errorstudio/rooftop-api-authentication",
+                "reference": "92dd12550e5240d7410224d400ff94ffa1c9781b"
+            },
+            "type": "wordpress-muplugin",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Error",
+                    "email": "info@errorstudio.co.uk"
+                }
+            ],
+            "description": "Authenticates requests to the API",
+            "time": "2015-08-27 14:50:57"
+        },
+        {
+            "name": "error/rooftop-events",
+            "version": "dev-development",
+            "source": {
+                "type": "git",
+                "url": "ssh://git@bitbucket.org/errorstudio/rooftop-events",
+                "reference": "34fdcc63af4c64b41fec35bc36c9cd5b817653a1"
+            },
+            "type": "wordpress-muplugin",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Error",
+                    "email": "info@errorstudio.co.uk"
+                }
+            ],
+            "description": "Authenticates requests to the API",
+            "time": "2015-08-27 14:51:15"
+        },
+        {
+            "name": "error/rooftop-gravityforms-exposer",
+            "version": "dev-development",
+            "source": {
+                "type": "git",
+                "url": "ssh://git@bitbucket.org/errorstudio/rooftop-gravityforms-exposer",
+                "reference": "ea0f1b2ecddfd599a8ee769e6f826781c33ef059"
+            },
+            "type": "wordpress-muplugin",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Error",
+                    "email": "info@errorstudio.co.uk"
+                }
+            ],
+            "description": "Authenticates requests to the API",
+            "time": "2015-08-27 14:51:51"
+        },
+        {
+            "name": "error/rooftop-posts2posts-exposer",
+            "version": "dev-development",
+            "source": {
+                "type": "git",
+                "url": "ssh://git@bitbucket.org/errorstudio/rooftop-posts2posts-exposer",
+                "reference": "7f17463ee311820c48af50716b77fe0793e255a6"
+            },
+            "require": {
+                "wpackagist-plugin/posts-to-posts": "1.6.4"
+            },
+            "type": "wordpress-muplugin",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Error",
+                    "email": "info@errorstudio.co.uk"
+                }
+            ],
+            "description": "Include related posts that the editor has defined via the posts2posts plugin",
+            "time": "2015-08-27 14:52:15"
+        },
+        {
+            "name": "error/rooftop-preview-mode",
+            "version": "dev-development",
+            "source": {
+                "type": "git",
+                "url": "ssh://git@bitbucket.org/errorstudio/rooftop-preview-mode",
+                "reference": "d65c9d77f62260ca3b4c162cdc3fd19a869ab08e"
+            },
+            "type": "wordpress-muplugin",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Error",
+                    "email": "info@errorstudio.co.uk"
+                }
+            ],
+            "description": "Detect whether a client is making a request in preview mode and define a constant accordingly",
+            "time": "2015-08-27 14:52:27"
+        },
+        {
+            "name": "error/rooftop-response-sanitiser",
+            "version": "dev-development",
+            "source": {
+                "type": "git",
+                "url": "ssh://git@bitbucket.org/errorstudio/rooftop-response-sanitiser",
+                "reference": "51d075d139f1a10019f5641fe0eea9f2f1de1972"
+            },
+            "type": "wordpress-muplugin",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Error",
+                    "email": "info@errorstudio.co.uk"
+                }
+            ],
+            "description": "Include related posts that the editor has defined via the posts2posts plugin",
+            "time": "2015-08-27 14:53:26"
         },
         {
             "name": "johnpbloch/wordpress",
@@ -281,7 +410,13 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "error/justified-wordpress-api-authentication": 20
+        "error/rooftop-api-authentication": 20,
+        "error/rooftop-admin-theme": 20,
+        "error/rooftop-response-sanitiser": 20,
+        "error/rooftop-gravityforms-exposer": 20,
+        "error/rooftop-events": 20,
+        "error/rooftop-preview-mode": 20,
+        "error/rooftop-posts2posts-exposer": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

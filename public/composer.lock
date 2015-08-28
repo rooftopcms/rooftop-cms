@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5fe37773f34a1f0b0167ccd5744e89bf",
+    "hash": "42f8b806e9c2d5cc9abcc50b2b860651",
     "packages": [
         {
             "name": "composer/installers",
@@ -107,7 +107,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:errorstudio/rooftop-admin-theme.git",
-                "reference": "b5b48784114163d19e98f11fccd4005ccd2de7fb"
+                "reference": "f3c9c55aecbcbbc2c0e10df277bae2fd14ec8ea0"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -120,7 +120,7 @@
                 }
             ],
             "description": "Authenticates requests to the API",
-            "time": "2015-08-28 11:42:07"
+            "time": "2015-08-28 16:36:45"
         },
         {
             "name": "errorstudio/rooftop-api-authentication",
@@ -128,7 +128,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:errorstudio/rooftop-api-authentication.git",
-                "reference": "ecd8f19b28b6a1ba4e24aabbfe318f542c898ce2"
+                "reference": "aaacdfc469885e36d46908345efca5731070c00c"
             },
             "require": {
                 "errorstudio/rooftop-preview-mode": "dev-development"
@@ -144,7 +144,7 @@
                 }
             ],
             "description": "Authenticates requests to the API",
-            "time": "2015-08-28 11:42:35"
+            "time": "2015-08-28 16:37:44"
         },
         {
             "name": "errorstudio/rooftop-events",
@@ -240,7 +240,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:errorstudio/rooftop-response-sanitiser.git",
-                "reference": "e2b7d7bfd2c1f0b76593cfb2d01eff0ef4807552"
+                "reference": "05e8b1f558a04bfa13b3cb2462aac29c068b8ff0"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -253,7 +253,7 @@
                 }
             ],
             "description": "Include related posts that the editor has defined via the posts2posts plugin",
-            "time": "2015-08-28 11:43:54"
+            "time": "2015-08-28 16:38:25"
         },
         {
             "name": "johnpbloch/wordpress",

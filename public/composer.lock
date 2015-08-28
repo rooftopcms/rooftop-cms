@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ba0972b291b565a43a88503491476f1a",
+    "hash": "5fe37773f34a1f0b0167ccd5744e89bf",
     "packages": [
         {
             "name": "composer/installers",
@@ -102,15 +102,12 @@
             "time": "2015-02-18 17:17:01"
         },
         {
-            "name": "error/rooftop-admin-theme",
+            "name": "errorstudio/rooftop-admin-theme",
             "version": "dev-development",
             "source": {
                 "type": "git",
-                "url": "ssh://git@bitbucket.org/errorstudio/rooftop-admin-theme",
-                "reference": "4bf1d2e114883f6f9316bd164752e566b682bcaa"
-            },
-            "require": {
-                "wpackagist-plugin/json-rest-api": "1.2.3"
+                "url": "git@bitbucket.org:errorstudio/rooftop-admin-theme.git",
+                "reference": "b5b48784114163d19e98f11fccd4005ccd2de7fb"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -123,19 +120,18 @@
                 }
             ],
             "description": "Authenticates requests to the API",
-            "time": "2015-08-27 15:57:32"
+            "time": "2015-08-28 11:42:07"
         },
         {
-            "name": "error/rooftop-api-authentication",
+            "name": "errorstudio/rooftop-api-authentication",
             "version": "dev-development",
             "source": {
                 "type": "git",
-                "url": "ssh://git@bitbucket.org/errorstudio/rooftop-api-authentication",
-                "reference": "91cca6cf6113a15055a31565586a364c6f15f01c"
+                "url": "git@bitbucket.org:errorstudio/rooftop-api-authentication.git",
+                "reference": "ecd8f19b28b6a1ba4e24aabbfe318f542c898ce2"
             },
             "require": {
-                "error/rooftop-preview-mode": "dev-development",
-                "wpackagist-plugin/json-rest-api": "1.2.3"
+                "errorstudio/rooftop-preview-mode": "dev-development"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -148,18 +144,15 @@
                 }
             ],
             "description": "Authenticates requests to the API",
-            "time": "2015-08-27 16:06:04"
+            "time": "2015-08-28 11:42:35"
         },
         {
-            "name": "error/rooftop-events",
+            "name": "errorstudio/rooftop-events",
             "version": "dev-development",
             "source": {
                 "type": "git",
-                "url": "ssh://git@bitbucket.org/errorstudio/rooftop-events",
-                "reference": "bd7102d11133e7afffe275cb0d41b856731f2fdf"
-            },
-            "require": {
-                "wpackagist-plugin/json-rest-api": "1.2.3"
+                "url": "git@bitbucket.org:errorstudio/rooftop-events.git",
+                "reference": "1085920831d6ed3a1f3e26d923a9b3bf330975c7"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -172,18 +165,15 @@
                 }
             ],
             "description": "Authenticates requests to the API",
-            "time": "2015-08-27 15:57:56"
+            "time": "2015-08-28 11:41:06"
         },
         {
-            "name": "error/rooftop-gravityforms-exposer",
+            "name": "errorstudio/rooftop-gravityforms-exposer",
             "version": "dev-development",
             "source": {
                 "type": "git",
-                "url": "ssh://git@bitbucket.org/errorstudio/rooftop-gravityforms-exposer",
-                "reference": "e6065fba2ab41a85e3659847db7abf67f74d7d49"
-            },
-            "require": {
-                "wpackagist-plugin/json-rest-api": "1.2.3"
+                "url": "git@bitbucket.org:errorstudio/rooftop-gravityforms-exposer.git",
+                "reference": "4ca30ac1b33ec96feda13cf4d6b3af3494c204a1"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -196,19 +186,18 @@
                 }
             ],
             "description": "Authenticates requests to the API",
-            "time": "2015-08-27 15:58:06"
+            "time": "2015-08-28 11:43:05"
         },
         {
-            "name": "error/rooftop-posts2posts-exposer",
+            "name": "errorstudio/rooftop-posts2posts-exposer",
             "version": "dev-development",
             "source": {
                 "type": "git",
-                "url": "ssh://git@bitbucket.org/errorstudio/rooftop-posts2posts-exposer",
-                "reference": "991d7a57994e6cd9373068bfb559e5786d95b279"
+                "url": "git@bitbucket.org:errorstudio/rooftop-posts2posts-exposer.git",
+                "reference": "6e4cf44acb50b872e6d6a1bf88bb83ba846a9344"
             },
             "require": {
-                "error/rooftop-preview-mode": "dev-development",
-                "wpackagist-plugin/json-rest-api": "1.2.3",
+                "errorstudio/rooftop-preview-mode": "dev-development",
                 "wpackagist-plugin/posts-to-posts": "1.6.4"
             },
             "type": "wordpress-muplugin",
@@ -222,18 +211,15 @@
                 }
             ],
             "description": "Include related posts that the editor has defined via the posts2posts plugin",
-            "time": "2015-08-27 16:06:17"
+            "time": "2015-08-28 11:43:22"
         },
         {
-            "name": "error/rooftop-preview-mode",
+            "name": "errorstudio/rooftop-preview-mode",
             "version": "dev-development",
             "source": {
                 "type": "git",
-                "url": "ssh://git@bitbucket.org/errorstudio/rooftop-preview-mode",
-                "reference": "adc8c18ec7c1cef4dd61bcdafe7a44efd35d519f"
-            },
-            "require": {
-                "wpackagist-plugin/json-rest-api": "1.2.3"
+                "url": "git@bitbucket.org:errorstudio/rooftop-preview-mode.git",
+                "reference": "7b0af5c8b809cb4f7107ba6d98c5fc449ab151e7"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -246,18 +232,15 @@
                 }
             ],
             "description": "Detect whether a client is making a request in preview mode and define a constant accordingly",
-            "time": "2015-08-27 15:58:25"
+            "time": "2015-08-28 11:43:45"
         },
         {
-            "name": "error/rooftop-response-sanitiser",
+            "name": "errorstudio/rooftop-response-sanitiser",
             "version": "dev-development",
             "source": {
                 "type": "git",
-                "url": "ssh://git@bitbucket.org/errorstudio/rooftop-response-sanitiser",
-                "reference": "2b9a0c32a7cfee884637fad1aa2282b062443b4c"
-            },
-            "require": {
-                "wpackagist-plugin/json-rest-api": "1.2.3"
+                "url": "git@bitbucket.org:errorstudio/rooftop-response-sanitiser.git",
+                "reference": "e2b7d7bfd2c1f0b76593cfb2d01eff0ef4807552"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -270,7 +253,7 @@
                 }
             ],
             "description": "Include related posts that the editor has defined via the posts2posts plugin",
-            "time": "2015-08-27 15:58:36"
+            "time": "2015-08-28 11:43:54"
         },
         {
             "name": "johnpbloch/wordpress",
@@ -404,26 +387,6 @@
             "time": "2015-05-30 16:15:01"
         },
         {
-            "name": "wpackagist-plugin/json-rest-api",
-            "version": "1.2.3",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/json-rest-api/",
-                "reference": "tags/1.2.3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/json-rest-api.1.2.3.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/json-rest-api/"
-        },
-        {
             "name": "wpackagist-plugin/posts-to-posts",
             "version": "1.6.4",
             "source": {
@@ -448,13 +411,13 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "error/rooftop-api-authentication": 20,
-        "error/rooftop-admin-theme": 20,
-        "error/rooftop-response-sanitiser": 20,
-        "error/rooftop-gravityforms-exposer": 20,
-        "error/rooftop-events": 20,
-        "error/rooftop-preview-mode": 20,
-        "error/rooftop-posts2posts-exposer": 20
+        "errorstudio/rooftop-preview-mode": 20,
+        "errorstudio/rooftop-api-authentication": 20,
+        "errorstudio/rooftop-admin-theme": 20,
+        "errorstudio/rooftop-response-sanitiser": 20,
+        "errorstudio/rooftop-gravityforms-exposer": 20,
+        "errorstudio/rooftop-events": 20,
+        "errorstudio/rooftop-posts2posts-exposer": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

@@ -33,42 +33,45 @@
     },
     {
       "type": "vcs",
-      "url": "ssh://git@bitbucket.org/errorstudio/rooftop-api-authentication"
+      "url": "git@bitbucket.org:errorstudio/rooftop-api-authentication.git"
     },
     {
         "type": "vcs",
-        "url": "ssh://git@bitbucket.org/errorstudio/rooftop-admin-theme"
+        "url": "git@bitbucket.org:errorstudio/rooftop-admin-theme.git"
     },
     {
         "type": "vcs",
-        "url": "ssh://git@bitbucket.org/errorstudio/rooftop-response-sanitiser"
+        "url": "git@bitbucket.org:errorstudio/rooftop-response-sanitiser.git"
     },
     {
         "type": "vcs",
-        "url": "ssh://git@bitbucket.org/errorstudio/rooftop-gravityforms-exposer"
+        "url": "git@bitbucket.org:errorstudio/rooftop-gravityforms-exposer.git"
     },
     {
         "type": "vcs",
-        "url": "ssh://git@bitbucket.org/errorstudio/rooftop-events"
+        "url": "git@bitbucket.org:errorstudio/rooftop-events.git"
     },
     {
         "type": "vcs",
-        "url": "ssh://git@bitbucket.org/errorstudio/rooftop-posts2posts-exposer"
+        "url": "git@bitbucket.org:errorstudio/rooftop-posts2posts-exposer.git"
+    },
+    {
+        "type": "vcs",
+        "url": "git@bitbucket.org:errorstudio/rooftop-preview-mode.git"
     }
   ],
   "require": {
     "php": ">=5.4",
     "composer/installers": "~1.0.12",
-    "vlucas/phpdotenv"
-      : "^2.0.1",
+    "vlucas/phpdotenv": "^2.0.1",
     "johnpbloch/wordpress": "4.3.0",
-    "error/rooftop-api-authentication": "dev-development",
-    "error/rooftop-admin-theme": "dev-development",
-    "error/rooftop-response-sanitiser": "dev-development",
-    "error/rooftop-gravityforms-exposer": "dev-development",
-    "error/rooftop-events": "dev-development",
-    "error/rooftop-preview-mode": "dev-development",
-    "error/rooftop-posts2posts-exposer": "dev-development"
+    "errorstudio/rooftop-preview-mode": "dev-development",
+    "errorstudio/rooftop-api-authentication": "dev-development",
+    "errorstudio/rooftop-admin-theme": "dev-development",
+    "errorstudio/rooftop-response-sanitiser": "dev-development",
+    "errorstudio/rooftop-gravityforms-exposer": "dev-development",
+    "errorstudio/rooftop-events": "dev-development",
+    "errorstudio/rooftop-posts2posts-exposer": "dev-development"
   },
   "extra": {
     "installer-paths": {

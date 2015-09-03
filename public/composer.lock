@@ -4,8 +4,51 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5fe37773f34a1f0b0167ccd5744e89bf",
+    "hash": "ef600f54be0e93a406688f59be7d0ed8",
     "packages": [
+        {
+            "name": "chrisboulton/php-resque",
+            "version": "1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/chrisboulton/php-resque.git",
+                "reference": "0549d6c88a4aed934655b7c03b6153349d6c3ad0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/chrisboulton/php-resque/zipball/0549d6c88a4aed934655b7c03b6153349d6c3ad0",
+                "reference": "0549d6c88a4aed934655b7c03b6153349d6c3ad0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Resque": "lib"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Chris Boulton",
+                    "email": "chris@bigcommerce.com"
+                }
+            ],
+            "description": "Redis backed library for creating background jobs and processing them later. Based on resque for Ruby.",
+            "homepage": "http://www.github.com/chrisboulton/php-resque/",
+            "keywords": [
+                "background",
+                "job",
+                "redis",
+                "resque"
+            ],
+            "time": "2012-10-13 07:28:16"
+        },
         {
             "name": "composer/installers",
             "version": "v1.0.21",
@@ -107,7 +150,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:errorstudio/rooftop-admin-theme.git",
-                "reference": "b5b48784114163d19e98f11fccd4005ccd2de7fb"
+                "reference": "f3c9c55aecbcbbc2c0e10df277bae2fd14ec8ea0"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -120,7 +163,7 @@
                 }
             ],
             "description": "Authenticates requests to the API",
-            "time": "2015-08-28 11:42:07"
+            "time": "2015-08-28 16:36:45"
         },
         {
             "name": "errorstudio/rooftop-api-authentication",
@@ -128,7 +171,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:errorstudio/rooftop-api-authentication.git",
-                "reference": "ecd8f19b28b6a1ba4e24aabbfe318f542c898ce2"
+                "reference": "aaacdfc469885e36d46908345efca5731070c00c"
             },
             "require": {
                 "errorstudio/rooftop-preview-mode": "dev-development"
@@ -144,7 +187,7 @@
                 }
             ],
             "description": "Authenticates requests to the API",
-            "time": "2015-08-28 11:42:35"
+            "time": "2015-08-28 16:37:44"
         },
         {
             "name": "errorstudio/rooftop-events",
@@ -235,12 +278,36 @@
             "time": "2015-08-28 11:43:45"
         },
         {
+            "name": "errorstudio/rooftop-queue-pusher",
+            "version": "dev-development",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:errorstudio/rooftop-queue-pusher.git",
+                "reference": "e67718e5c354d39c785da6ede0d0e26264cf8ad9"
+            },
+            "require": {
+                "chrisboulton/php-resque": "1.2"
+            },
+            "type": "wordpress-muplugin",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Error",
+                    "email": "info@errorstudio.co.uk"
+                }
+            ],
+            "description": "Hook into WP post events to push events onto a queue",
+            "time": "2015-09-03 15:05:18"
+        },
+        {
             "name": "errorstudio/rooftop-response-sanitiser",
             "version": "dev-development",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:errorstudio/rooftop-response-sanitiser.git",
-                "reference": "e2b7d7bfd2c1f0b76593cfb2d01eff0ef4807552"
+                "reference": "05e8b1f558a04bfa13b3cb2462aac29c068b8ff0"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -253,7 +320,31 @@
                 }
             ],
             "description": "Include related posts that the editor has defined via the posts2posts plugin",
-            "time": "2015-08-28 11:43:54"
+            "time": "2015-08-28 16:38:25"
+        },
+        {
+            "name": "errorstudio/rooftop-webhooks-admin",
+            "version": "dev-development",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:errorstudio/rooftop-webhooks-admin.git",
+                "reference": "6997ea5da4dfd687ae341cff3cfa39e5ad25030c"
+            },
+            "require": {
+                "chrisboulton/php-resque": "1.2"
+            },
+            "type": "wordpress-muplugin",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Error",
+                    "email": "info@errorstudio.co.uk"
+                }
+            ],
+            "description": "Configure the webhook URI's",
+            "time": "2015-09-03 16:09:54"
         },
         {
             "name": "johnpbloch/wordpress",
@@ -417,7 +508,9 @@
         "errorstudio/rooftop-response-sanitiser": 20,
         "errorstudio/rooftop-gravityforms-exposer": 20,
         "errorstudio/rooftop-events": 20,
-        "errorstudio/rooftop-posts2posts-exposer": 20
+        "errorstudio/rooftop-posts2posts-exposer": 20,
+        "errorstudio/rooftop-queue-pusher": 20,
+        "errorstudio/rooftop-webhooks-admin": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

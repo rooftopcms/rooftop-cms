@@ -35,6 +35,15 @@ Our aim for Rooftop is that you can make use of a set of well-used plugins, and 
 
 * A ruby gem to send webhook messages to your configured endpoint
 
+### Client libraries
+These are a work-in-progress. We want to build an ecosystem of open client libraries for many languages. At the moment we're working on:
+
+* `rooftop_model`: a Ruby client gem for the Rooftop API, following a similar approach to ActiveRecord
+* `rooftop_rails`: building on `rooftop_model` and providing Rails-specific features
+* `rooftop-laravel`: an eloquent-like library for interacting with Rooftop from Laravel.
+
+Of course Rooftop exposes a sensible REST API to access your data, so there's no reason why you can't use any REST library which is capable of adding a couple of custom headers. FORTRAN anyone?
+
 ## What's the licence for Rooftop?
 This project is MIT licenced (see the LICENCE file in this repo), so if you want to host it yourself, you can.
 

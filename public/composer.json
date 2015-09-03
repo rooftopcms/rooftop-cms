@@ -1,27 +1,36 @@
 {
-  "name": "roots/bedrock",
+  "name": "errorstudio/rooftop-cms",
   "type": "project",
   "license": "MIT",
-  "description": "A modern WordPress stack",
-  "homepage": "https://roots.io/bedrock/",
+  "description": "An API-based Wordpress CMS",
+  "homepage": "http://github.com/rooftopcms",
   "authors": [
     {
-      "name": "Scott Walkinshaw",
-      "email": "scott.walkinshaw@gmail.com",
-      "homepage": "https://github.com/swalkinshaw"
+      "name": "Paul Hendrick",
+      "email": "paul@errorstudio.co.uk",
+      "homepage": "https://github.com/foxpaul"
     },
     {
-      "name": "Ben Word",
-      "email": "ben@benword.com",
-      "homepage": "https://github.com/retlehs"
+      "name": "Ed Jones",
+      "email": "ed@errorstudio.co.uk",
+      "homepage": "https://github.com/edtjones"
+    },
+    {
+      "name": "Martin Chapman Fromm",
+      "email": "martin@errorstudio.co.uk",
+      "homepage": "https://github.com/martincf"
+    },
+    {
+      "name": "Andy Wilkinson",
+      "email": "andy@errorstudio.co.uk",
+      "homepage": "https://github.com/andyerror"
     }
   ],
   "keywords": [
-    "bedrock", "roots", "wordpress", "stack", "composer", "vagrant", "wp"
+    "wp","cms","api","rooftop"
   ],
   "support": {
-    "issues": "https://github.com/roots/bedrock/issues",
-    "forum": "https://discourse.roots.io/category/bedrock"
+    "issues": "https://github.com/rooftopcms/rooftop-cms/issues"
   },
   "config": {
     "preferred-install": "dist"

@@ -328,7 +328,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:errorstudio/rooftop-webhooks-admin.git",
-                "reference": "6997ea5da4dfd687ae341cff3cfa39e5ad25030c"
+                "reference": "c4ed3380a03b10fd4f5bfad9ba1d55d66ba3a163"
             },
             "require": {
                 "chrisboulton/php-resque": "1.2"
@@ -344,7 +344,7 @@
                 }
             ],
             "description": "Configure the webhook URI's",
-            "time": "2015-09-03 16:09:54"
+            "time": "2015-09-04 12:47:39"
         },
         {
             "name": "johnpbloch/wordpress",

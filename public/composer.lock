@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d01cb3887aee7ffa6e9bfb320b70290a",
+    "hash": "6887921ca58b6520b67ce3ad2e877d77",
     "packages": [
         {
             "name": "composer/installers",
@@ -100,6 +100,27 @@
                 "zikula"
             ],
             "time": "2015-02-18 17:17:01"
+        },
+        {
+            "name": "error/rooftop-acf-exposer",
+            "version": "dev-development",
+            "source": {
+                "type": "git",
+                "url": "ssh://git@bitbucket.org/errorstudio/rooftop-acf-exposer",
+                "reference": "44a3048d116a6da7ad4ae1ffe4ae98e8126acade"
+            },
+            "type": "wordpress-muplugin",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Error",
+                    "email": "info@errorstudio.co.uk"
+                }
+            ],
+            "description": "Include the ACF fields in a post response",
+            "time": "2015-09-08 10:41:32"
         },
         {
             "name": "error/rooftop-admin-theme",
@@ -416,7 +437,8 @@
         "error/rooftop-gravityforms-exposer": 20,
         "error/rooftop-events": 20,
         "error/rooftop-preview-mode": 20,
-        "error/rooftop-posts2posts-exposer": 20
+        "error/rooftop-posts2posts-exposer": 20,
+        "error/rooftop-acf-exposer": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

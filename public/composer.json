@@ -58,7 +58,11 @@
     {
         "type": "vcs",
         "url": "ssh://git@bitbucket.org/errorstudio/rooftop-posts2posts-exposer"
-    }
+    },
+      {
+          "type": "vcs",
+          "url": "ssh://git@bitbucket.org/errorstudio/rooftop-acf-exposer"
+      }
   ],
   "require": {
     "php": ">=5.4",
@@ -72,7 +76,8 @@
     "error/rooftop-gravityforms-exposer": "dev-development",
     "error/rooftop-events": "dev-development",
     "error/rooftop-preview-mode": "dev-development",
-    "error/rooftop-posts2posts-exposer": "dev-development"
+    "error/rooftop-posts2posts-exposer": "dev-development",
+    "error/rooftop-acf-exposer": "dev-development"
   },
   "extra": {
     "installer-paths": {

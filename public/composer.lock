@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "69141cd6b4039ee069eee36fa5f63ffc",
+    "hash": "cb693befd3609055f2b1d19af0dd1aaa",
     "packages": [
         {
             "name": "chrisboulton/php-resque",
@@ -143,6 +143,30 @@
                 "zikula"
             ],
             "time": "2015-02-18 17:17:01"
+        },
+        {
+            "name": "errorstudio/rooftop-acf-exposer",
+            "version": "dev-development",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:errorstudio/rooftop-acf-exposer.git",
+                "reference": "326c386016301feccb84006cb71e110fe2e6a863"
+            },
+            "require": {
+                "wpackagist-plugin/advanced-custom-fields": "4.4.3"
+            },
+            "type": "wordpress-muplugin",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Error",
+                    "email": "info@errorstudio.co.uk"
+                }
+            ],
+            "description": "Include the ACF fields in a post response",
+            "time": "2015-09-08 15:27:49"
         },
         {
             "name": "errorstudio/rooftop-admin-theme",
@@ -328,10 +352,11 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:errorstudio/rooftop-webhooks-admin.git",
-                "reference": "c4ed3380a03b10fd4f5bfad9ba1d55d66ba3a163"
+                "reference": "5641935f034bd5c412514b5ccbe101a53ed9a948"
             },
             "require": {
-                "chrisboulton/php-resque": "1.2"
+                "chrisboulton/php-resque": "1.2",
+                "predis/predis": "1.0.3"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -344,7 +369,7 @@
                 }
             ],
             "description": "Configure the webhook URI's",
-            "time": "2015-09-04 12:47:39"
+            "time": "2015-09-08 15:30:49"
         },
         {
             "name": "johnpbloch/wordpress",
@@ -528,6 +553,26 @@
             "time": "2015-05-30 16:15:01"
         },
         {
+            "name": "wpackagist-plugin/advanced-custom-fields",
+            "version": "4.4.3",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/advanced-custom-fields/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/advanced-custom-fields/"
+        },
+        {
             "name": "wpackagist-plugin/posts-to-posts",
             "version": "1.6.4",
             "source": {
@@ -560,7 +605,8 @@
         "errorstudio/rooftop-events": 20,
         "errorstudio/rooftop-posts2posts-exposer": 20,
         "errorstudio/rooftop-queue-pusher": 20,
-        "errorstudio/rooftop-webhooks-admin": 20
+        "errorstudio/rooftop-webhooks-admin": 20,
+        "errorstudio/rooftop-acf-exposer": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

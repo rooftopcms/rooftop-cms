@@ -75,6 +75,10 @@
     {
         "type": "vcs",
         "url": "git@bitbucket.org:errorstudio/rooftop-webhooks-admin.git"
+    },
+    {
+        "type": "vcs",
+        "url": "git@bitbucket.org:errorstudio/rooftop-acf-exposer.git"
     }
   ],
   "require": {
@@ -82,7 +86,6 @@
     "composer/installers": "~1.0.12",
     "vlucas/phpdotenv": "^2.0.1",
     "johnpbloch/wordpress": "4.3.0",
-    "predis/predis": "1.0.3",
     "errorstudio/rooftop-preview-mode": "dev-development",
     "errorstudio/rooftop-api-authentication": "dev-development",
     "errorstudio/rooftop-admin-theme": "dev-development",
@@ -91,7 +94,8 @@
     "errorstudio/rooftop-events": "dev-development",
     "errorstudio/rooftop-posts2posts-exposer": "dev-development",
     "errorstudio/rooftop-queue-pusher": "dev-development",
-    "errorstudio/rooftop-webhooks-admin": "dev-development"
+    "errorstudio/rooftop-webhooks-admin": "dev-development",
+    "errorstudio/rooftop-acf-exposer": "dev-development"
   },
   "extra": {
     "installer-paths": {

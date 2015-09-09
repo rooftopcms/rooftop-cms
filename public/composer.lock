@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "69141cd6b4039ee069eee36fa5f63ffc",
+    "hash": "7d59a0c0dcb52d058b6464c937ead3d0",
     "packages": [
         {
             "name": "chrisboulton/php-resque",
@@ -145,6 +145,30 @@
             "time": "2015-02-18 17:17:01"
         },
         {
+            "name": "errorstudio/rooftop-acf-exposer",
+            "version": "dev-development",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:errorstudio/rooftop-acf-exposer.git",
+                "reference": "e699a42fa6d33ed5e786da25aec7606c91c1df8c"
+            },
+            "require": {
+                "wpackagist-plugin/advanced-custom-fields": "4.4.3"
+            },
+            "type": "wordpress-muplugin",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Error",
+                    "email": "info@errorstudio.co.uk"
+                }
+            ],
+            "description": "Include the ACF fields in a post response",
+            "time": "2015-09-08 16:54:32"
+        },
+        {
             "name": "errorstudio/rooftop-admin-theme",
             "version": "dev-development",
             "source": {
@@ -171,7 +195,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:errorstudio/rooftop-api-authentication.git",
-                "reference": "aaacdfc469885e36d46908345efca5731070c00c"
+                "reference": "49ab53fe568b466e110391f62c6b965362cd99d3"
             },
             "require": {
                 "errorstudio/rooftop-preview-mode": "dev-development"
@@ -187,7 +211,7 @@
                 }
             ],
             "description": "Authenticates requests to the API",
-            "time": "2015-08-28 16:37:44"
+            "time": "2015-09-08 16:19:41"
         },
         {
             "name": "errorstudio/rooftop-events",
@@ -237,7 +261,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:errorstudio/rooftop-posts2posts-exposer.git",
-                "reference": "6e4cf44acb50b872e6d6a1bf88bb83ba846a9344"
+                "reference": "c00efb81fe593af518998f02bdbdafb62fbd0fbd"
             },
             "require": {
                 "errorstudio/rooftop-preview-mode": "dev-development",
@@ -254,7 +278,7 @@
                 }
             ],
             "description": "Include related posts that the editor has defined via the posts2posts plugin",
-            "time": "2015-08-28 11:43:22"
+            "time": "2015-09-08 16:54:11"
         },
         {
             "name": "errorstudio/rooftop-preview-mode",
@@ -262,7 +286,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:errorstudio/rooftop-preview-mode.git",
-                "reference": "5a7335b71026ed247f616f544d8cad7c2ab9a6a7"
+                "reference": "58beb012d97442c3d2e2feccac9edd72d3bc082e"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -275,7 +299,7 @@
                 }
             ],
             "description": "Detect whether a client is making a request in preview mode and define a constant accordingly",
-            "time": "2015-09-04 14:04:31"
+            "time": "2015-09-08 16:22:50"
         },
         {
             "name": "errorstudio/rooftop-queue-pusher",
@@ -307,7 +331,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:errorstudio/rooftop-response-sanitiser.git",
-                "reference": "05e8b1f558a04bfa13b3cb2462aac29c068b8ff0"
+                "reference": "bf89b9b6597cf64aaa5211a3007caad0649b492f"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -320,7 +344,7 @@
                 }
             ],
             "description": "Include related posts that the editor has defined via the posts2posts plugin",
-            "time": "2015-08-28 16:38:25"
+            "time": "2015-09-08 16:23:17"
         },
         {
             "name": "errorstudio/rooftop-webhooks-admin",
@@ -328,10 +352,11 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:errorstudio/rooftop-webhooks-admin.git",
-                "reference": "c4ed3380a03b10fd4f5bfad9ba1d55d66ba3a163"
+                "reference": "5641935f034bd5c412514b5ccbe101a53ed9a948"
             },
             "require": {
-                "chrisboulton/php-resque": "1.2"
+                "chrisboulton/php-resque": "1.2",
+                "predis/predis": "1.0.3"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -344,7 +369,7 @@
                 }
             ],
             "description": "Configure the webhook URI's",
-            "time": "2015-09-04 12:47:39"
+            "time": "2015-09-08 15:30:49"
         },
         {
             "name": "johnpbloch/wordpress",
@@ -528,6 +553,26 @@
             "time": "2015-05-30 16:15:01"
         },
         {
+            "name": "wpackagist-plugin/advanced-custom-fields",
+            "version": "4.4.3",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/advanced-custom-fields/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/advanced-custom-fields/"
+        },
+        {
             "name": "wpackagist-plugin/posts-to-posts",
             "version": "1.6.4",
             "source": {
@@ -560,7 +605,8 @@
         "errorstudio/rooftop-events": 20,
         "errorstudio/rooftop-posts2posts-exposer": 20,
         "errorstudio/rooftop-queue-pusher": 20,
-        "errorstudio/rooftop-webhooks-admin": 20
+        "errorstudio/rooftop-webhooks-admin": 20,
+        "errorstudio/rooftop-acf-exposer": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

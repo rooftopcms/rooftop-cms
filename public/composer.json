@@ -92,7 +92,6 @@
     "errorstudio/rooftop-response-sanitiser": "dev-development",
     "errorstudio/rooftop-gravityforms-exposer": "dev-development",
     "errorstudio/rooftop-events": "dev-development",
-    "errorstudio/rooftop-posts2posts-exposer": "dev-development",
     "errorstudio/rooftop-queue-pusher": "dev-development",
     "errorstudio/rooftop-webhooks-admin": "dev-development",
     "errorstudio/rooftop-acf-exposer": "dev-development"

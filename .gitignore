@@ -7,6 +7,7 @@ public/web/app/upgrade
 public/web/app/uploads/*
 !public/web/app/uploads/.gitkeep
 !public/web/app/mu-plugins/disallow-indexing.php
+!public/web/app/mu-plugins/rest-api
 !public/web/app/mu-plugins/register-theme-directory.php
 !public/web/app/mu-plugins/bedrock-autoloader.php
 public/web/app/languages

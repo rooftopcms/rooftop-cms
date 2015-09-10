@@ -62,10 +62,6 @@
     },
     {
         "type": "vcs",
-        "url": "git@bitbucket.org:errorstudio/rooftop-posts2posts-exposer.git"
-    },
-    {
-        "type": "vcs",
         "url": "git@bitbucket.org:errorstudio/rooftop-preview-mode.git"
     },
     {
@@ -79,6 +75,10 @@
     {
         "type": "vcs",
         "url": "git@bitbucket.org:errorstudio/rooftop-acf-exposer.git"
+    },
+    {
+        "type": "vcs",
+        "url": "git@github.com:rooftopcms/wp-api-menus.git"
     }
   ],
   "require": {
@@ -94,7 +94,9 @@
     "errorstudio/rooftop-events": "dev-development",
     "errorstudio/rooftop-queue-pusher": "dev-development",
     "errorstudio/rooftop-webhooks-admin": "dev-development",
-    "errorstudio/rooftop-acf-exposer": "dev-development"
+    "errorstudio/rooftop-acf-exposer": "dev-development",
+
+    "nekojira/wp-api-menus": "dev-wp-api-v2"
   },
   "extra": {
     "installer-paths": {

@@ -25,6 +25,9 @@ set :local_db_server, "vvv.dev"
 set :local_db_server_port, 3306
 set :local_db_name, "rooftop_cms"
 
+#CORS required
+set :include_nginx_cors, true
+
 # require specific recipes last.
 require 'capistrano/errorstudio/wordpress'
 require 'capistrano/errorstudio/composer'

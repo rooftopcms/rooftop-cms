@@ -1,11 +1,8 @@
 # Basic details
 set :application, 'rooftop'
 set :repo_url, 'ssh://git@bitbucket.org/errorstudio/rooftop-cms'
-set :primary_domain, "www.rooftopcms.io"
+set :primary_domain, "rooftopcms.io"
 
-
-#redirects domains to the primary domain as a 301
-set :domain_redirects, %w(rooftopcms.io)
 
 # The folder which will be the http root in nginx
 set :http_root, "/current/public/web"
@@ -13,6 +10,12 @@ set :http_root, "/current/public/web"
 # Peculiar to bedrock, the uploads folder is in a non-standard place.
 # You don't need to set this for normal wordpress.
 set :uploads_folder, 'public/web/app/uploads'
+
+# Custom nginx rules for bedrock
+set :custom_nginx_rules, [
+      "rewrite ^/(wp-.*.php)$ /wp/$1 last;",
+      "rewrite ^/(wp-(content|admin|includes).*) /wp/$1 last;"
+]
 
 #development settings
 set :local_domain, "rooftop-cms.dev"

@@ -30,3 +30,5 @@ set :url_rewrites, {}
 set :basic_auth_required, false
 set :basic_auth_username, 'testing'
 set :basic_auth_password, 'testing'
+
+set :deploy_to, ->{"/var/www/#{fetch(:deploy_domain)}"}

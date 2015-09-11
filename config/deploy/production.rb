@@ -1,7 +1,7 @@
 # Server configuration. For a simple site this is just one entry.
-role :app, %w{deployment@rooftop-test.vm.errorstudio.com}
-role :web, %w{deployment@rooftop-test.vm.errorstudio.com}
-role :db, %w{deployment@rooftop-test.vm.errorstudio.com}
+role :app, %w{deployment@rooftop.vm.errorstudio.com}
+role :web, %w{deployment@rooftop.vm.errorstudio.com}
+role :db, %w{deployment@rooftop.vm.errorstudio.com}
 
 # Git branch
 set :branch, 'master'
@@ -14,6 +14,9 @@ set :prelaunch_domain, ->{"#{fetch(:primary_domain)}.#{fetch(:base_domain)}"}
 
 # set the deploy domain to the prelaunch domain
 set :deploy_domain, fetch(:primary_domain)
+
+#redirects domains to the primary domain as a 301
+set :domain_redirects, %w(~.*\.rooftopcms\.com)
 
 #domains which this site will answer to (i.e. not redirect)
 set :site_domains, [fetch(:deploy_domain), "~^.*\.rooftopcms\.io"]

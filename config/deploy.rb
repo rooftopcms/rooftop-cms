@@ -28,10 +28,6 @@ set :local_db_name, "rooftop_cms"
 #CORS required
 set :include_nginx_cors, true
 
-# require specific recipes last.
-require 'capistrano/errorstudio/wordpress'
-require 'capistrano/errorstudio/composer'
-
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 

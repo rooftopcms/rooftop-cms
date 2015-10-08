@@ -77,6 +77,11 @@ define('SITE_ID_CURRENT_SITE', 1);
 define('BLOG_ID_CURRENT_SITE', 1);
 
 /**
+ *
+ */
+define('WP_DEBUG_DISPLAY', false);
+
+/**
  * Bootstrap WordPress
  */
 if (!defined('ABSPATH')) {

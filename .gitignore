@@ -39,3 +39,5 @@ bin
 public/vendor
 public/web/app/mu-plugins
 public/web/wp
+
+composer.lock

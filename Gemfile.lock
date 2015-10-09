@@ -1,7 +1,8 @@
-PATH
-  remote: ~/dev/errorstudio_capistrano_recipes
+GIT
+  remote: ssh://git@bitbucket.org/errorstudio/errorstudio_capistrano_recipes
+  revision: a461e96d8432fde286a38f7ab686a412ca5af2ce
   specs:
-    errorstudio_capistrano_recipes (0.0.1)
+    errorstudio_capistrano_recipes (0.1.0)
       capistrano (~> 3.4.0)
       capistrano-bundler
       capistrano-composer (>= 0.0.6)

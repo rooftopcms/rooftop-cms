@@ -1,7 +1,7 @@
 # Server configuration. For a simple site this is just one entry.
-role :app, %w{deployment@rooftop-test.vm.errorstudio.com}
-role :web, %w{deployment@rooftop-test.vm.errorstudio.com}
-role :db, %w{deployment@rooftop-test.vm.errorstudio.com}
+role :app, %w{deployment@ed-test.vm.errorstudio.com}
+role :web, %w{deployment@ed-test.vm.errorstudio.com}
+role :db, %w{deployment@ed-test.vm.errorstudio.com}
 
 # Git branch
 set :branch, 'development'
@@ -24,8 +24,8 @@ set :url_rewrites, {}
 set :deploy_domain, fetch(:prelaunch_domain)
 
 #http basic auth
-set :basic_auth_required, false
+set :basic_auth_required, true
 set :basic_auth_username, 'testing'
 set :basic_auth_password, 'testing'
 
-set :deploy_to, ->{"/var/www/#{fetch(:deploy_domain)}"}
+# set :deploy_to, ->{"/var/www/#{fetch(:deploy_domain)}"}

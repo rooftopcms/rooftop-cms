@@ -30,7 +30,7 @@ set :ssl_dir, File.join(File.dirname(__FILE__),"ssl")
 set :ssl_cert, "rooftopcms.io.public.crt"
 set :ssl_key, "rooftopcms.io.private.key.gpg" #this should be a gpg-encrypted key
 set :ssl_dh, "rooftopcms.io.dh.pem.gpg" #this should be a gpg-encrypted key
-set :ip_address, "178.62.110.161" #the ip address for this site; required for SSL
+# set :ip_address, "178.62.110.161" #the ip address for this site; required for SSL
 set :force_ssl, true #redirect all non-ssl requests to ssl
 
 
@@ -38,6 +38,3 @@ set :force_ssl, true #redirect all non-ssl requests to ssl
 set :basic_auth_required, false
 set :basic_auth_username, 'testing'
 set :basic_auth_password, 'testing'
-
-
-set :deploy_to, ->{"/var/www/#{fetch(:deploy_domain)}"}

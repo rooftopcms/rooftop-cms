@@ -1,7 +1,7 @@
 # Server configuration. For a simple site this is just one entry.
-role :app, %w{deployment@ed-test.vm.errorstudio.com}
-role :web, %w{deployment@ed-test.vm.errorstudio.com}
-role :db, %w{deployment@ed-test.vm.errorstudio.com}
+role :app, %w{deployment@rooftop.vm.errorstudio.com}
+role :web, %w{deployment@rooftop.vm.errorstudio.com}
+role :db, %w{deployment@rooftop.vm.errorstudio.com}
 
 # Git branch
 set :branch, 'master'

@@ -79,7 +79,7 @@ define('BLOG_ID_CURRENT_SITE', 1);
 /**
  *
  */
-define('WP_DEBUG_DISPLAY', false);
+
 
 /**
  * Bootstrap WordPress

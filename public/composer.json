@@ -96,7 +96,7 @@
     "errorstudio/rooftop-webhooks-admin": "dev-development",
     "errorstudio/rooftop-acf-exposer": "dev-development",
     "errorstudio/rooftop-content-hierarchy": "dev-development",
-    "nekojira/wp-api-menus": "dev-wp-api-v2",
+    "nekojira/wp-api-menus": "dev-master",
     "predis/predis": "~1.0.3",
     "chrisboulton/php-resque": "dev-master"
   },

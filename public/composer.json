@@ -78,6 +78,14 @@
     },
     {
         "type": "vcs",
+        "url": "git@bitbucket.org:errorstudio/rooftop-content-settings.git"
+    },
+    {
+        "type": "vcs",
+        "url": "git@bitbucket.org:errorstudio/rooftop-content-fields.git"
+    },
+    {
+        "type": "vcs",
         "url": "git@github.com:rooftopcms/wp-api-menus.git"
     }
 
@@ -96,6 +104,8 @@
     "errorstudio/rooftop-webhooks-admin": "dev-development",
     "errorstudio/rooftop-acf-exposer": "dev-development",
     "errorstudio/rooftop-content-hierarchy": "dev-development",
+    "errorstudio/rooftop-content-fields": "dev-development",
+    "errorstudio/rooftop-content-settings": "dev-development",
     "nekojira/wp-api-menus": "dev-master",
     "predis/predis": "~1.0.3",
     "chrisboulton/php-resque": "dev-master"

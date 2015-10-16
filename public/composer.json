@@ -41,51 +41,55 @@
       "url": "http://wpackagist.org"
     },
     {
-      "type": "vcs",
-      "url": "git@bitbucket.org:errorstudio/rooftop-api-authentication.git"
+      "type": "git",
+      "url": "https://github.com/WP-API/WP-API.git"
     },
     {
-        "type": "vcs",
-        "url": "git@bitbucket.org:errorstudio/rooftop-admin-theme.git"
+      "type": "git",
+      "url": "https://github.com/rooftopcms/rooftop-api-authentication.git"
     },
     {
-        "type": "vcs",
-        "url": "git@bitbucket.org:errorstudio/rooftop-response-sanitiser.git"
+        "type": "git",
+        "url": "https://github.com/rooftopcms/rooftop-admin-theme.git"
     },
     {
-        "type": "vcs",
-        "url": "git@bitbucket.org:errorstudio/rooftop-gravityforms-exposer.git"
+        "type": "git",
+        "url": "https://github.com/rooftopcms/rooftop-response-sanitiser.git"
     },
     {
-        "type": "vcs",
-        "url": "git@bitbucket.org:errorstudio/rooftop-events.git"
+        "type": "git",
+        "url": "https://github.com/rooftopcms/rooftop-gravityforms-exposer.git"
     },
     {
-        "type": "vcs",
-        "url": "git@bitbucket.org:errorstudio/rooftop-preview-mode.git"
+        "type": "git",
+        "url": "https://github.com/rooftopcms/rooftop-events.git"
     },
     {
-        "type": "vcs",
-        "url": "git@bitbucket.org:errorstudio/rooftop-webhooks-admin.git"
+        "type": "git",
+        "url": "https://github.com/rooftopcms/rooftop-preview-mode.git"
     },
     {
-        "type": "vcs",
-        "url": "git@bitbucket.org:errorstudio/rooftop-acf-exposer.git"
+        "type": "git",
+        "url": "https://github.com/rooftopcms/rooftop-webhooks-admin.git"
     },
     {
-        "type": "vcs",
-        "url": "git@bitbucket.org:errorstudio/rooftop-content-hierarchy.git"
+        "type": "git",
+        "url": "https://github.com/rooftopcms/rooftop-acf-exposer.git"
     },
     {
-        "type": "vcs",
-        "url": "git@bitbucket.org:errorstudio/rooftop-content-settings.git"
+        "type": "git",
+        "url": "https://github.com/rooftopcms/rooftop-content-hierarchy.git"
     },
     {
-        "type": "vcs",
-        "url": "git@bitbucket.org:errorstudio/rooftop-content-fields.git"
+        "type": "git",
+        "url": "https://github.com/rooftopcms/rooftop-content-settings.git"
     },
     {
-        "type": "vcs",
+        "type": "git",
+        "url": "https://github.com/rooftopcms/rooftop-content-fields.git"
+    },
+    {
+        "type": "git",
         "url": "git@github.com:rooftopcms/wp-api-menus.git"
     }
 
@@ -95,17 +99,18 @@
     "composer/installers": "~1.0.12",
     "vlucas/phpdotenv": "^2.0.1",
     "johnpbloch/wordpress": "4.3.0",
-    "errorstudio/rooftop-preview-mode": "dev-development",
-    "errorstudio/rooftop-api-authentication": "dev-development",
-    "errorstudio/rooftop-admin-theme": "dev-development",
-    "errorstudio/rooftop-response-sanitiser": "dev-development",
-    "errorstudio/rooftop-gravityforms-exposer": "dev-development",
-    "errorstudio/rooftop-events": "dev-development",
-    "errorstudio/rooftop-webhooks-admin": "dev-development",
-    "errorstudio/rooftop-acf-exposer": "dev-development",
-    "errorstudio/rooftop-content-hierarchy": "dev-development",
-    "errorstudio/rooftop-content-fields": "dev-development",
-    "errorstudio/rooftop-content-settings": "dev-development",
+    "wpackagist-plugin/rest-api": "2.0-beta4",
+    "rooftopcms/rooftop-preview-mode": "dev-development",
+    "rooftopcms/rooftop-api-authentication": "dev-development",
+    "rooftopcms/rooftop-admin-theme": "dev-development",
+    "rooftopcms/rooftop-response-sanitiser": "dev-development",
+    "rooftopcms/rooftop-gravityforms-exposer": "dev-development",
+    "rooftopcms/rooftop-events": "dev-development",
+    "rooftopcms/rooftop-webhooks-admin": "dev-development",
+    "rooftopcms/rooftop-acf-exposer": "dev-development",
+    "rooftopcms/rooftop-content-hierarchy": "dev-development",
+    "rooftopcms/rooftop-content-fields": "dev-development",
+    "rooftopcms/rooftop-content-settings": "dev-development",
     "nekojira/wp-api-menus": "dev-master",
     "predis/predis": "~1.0.3",
     "chrisboulton/php-resque": "dev-master"

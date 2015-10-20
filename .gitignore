@@ -1,0 +1,43 @@
+# Application
+public/web/app/plugins/*
+!public/web/app/plugins/.gitkeep
+public/web/app/mu-plugins/*
+!public/web/app/mu-plugins/.gitkeep
+public/web/app/upgrade
+public/web/app/uploads/*
+!public/web/app/uploads/.gitkeep
+!public/web/app/mu-plugins/disallow-indexing.php
+!public/web/app/mu-plugins/rest-api
+!public/web/app/mu-plugins/register-theme-directory.php
+!public/web/app/mu-plugins/bedrock-autoloader.php
+public/web/app/languages
+
+# WordPress
+web/wp
+web/.htaccess
+
+# WP-CLI
+db-sync
+sql-dump-*.sql
+
+# Dotenv
+.env
+.env.*
+!.env.example
+
+# Vendor (e.g. Composer)
+vendor/*
+!vendor/.gitkeep
+
+# Node Package Manager
+node_modules
+
+# Vagrant
+bin
+.vagrant
+.idea
+public/vendor
+public/web/app/mu-plugins
+public/web/wp
+
+composer.lock

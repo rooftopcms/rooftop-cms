@@ -1,4 +1,5 @@
-__This project is in private alpha, and is being actively developed.__
+__This project is in public beta, and is being actively developed. If you want to take part,
+visit http://www.rooftopcms.com__
 # Rooftop CMS - WordPress, without borders
 __The CMS you know, with the website you want__
 

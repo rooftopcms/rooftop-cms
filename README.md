@@ -57,8 +57,12 @@ If you're trying the project out in development, we use the [VVV](https://github
 git clone https://github.com/rooftopcms/VVV.git
 cd VVV/www
 git clone https://github.com/rooftopcms/rooftop-cms.git
-composer install
+composer install -d rooftop-cms/public/
 vagrant up
 ```
+
+Note: At minimum, version 1.7.0 of vagrant is required.
+      PHP pcntl is required, on OS 10, you can install this with homebrew (brew install homebrew/php/php55-pcntl)
+      
 
 You should be able to get to your rooftop site at http://rooftop-cms.dev.

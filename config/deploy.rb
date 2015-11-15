@@ -1,6 +1,6 @@
 # Basic details
 set :application, 'rooftop'
-set :repo_url, 'ssh://git@bitbucket.org/errorstudio/rooftop-cms'
+set :repo_url, 'ssh://git@github.com/rooftopcms/rooftop-cms'
 set :primary_domain, "rooftopcms.io"
 
 

@@ -91,10 +91,6 @@
     {
         "type": "git",
         "url": "https://github.com/rooftopcms/rooftop-content-fields.git"
-    },
-    {
-        "type": "git",
-        "url": "git@github.com:rooftopcms/wp-api-menus.git"
     }
 
   ],
@@ -102,7 +98,7 @@
     "php": ">=5.4",
     "composer/installers": "~1.0.12",
     "vlucas/phpdotenv": "^2.0.1",
-    "johnpbloch/wordpress": "4.3.0",
+    "johnpbloch/wordpress": "4.3.1",
     "wpackagist-plugin/rest-api": "2.0-beta4",
     "rooftopcms/rooftop-preview-mode": "dev-development",
     "rooftopcms/rooftop-api-authentication": "dev-development",
@@ -115,9 +111,8 @@
     "rooftopcms/rooftop-content-hierarchy": "dev-development",
     "rooftopcms/rooftop-content-fields": "dev-development",
     "rooftopcms/rooftop-content-settings": "dev-development",
-    "nekojira/wp-api-menus": "dev-master",
+    "wpackagist-plugin/wp-api-menus": "1.2.0",
     "predis/predis": "~1.0.3",
-    "chrisboulton/php-resque": "dev-master",
     "icanboogie/inflector": "1.3.3"
   },
   "extra": {

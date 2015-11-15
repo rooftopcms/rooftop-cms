@@ -98,7 +98,7 @@
     "php": ">=5.4",
     "composer/installers": "~1.0.12",
     "vlucas/phpdotenv": "^2.0.1",
-    "johnpbloch/wordpress": "4.3.0",
+    "johnpbloch/wordpress": "4.3.1",
     "wpackagist-plugin/rest-api": "2.0-beta4",
     "rooftopcms/rooftop-preview-mode": "dev-development",
     "rooftopcms/rooftop-api-authentication": "dev-development",

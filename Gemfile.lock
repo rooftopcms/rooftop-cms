@@ -1,4 +1,11 @@
 GIT
+  remote: git://github.com/ekho/capistrano-git-submodule-strategy.git
+  revision: e3b8a78fbe7d3f7d03d473ee488a9c805f8f6fac
+  specs:
+    capistrano-git-submodule-strategy (0.1.17)
+      capistrano (~> 3.1)
+
+GIT
   remote: ssh://git@bitbucket.org/errorstudio/errorstudio_capistrano_recipes
   revision: 8e23e7235cc106350ce570546bc4ac26eee599f0
   specs:
@@ -45,6 +52,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  capistrano-git-submodule-strategy (~> 0.1)!
   errorstudio_capistrano_recipes!
 
 BUNDLED WITH

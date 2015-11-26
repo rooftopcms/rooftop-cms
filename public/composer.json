@@ -100,7 +100,6 @@
         "type": "vcs",
         "url": "git@bitbucket.org:errorstudio/rooftop-hosted-hooks.git"
     }
-
   ],
   "require": {
     "php": ">=5.4",

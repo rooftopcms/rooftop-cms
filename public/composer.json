@@ -105,6 +105,10 @@
         "url": "https://github.com/rooftopcms/rooftop-s3-upload-setup.git"
     },
     {
+        "type": "git",
+        "url": "https://github.com/rooftopcms/rooftop-content-type-manager.git"
+    },
+    {
         "type": "vcs",
         "url": "git@bitbucket.org:errorstudio/rooftop-hosted-hooks.git"
     }
@@ -125,6 +129,7 @@
     "rooftopcms/rooftop-acf-exposer": "dev-development",
     "rooftopcms/rooftop-content-hierarchy": "dev-development",
     "rooftopcms/rooftop-content-fields": "dev-development",
+    "rooftopcms/rooftop-content-type-manager": "dev-development",
     "rooftopcms/rooftop-content-settings": "dev-development",
     "rooftopcms/rooftop-response-headers": "dev-development",
     "rooftopcms/rooftop-queue-pusher": "dev-development",

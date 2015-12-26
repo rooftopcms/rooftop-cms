@@ -111,6 +111,10 @@
     {
         "type": "vcs",
         "url": "git@bitbucket.org:errorstudio/rooftop-hosted-hooks.git"
+    },
+    {
+        "type": "git",
+        "url": "https://github.com/wp-api/wp-api.git"
     }
   ],
   "require": {
@@ -124,7 +128,6 @@
     "rooftopcms/rooftop-admin-theme": "dev-development",
     "rooftopcms/rooftop-response-sanitiser": "dev-development",
     "rooftopcms/rooftop-gravityforms-exposer": "dev-development",
-    "rooftopcms/rooftop-events": "dev-development",
     "rooftopcms/rooftop-webhooks-admin": "dev-development",
     "rooftopcms/rooftop-acf-exposer": "dev-development",
     "rooftopcms/rooftop-content-hierarchy": "dev-development",

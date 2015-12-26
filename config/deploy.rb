@@ -3,7 +3,6 @@ set :application, 'rooftop'
 set :repo_url, 'ssh://git@github.com/rooftopcms/rooftop-cms'
 set :primary_domain, "rooftopcms.io"
 
-
 # The folder which will be the http root in nginx
 set :http_root, "/current/public/web"
 

@@ -1,6 +1,3 @@
-[submodule "public/web/app/themes/client-theme-1"]
-	path = public/web/app/themes/client-theme-1
-	url = ssh://git@bitbucket.org/errorstudio/client-theme-1
 [submodule "public/web/app/themes/rooftop-theme"]
 	path = public/web/app/themes/rooftop-theme
 	url = ssh://git@github.com/rooftopcms/rooftop-theme

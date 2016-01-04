@@ -8,7 +8,15 @@ $webroot_dir = $root_dir . '/web';
 $dotenv = new Dotenv\Dotenv($root_dir);
 if (file_exists($root_dir . '/.env')) {
     $dotenv->load();
-    $dotenv->required(['DB_NAME', 'DB_USER', 'DB_PASSWORD', 'WP_HOME', 'WP_SITEURL']);
+    $dotenv->required( ['DB_NAME',
+        'DB_USER',
+        'DB_PASSWORD',
+        'WP_HOME',
+        'WP_SITEURL',
+        'REDIS_HOST',
+        'REDIS_PORT',
+        'REDIS_DB'
+    ] );
 }
 
 /**
@@ -77,8 +85,14 @@ define('SITE_ID_CURRENT_SITE', 1);
 define('BLOG_ID_CURRENT_SITE', 1);
 
 /**
- *
+ * Redis settings
  */
+
+define('REDIS_HOST', getenv('REDIS_HOST'));
+define('REDIS_PORT', getenv('REDIS_PORT'));
+define('REDIS_DB', getenv('REDIS_DB'));
+
+
 
 
 /**

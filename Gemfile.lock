@@ -5,9 +5,8 @@ GIT
     capistrano-git-submodule-strategy (0.1.17)
       capistrano (~> 3.1)
 
-GIT
-  remote: ssh://git@bitbucket.org/errorstudio/errorstudio_capistrano_recipes
-  revision: e24b63d37db5fd24e9246c077005b1b7f670e598
+PATH
+  remote: ~/dev/errorstudio_capistrano_recipes
   specs:
     errorstudio_capistrano_recipes (0.1.1)
       capistrano (~> 3.4.0)
@@ -37,7 +36,7 @@ GEM
     i18n (0.7.0)
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
-    net-ssh (3.0.1)
+    net-ssh (3.0.2)
     rake (10.4.2)
     rvm1-capistrano3 (1.4.0)
       capistrano (~> 3.0)

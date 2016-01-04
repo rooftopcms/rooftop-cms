@@ -30,7 +30,6 @@ set :ssl_dir, File.join(File.dirname(__FILE__),"ssl")
 set :ssl_cert, "rooftopcms.io.public.crt"
 set :ssl_key, "rooftopcms.io.private.key.gpg" #this should be a gpg-encrypted key
 set :ssl_dh, "rooftopcms.io.dh.pem.gpg" #this should be a gpg-encrypted key
-# set :ip_address, "178.62.110.161" #the ip address for this site; required for SSL
 set :force_ssl, true #redirect all non-ssl requests to ssl
 
 #http basic auth
@@ -38,4 +37,11 @@ set :basic_auth_required, false
 set :basic_auth_username, 'testing'
 set :basic_auth_password, 'testing'
 
+# Wordpress settings
 set :wb_db_host, "rooftop-db-master1.internal"
+set :wb_db_prefix, `source public/.env.production; echo $DB_PREFIX`.strip
+
+#Redis setup
+set :wp_redis_host, `source public/.env.production; echo $REDIS_HOST`.strip
+set :wp_redis_port, `source public/.env.production; echo $REDIS_PORT`.strip
+set :wp_redis_db, `source public/.env.production; echo $REDIS_DB`.strip

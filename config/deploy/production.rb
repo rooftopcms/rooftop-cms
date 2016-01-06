@@ -38,10 +38,10 @@ set :basic_auth_username, 'testing'
 set :basic_auth_password, 'testing'
 
 # Wordpress settings
-set :wb_db_host, "rooftop-db-master1.internal"
-set :wb_db_prefix, `source public/.env.production; echo $DB_PREFIX`.strip
+set :db_host, "rooftop-db-master1.internal"
+set :db_prefix, `source public/.env.production; echo $DB_PREFIX`.strip
 
 #Redis setup
-set :wp_redis_host, `source public/.env.production; echo $REDIS_HOST`.strip
-set :wp_redis_port, `source public/.env.production; echo $REDIS_PORT`.strip
-set :wp_redis_db, `source public/.env.production; echo $REDIS_DB`.strip
+set :redis_host, `source public/.env.production; echo $REDIS_HOST`.strip
+set :redis_port, `source public/.env.production; echo $REDIS_PORT`.strip
+set :redis_db, `source public/.env.production; echo $REDIS_DB`.strip

@@ -27,5 +27,9 @@ set :local_db_name, "rooftop_cms"
 #CORS required
 set :include_nginx_cors, true
 
+#Don't include HSTS - we front this with cloudflare which does add the header if we want
+set :include_nginx_hsts, false
+set :include_nginx_hpkp, false
+
 # Include submodules. This requires the capistrano-git-submodule-strategy gem.
 set :git_strategy, Capistrano::Git::SubmoduleStrategy

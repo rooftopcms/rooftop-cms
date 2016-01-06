@@ -15,8 +15,7 @@ if (file_exists($root_dir . '/.env')) {
         'WP_SITEURL',
         'REDIS_HOST',
         'REDIS_PORT',
-        'REDIS_DB',
-        'REDIS_PASSWORD'
+        'REDIS_DB'
     ] );
 }
 

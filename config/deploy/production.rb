@@ -1,6 +1,14 @@
 # Server configuration. For a simple site this is just one entry.
-role :app, %w{deployment@rooftop-web1.hosts.errorstudio.com}
-role :web, %w{deployment@rooftop-web1.hosts.errorstudio.com}
+role :app, [
+    deployment@rooftop-web1.hosts.errorstudio.com,
+    deployment@rooftop-web2.hosts.errorstudio.com
+]
+
+role :web, [
+    deployment@rooftop-web1.hosts.errorstudio.com,
+    deployment@rooftop-web2.hosts.errorstudio.com
+]
+
 role :db, %w{deployment@rooftop-db-master1.hosts.errorstudio.com}, no_release: true
 
 # Git branch

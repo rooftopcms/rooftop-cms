@@ -5,8 +5,9 @@ GIT
     capistrano-git-submodule-strategy (0.1.17)
       capistrano (~> 3.1)
 
-PATH
-  remote: ~/dev/errorstudio_capistrano_recipes
+GIT
+  remote: git@bitbucket.org:errorstudio/errorstudio_capistrano_recipes.git
+  revision: 31fc4dcd4de3d798722d7321148d956f17b62133
   specs:
     errorstudio_capistrano_recipes (0.1.1)
       capistrano (~> 3.4.0)
@@ -53,4 +54,4 @@ DEPENDENCIES
   errorstudio_capistrano_recipes!
 
 BUNDLED WITH
-   1.10.6
+   1.11.2

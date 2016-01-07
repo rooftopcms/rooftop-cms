@@ -1,12 +1,12 @@
 # Server configuration. For a simple site this is just one entry.
 role :app, [
-    deployment@rooftop-web1.hosts.errorstudio.com,
-    deployment@rooftop-web2.hosts.errorstudio.com
+    "deployment@rooftop-web1.hosts.errorstudio.com",
+    "deployment@rooftop-web2.hosts.errorstudio.com"
 ]
 
 role :web, [
-    deployment@rooftop-web1.hosts.errorstudio.com,
-    deployment@rooftop-web2.hosts.errorstudio.com
+    "deployment@rooftop-web1.hosts.errorstudio.com",
+    "deployment@rooftop-web2.hosts.errorstudio.com"
 ]
 
 role :db, %w{deployment@rooftop-db-master1.hosts.errorstudio.com}, no_release: true
@@ -49,7 +49,14 @@ set :basic_auth_password, 'testing'
 set :db_host, "rooftop-db-master1.internal"
 set :db_prefix, `source public/.env.production; echo $DB_PREFIX`.strip
 
-#Redis setup
-set :redis_host, `source public/.env.production; echo $REDIS_HOST`.strip
-set :redis_port, `source public/.env.production; echo $REDIS_PORT`.strip
-set :redis_db, `source public/.env.production; echo $REDIS_DB`.strip
+# Custom env vars for Rooftop
+set :custom_env_vars, {
+    "REDIS_HOST" => `source public/.env.production; echo $REDIS_HOST`.strip,
+    "REDIS_PORT" => `source public/.env.production; echo $REDIS_PORT`.strip,
+    "REDIS_DB" => `source public/.env.production; echo $REDIS_DB`.strip,
+    "CLOUDFLARE_EMAIL" => `source public/.env.production; echo $CLOUDFLARE_EMAIL`.strip,
+    "CLOUDFLARE_API_KEY" => `source public/.env.production; echo $CLOUDFLARE_API_KEY`.strip,
+    "CLOUDFLARE_DOMAIN_ZONE" => `source public/.env.production; echo $CLOUDFLARE_DOMAIN_ZONE`.strip,
+    "CLOUDFLARE_CDN_DOMAIN_ZONE" => `source public/.env.production; echo $CLOUDFLARE_CDN_DOMAIN_ZONE`.strip
+
+}

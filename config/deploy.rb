@@ -11,10 +11,8 @@ set :http_root, "/current/public/web/wp"
 set :uploads_folder, 'public/web/app/uploads'
 
 # Custom nginx rules for bedrock
-#set :custom_nginx_rules, [
-#      "rewrite ^/(wp-.*.php)$ /wp/$1 last;",
-#      "rewrite ^/(wp-(content|admin|includes).*) /wp/$1 last;"
-#]
+set :custom_nginx_rules, [
+]
 
 #development settings
 set :local_domain, "rooftop-cms.dev"

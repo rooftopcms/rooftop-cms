@@ -15,7 +15,11 @@ set :custom_nginx_rules, [
 ]
 
 # Custom nginx aliases
-set :custom_nginx_aliases, {"/app" => "/srv/www/rooftop-cms/public/web/app/;"}
+set :custom_nginx_aliases, ->{
+    {
+        "/app" => "#{current_path}/public/web/app;"
+    }
+}
 
 #development settings
 set :local_domain, "rooftop-cms.dev"

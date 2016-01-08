@@ -1,0 +1,898 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "d19528ef0317d1121088c9792434a875",
+    "packages": [
+        {
+            "name": "chrisboulton/php-resque",
+            "version": "1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/chrisboulton/php-resque.git",
+                "reference": "0549d6c88a4aed934655b7c03b6153349d6c3ad0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/chrisboulton/php-resque/zipball/0549d6c88a4aed934655b7c03b6153349d6c3ad0",
+                "reference": "0549d6c88a4aed934655b7c03b6153349d6c3ad0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Resque": "lib"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Chris Boulton",
+                    "email": "chris@bigcommerce.com"
+                }
+            ],
+            "description": "Redis backed library for creating background jobs and processing them later. Based on resque for Ruby.",
+            "homepage": "http://www.github.com/chrisboulton/php-resque/",
+            "keywords": [
+                "background",
+                "job",
+                "redis",
+                "resque"
+            ],
+            "time": "2012-10-13 07:28:16"
+        },
+        {
+            "name": "chrisboulton/php-resque-scheduler",
+            "version": "1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/chrisboulton/php-resque-scheduler.git",
+                "reference": "f4b8f1409d640051d34f92d921ceb2bcdc2133cf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/chrisboulton/php-resque-scheduler/zipball/f4b8f1409d640051d34f92d921ceb2bcdc2133cf",
+                "reference": "f4b8f1409d640051d34f92d921ceb2bcdc2133cf",
+                "shasum": ""
+            },
+            "require": {
+                "chrisboulton/php-resque": "< 1.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ResqueScheduler": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Chris Boulton",
+                    "email": "chris@bgigcommerce.com"
+                }
+            ],
+            "description": "php-resque-scheduler is a PHP port of resque-scheduler, which adds support for scheduling items in the future to Resque.",
+            "time": "2013-03-10 21:53:45"
+        },
+        {
+            "name": "composer/installers",
+            "version": "v1.0.22",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/installers.git",
+                "reference": "bd9b14f094c89c8b5804a4e41edeb7853bb85046"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/installers/zipball/bd9b14f094c89c8b5804a4e41edeb7853bb85046",
+                "reference": "bd9b14f094c89c8b5804a4e41edeb7853bb85046",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "1.0.0"
+            },
+            "replace": {
+                "roundcube/plugin-installer": "*",
+                "shama/baton": "*"
+            },
+            "require-dev": {
+                "composer/composer": "1.0.*@dev",
+                "phpunit/phpunit": "4.1.*"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Composer\\Installers\\Plugin",
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Composer\\Installers\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Robinson Young",
+                    "email": "kyle@dontkry.com",
+                    "homepage": "https://github.com/shama"
+                }
+            ],
+            "description": "A multi-framework Composer library installer",
+            "homepage": "http://composer.github.com/installers/",
+            "keywords": [
+                "Craft",
+                "Dolibarr",
+                "Hurad",
+                "MODX Evo",
+                "OXID",
+                "SMF",
+                "Thelia",
+                "WolfCMS",
+                "agl",
+                "aimeos",
+                "annotatecms",
+                "bitrix",
+                "cakephp",
+                "chef",
+                "codeigniter",
+                "concrete5",
+                "croogo",
+                "dokuwiki",
+                "drupal",
+                "elgg",
+                "fuelphp",
+                "grav",
+                "installer",
+                "joomla",
+                "kohana",
+                "laravel",
+                "lithium",
+                "magento",
+                "mako",
+                "mediawiki",
+                "modulework",
+                "moodle",
+                "phpbb",
+                "piwik",
+                "ppi",
+                "puppet",
+                "roundcube",
+                "shopware",
+                "silverstripe",
+                "symfony",
+                "typo3",
+                "wordpress",
+                "zend",
+                "zikula"
+            ],
+            "time": "2015-10-29 23:28:48"
+        },
+        {
+            "name": "errorstudio/rooftop-hosted-hooks",
+            "version": "dev-development",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:errorstudio/rooftop-hosted-hooks.git",
+                "reference": "5360d352b53eca0146dd558a0451fb96178da086"
+            },
+            "type": "wordpress-muplugin",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Rooftop CMS",
+                    "email": "hello@rooftopcms.com"
+                }
+            ],
+            "description": "A place for the hosted Rooftop install to run its hooks and WP network events",
+            "time": "2016-01-07 17:32:25"
+        },
+        {
+            "name": "icanboogie/inflector",
+            "version": "v1.3.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ICanBoogie/Inflector.git",
+                "reference": "953f6f9d0d6d27c972808f2a78a7899244450ac1"
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=5.3.4"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "lib/"
+                ],
+                "files": [
+                    "lib/helpers.php"
+                ]
+            },
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Olivier Laviale",
+                    "email": "olivier.laviale@gmail.com",
+                    "homepage": "http://www.weirdog.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Multilingual inflector that transforms words from singular to plural, underscore to camel case, and more.",
+            "homepage": "http://icanboogie.org/",
+            "keywords": [
+                "camelize",
+                "hyphenate",
+                "inflect",
+                "multilingual",
+                "pluralize",
+                "singularize",
+                "underscore"
+            ],
+            "support": {
+                "issues": "https://github.com/ICanBoogie/Inflector/issues",
+                "source": "https://github.com/ICanBoogie/Inflector"
+            },
+            "time": "2015-08-18 20:13:36"
+        },
+        {
+            "name": "johnpbloch/wordpress",
+            "version": "4.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/johnpbloch/wordpress.git",
+                "reference": "85d6a8c16c7e8bb369e7530d3676d16618f68e24"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/85d6a8c16c7e8bb369e7530d3676d16618f68e24",
+                "reference": "85d6a8c16c7e8bb369e7530d3676d16618f68e24",
+                "shasum": ""
+            },
+            "require": {
+                "johnpbloch/wordpress-core-installer": "~0.2",
+                "php": ">=5.3.2"
+            },
+            "type": "wordpress-core",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "WordPress Community",
+                    "homepage": "http://wordpress.org/about/"
+                }
+            ],
+            "description": "WordPress is web software you can use to create a beautiful website or blog.",
+            "homepage": "http://wordpress.org/",
+            "keywords": [
+                "blog",
+                "cms"
+            ],
+            "time": "2016-01-06 18:46:15"
+        },
+        {
+            "name": "johnpbloch/wordpress-core-installer",
+            "version": "0.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/johnpbloch/wordpress-core-installer.git",
+                "reference": "a04c2c383ef13aae077f36799ed2eafdebd618d2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core-installer/zipball/a04c2c383ef13aae077f36799ed2eafdebd618d2",
+                "reference": "a04c2c383ef13aae077f36799ed2eafdebd618d2",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0"
+            },
+            "conflict": {
+                "composer/installers": "<1.0.6"
+            },
+            "require-dev": {
+                "composer/composer": "1.0.*@dev"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "johnpbloch\\Composer\\WordPressCorePlugin"
+            },
+            "autoload": {
+                "psr-0": {
+                    "johnpbloch\\Composer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "John P. Bloch",
+                    "email": "me@johnpbloch.com"
+                }
+            ],
+            "description": "A custom installer to handle deploying WordPress with composer",
+            "keywords": [
+                "wordpress"
+            ],
+            "time": "2015-06-11 15:15:30"
+        },
+        {
+            "name": "predis/predis",
+            "version": "v1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nrk/predis.git",
+                "reference": "84060b9034d756b4d79641667d7f9efe1aeb8e04"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nrk/predis/zipball/84060b9034d756b4d79641667d7f9efe1aeb8e04",
+                "reference": "84060b9034d756b4d79641667d7f9efe1aeb8e04",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "suggest": {
+                "ext-curl": "Allows access to Webdis when paired with phpiredis",
+                "ext-phpiredis": "Allows faster serialization and deserialization of the Redis protocol"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Predis\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniele Alessandri",
+                    "email": "suppakilla@gmail.com",
+                    "homepage": "http://clorophilla.net"
+                }
+            ],
+            "description": "Flexible and feature-complete PHP client library for Redis",
+            "homepage": "http://github.com/nrk/predis",
+            "keywords": [
+                "nosql",
+                "predis",
+                "redis"
+            ],
+            "time": "2015-07-30 18:34:15"
+        },
+        {
+            "name": "rooftopcms/rooftop-acf-exposer",
+            "version": "dev-development",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rooftopcms/rooftop-acf-exposer.git",
+                "reference": "05a3c4a44f86f96633eca336bd5c599865134645"
+            },
+            "require": {
+                "wpackagist-plugin/advanced-custom-fields": "4.4.3"
+            },
+            "type": "wordpress-muplugin",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Rooftop CMS",
+                    "email": "hello@rooftopcms.com"
+                }
+            ],
+            "description": "Include the ACF fields in a post response",
+            "time": "2016-01-06 13:33:32"
+        },
+        {
+            "name": "rooftopcms/rooftop-admin-theme",
+            "version": "dev-development",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rooftopcms/rooftop-admin-theme.git",
+                "reference": "6875523cf26620f3d70c45f8b2fb895ed0b09435"
+            },
+            "type": "wordpress-muplugin",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Rooftop CMS",
+                    "email": "hello@rooftopcms.com"
+                }
+            ],
+            "description": "Authenticates requests to the API",
+            "time": "2015-12-21 23:00:06"
+        },
+        {
+            "name": "rooftopcms/rooftop-api-authentication",
+            "version": "dev-development",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rooftopcms/rooftop-api-authentication.git",
+                "reference": "885cb8eacf8c82bff87c27a30b4c4c9f9351ce59"
+            },
+            "require": {
+                "rooftopcms/rooftop-preview-mode": "dev-development",
+                "wpackagist-plugin/posts-to-posts": "1.6.4"
+            },
+            "type": "wordpress-muplugin",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Rooftop CMS",
+                    "email": "hello@rooftopcms.com"
+                }
+            ],
+            "description": "Authenticates requests to the API",
+            "time": "2015-10-28 16:26:06"
+        },
+        {
+            "name": "rooftopcms/rooftop-content-fields",
+            "version": "dev-development",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rooftopcms/rooftop-content-fields.git",
+                "reference": "38f52d756ad88dfa17c256e71739991f05c01c26"
+            },
+            "type": "wordpress-muplugin",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Rooftop CMS",
+                    "email": "hello@rooftopcms.com"
+                }
+            ],
+            "description": "Include the additional fields in a response",
+            "time": "2015-12-27 23:00:28"
+        },
+        {
+            "name": "rooftopcms/rooftop-content-hierarchy",
+            "version": "dev-development",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rooftopcms/rooftop-content-hierarchy.git",
+                "reference": "5e8316e2e7dbfdb1f1ea2edd50f157ae05e5831f"
+            },
+            "type": "wordpress-muplugin",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Rooftop CMS",
+                    "email": "hello@rooftopcms.com"
+                }
+            ],
+            "description": "Include the content hierarchy for a given post in its JSON response",
+            "time": "2015-11-27 14:33:34"
+        },
+        {
+            "name": "rooftopcms/rooftop-content-settings",
+            "version": "dev-development",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rooftopcms/rooftop-content-settings.git",
+                "reference": "36f15b8dde67140600b8b84ee4b1541c8a1dcf4a"
+            },
+            "type": "wordpress-muplugin",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Rooftop CMS",
+                    "email": "hello@rooftopcms.com"
+                }
+            ],
+            "description": "Change some site defaults and the example content when a sub-site is created",
+            "time": "2015-10-29 17:22:50"
+        },
+        {
+            "name": "rooftopcms/rooftop-custom-content-setup",
+            "version": "dev-development",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rooftopcms/rooftop-custom-content-setup.git",
+                "reference": "63cfe4f24820c74b803e9e2bad0bd0d714d3017c"
+            },
+            "type": "wordpress-muplugin",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Rooftop CMS",
+                    "email": "hello@rooftopcms.com"
+                }
+            ],
+            "description": "Add custom content types, taxonomies and page templates",
+            "time": "2015-12-11 14:56:19"
+        },
+        {
+            "name": "rooftopcms/rooftop-gravityforms-exposer",
+            "version": "dev-development",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rooftopcms/rooftop-gravityforms-exposer.git",
+                "reference": "0d9852caf36e4ebe74120f8483cbf3bd97f15d30"
+            },
+            "type": "wordpress-muplugin",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Rooftop CMS",
+                    "email": "hello@rooftopcms.com"
+                }
+            ],
+            "description": "Authenticates requests to the API",
+            "time": "2015-12-16 09:52:31"
+        },
+        {
+            "name": "rooftopcms/rooftop-preview-mode",
+            "version": "dev-development",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rooftopcms/rooftop-preview-mode.git",
+                "reference": "df870a0b9c2c6b1d2f27c8890ca22941a3b38558"
+            },
+            "type": "wordpress-muplugin",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Rooftop CMS",
+                    "email": "hello@rooftopcms.com"
+                }
+            ],
+            "description": "Detect whether a client is making a request in preview mode and define a constant accordingly",
+            "time": "2015-11-26 14:20:07"
+        },
+        {
+            "name": "rooftopcms/rooftop-queue-pusher",
+            "version": "dev-development",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rooftopcms/rooftop-queue-pusher.git",
+                "reference": "9129d4d4b8e7aaaaecccac2166599c6b112f85ad"
+            },
+            "require": {
+                "chrisboulton/php-resque": "1.2.x",
+                "chrisboulton/php-resque-scheduler": "1.1"
+            },
+            "type": "wordpress-muplugin",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Rooftop CMS",
+                    "email": "hello@rooftopcms.com"
+                }
+            ],
+            "description": "Hook into WP post events to push events onto a queue",
+            "time": "2016-01-07 10:08:22"
+        },
+        {
+            "name": "rooftopcms/rooftop-response-headers",
+            "version": "dev-development",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rooftopcms/rooftop-response-headers.git",
+                "reference": "ddb5ef82ad7c34f88d5434910c0fbd150a0d225c"
+            },
+            "require": {
+                "predis/predis": "~1.0.3"
+            },
+            "type": "wordpress-muplugin",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Rooftop CMS",
+                    "email": "hello@rooftopcms.com"
+                }
+            ],
+            "description": "Send additional headers to API requests",
+            "time": "2016-01-06 17:40:27"
+        },
+        {
+            "name": "rooftopcms/rooftop-response-sanitiser",
+            "version": "dev-development",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rooftopcms/rooftop-response-sanitiser.git",
+                "reference": "6d120574536d01a091889b2291b38ef4144c94e1"
+            },
+            "type": "wordpress-muplugin",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Rooftop CMS",
+                    "email": "hello@rooftopcms.com"
+                }
+            ],
+            "description": "The awesome WP-API includes some things in its response that we would rather handle in the client.\nFor example, we remove content['rendered'] and replace with content['json'] with links replaced with shortcodes.",
+            "time": "2016-01-05 23:19:16"
+        },
+        {
+            "name": "rooftopcms/rooftop-s3-upload-setup",
+            "version": "dev-development",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rooftopcms/rooftop-s3-upload-setup.git",
+                "reference": "bf97a0b1b0847a348c576f845737c92708e758cd"
+            },
+            "require": {
+                "wpackagist-plugin/amazon-s3-and-cloudfront": "0.9.6"
+            },
+            "type": "wordpress-muplugin",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Rooftop CMS",
+                    "email": "hello@rooftopcms.com"
+                }
+            ],
+            "description": "Allows sites in a network to define their own S3 credentials",
+            "time": "2016-01-07 15:59:19"
+        },
+        {
+            "name": "rooftopcms/rooftop-webhooks-admin",
+            "version": "dev-development",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rooftopcms/rooftop-webhooks-admin.git",
+                "reference": "b0d54cc98580c43130721d124bb4b92513cc323a"
+            },
+            "type": "wordpress-muplugin",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Error",
+                    "email": "hello@rooftopcms.com"
+                }
+            ],
+            "description": "Configure the webhook URI's",
+            "time": "2016-01-06 10:20:51"
+        },
+        {
+            "name": "vlucas/phpdotenv",
+            "version": "v2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vlucas/phpdotenv.git",
+                "reference": "9caf304153dc2288e4970caec6f1f3b3bc205412"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/9caf304153dc2288e4970caec6f1f3b3bc205412",
+                "reference": "9caf304153dc2288e4970caec6f1f3b3bc205412",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8|^5.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Dotenv\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD"
+            ],
+            "authors": [
+                {
+                    "name": "Vance Lucas",
+                    "email": "vance@vancelucas.com",
+                    "homepage": "http://www.vancelucas.com"
+                }
+            ],
+            "description": "Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER` automagically.",
+            "homepage": "http://github.com/vlucas/phpdotenv",
+            "keywords": [
+                "dotenv",
+                "env",
+                "environment"
+            ],
+            "time": "2015-12-29 15:10:30"
+        },
+        {
+            "name": "wpackagist-plugin/advanced-custom-fields",
+            "version": "4.4.3",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/advanced-custom-fields/",
+                "reference": "tags/4.4.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.4.4.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/advanced-custom-fields/"
+        },
+        {
+            "name": "wpackagist-plugin/amazon-s3-and-cloudfront",
+            "version": "0.9.6",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/amazon-s3-and-cloudfront/",
+                "reference": "tags/0.9.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/amazon-s3-and-cloudfront.0.9.6.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/amazon-s3-and-cloudfront/"
+        },
+        {
+            "name": "wpackagist-plugin/amazon-web-services",
+            "version": "0.3.4",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/amazon-web-services/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/amazon-web-services.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/amazon-web-services/"
+        },
+        {
+            "name": "wpackagist-plugin/posts-to-posts",
+            "version": "1.6.4",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/posts-to-posts/",
+                "reference": "tags/1.6.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/posts-to-posts.1.6.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/posts-to-posts/"
+        },
+        {
+            "name": "wpackagist-plugin/rest-api",
+            "version": "2.0-beta9",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/rest-api/",
+                "reference": "tags/2.0-beta9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/rest-api.2.0-beta9.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/rest-api/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-api-menus",
+            "version": "1.2.0",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/wp-api-menus/",
+                "reference": "tags/1.2.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-api-menus.1.2.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-api-menus/"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "wpackagist-plugin/rest-api": 10,
+        "rooftopcms/rooftop-preview-mode": 20,
+        "rooftopcms/rooftop-api-authentication": 20,
+        "rooftopcms/rooftop-admin-theme": 20,
+        "rooftopcms/rooftop-response-sanitiser": 20,
+        "rooftopcms/rooftop-gravityforms-exposer": 20,
+        "rooftopcms/rooftop-webhooks-admin": 20,
+        "rooftopcms/rooftop-acf-exposer": 20,
+        "rooftopcms/rooftop-content-hierarchy": 20,
+        "rooftopcms/rooftop-content-fields": 20,
+        "rooftopcms/rooftop-custom-content-setup": 20,
+        "rooftopcms/rooftop-content-settings": 20,
+        "rooftopcms/rooftop-response-headers": 20,
+        "rooftopcms/rooftop-queue-pusher": 20,
+        "rooftopcms/rooftop-s3-upload-setup": 20,
+        "errorstudio/rooftop-hosted-hooks": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.4"
+    },
+    "platform-dev": []
+}

@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d19528ef0317d1121088c9792434a875",
+    "hash": "7c7e06d818d67fe989fa1c39af7b45bf",
     "packages": [
         {
             "name": "chrisboulton/php-resque",
@@ -524,7 +524,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-custom-content-setup.git",
-                "reference": "63cfe4f24820c74b803e9e2bad0bd0d714d3017c"
+                "reference": "ccd7a669ec636eafc7bb243c6a1e2e25d4441675"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -537,7 +537,28 @@
                 }
             ],
             "description": "Add custom content types, taxonomies and page templates",
-            "time": "2015-12-11 14:56:19"
+            "time": "2016-01-08 20:46:48"
+        },
+        {
+            "name": "rooftopcms/rooftop-events",
+            "version": "dev-development",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rooftopcms/rooftop-events.git",
+                "reference": "066c53e97e7674494b5ea63f40e9f2b06af88b16"
+            },
+            "type": "wordpress-muplugin",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Rooftop CMS",
+                    "email": "hello@rooftopcms.com"
+                }
+            ],
+            "description": "Authenticates requests to the API",
+            "time": "2016-01-08 17:20:23"
         },
         {
             "name": "rooftopcms/rooftop-gravityforms-exposer",
@@ -636,7 +657,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-response-sanitiser.git",
-                "reference": "b5bbc1046fb30f15f9508c09e482c885b2374a31"
+                "reference": "40edc5be4c4966a4e101f611b07ea332f84ad7fe"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -649,7 +670,7 @@
                 }
             ],
             "description": "The awesome WP-API includes some things in its response that we would rather handle in the client.\nFor example, we remove content['rendered'] and replace with content['json'] with links replaced with shortcodes.",
-            "time": "2016-01-08 15:03:53"
+            "time": "2016-01-08 15:37:18"
         },
         {
             "name": "rooftopcms/rooftop-s3-upload-setup",
@@ -886,6 +907,7 @@
         "rooftopcms/rooftop-content-settings": 20,
         "rooftopcms/rooftop-response-headers": 20,
         "rooftopcms/rooftop-queue-pusher": 20,
+        "rooftopcms/rooftop-events": 20,
         "rooftopcms/rooftop-s3-upload-setup": 20,
         "errorstudio/rooftop-hosted-hooks": 20
     },

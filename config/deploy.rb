@@ -14,6 +14,9 @@ set :uploads_folder, 'public/web/app/uploads'
 set :custom_nginx_rules, [
 ]
 
+# Custom nginx aliases
+set :custom_nginx_aliases, {"/app" => "/srv/www/rooftop-cms/public/web/app/;"}
+
 #development settings
 set :local_domain, "rooftop-cms.dev"
 set :local_db_username, "root"

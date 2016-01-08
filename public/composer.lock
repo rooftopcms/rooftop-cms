@@ -415,7 +415,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-admin-theme.git",
-                "reference": "6875523cf26620f3d70c45f8b2fb895ed0b09435"
+                "reference": "188356950667d75e9a8ce975fd2d55ad72b86be1"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -428,7 +428,7 @@
                 }
             ],
             "description": "Authenticates requests to the API",
-            "time": "2015-12-21 23:00:06"
+            "time": "2016-01-08 11:26:39"
         },
         {
             "name": "rooftopcms/rooftop-api-authentication",

@@ -136,7 +136,6 @@
     "rooftopcms/rooftop-content-settings": "dev-development",
     "rooftopcms/rooftop-response-headers": "dev-development",
     "rooftopcms/rooftop-queue-pusher": "dev-development",
-    "rooftopcms/rooftop-events": "dev-development",
     "rooftopcms/rooftop-s3-upload-setup": "dev-development",
     "wpackagist-plugin/amazon-web-services": "0.3.4",
     "wpackagist-plugin/wp-api-menus": "1.2.0",

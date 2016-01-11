@@ -3,4 +3,5 @@
 	url = ssh://git@github.com/rooftopcms/rooftop-theme
 [submodule "public/web/app/plugins/rooftop-events"]
 	path = public/web/app/plugins/rooftop-events
-	url = https://github.com/rooftopcms/rooftop-events.git
+	url = ssh://git@github.com/rooftopcms/rooftop-events
+

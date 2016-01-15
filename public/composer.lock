@@ -391,7 +391,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-acf-exposer.git",
-                "reference": "05a3c4a44f86f96633eca336bd5c599865134645"
+                "reference": "90f48a7c284e69fabaf774d4d082fec3f2a7dba7"
             },
             "require": {
                 "wpackagist-plugin/advanced-custom-fields": "4.4.3"
@@ -407,7 +407,7 @@
                 }
             ],
             "description": "Include the ACF fields in a post response",
-            "time": "2016-01-06 13:33:32"
+            "time": "2016-01-15 12:10:09"
         },
         {
             "name": "rooftopcms/rooftop-admin-theme",
@@ -482,7 +482,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-content-hierarchy.git",
-                "reference": "5e8316e2e7dbfdb1f1ea2edd50f157ae05e5831f"
+                "reference": "cf7ec671c4f1b8ddde2aa3df7a1961779270f10c"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -495,7 +495,7 @@
                 }
             ],
             "description": "Include the content hierarchy for a given post in its JSON response",
-            "time": "2015-11-27 14:33:34"
+            "time": "2016-01-15 12:10:55"
         },
         {
             "name": "rooftopcms/rooftop-content-settings",
@@ -524,7 +524,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-custom-content-setup.git",
-                "reference": "ccd7a669ec636eafc7bb243c6a1e2e25d4441675"
+                "reference": "efacdc6a238ff40cbcae745acb41eaa6a01da46a"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -537,7 +537,7 @@
                 }
             ],
             "description": "Add custom content types, taxonomies and page templates",
-            "time": "2016-01-08 20:46:48"
+            "time": "2016-01-14 12:54:38"
         },
         {
             "name": "rooftopcms/rooftop-gravityforms-exposer",
@@ -636,7 +636,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-response-sanitiser.git",
-                "reference": "5e84a6cc49c4f251e7c23f5e37650ce4b97a0ec2"
+                "reference": "94a8a04e5bd0ca13351b6b96430b8749a7dcd609"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -649,7 +649,7 @@
                 }
             ],
             "description": "The awesome WP-API includes some things in its response that we would rather handle in the client.\nFor example, we remove content['rendered'] and replace with content['json'] with links replaced with shortcodes.",
-            "time": "2016-01-11 13:18:13"
+            "time": "2016-01-14 10:10:10"
         },
         {
             "name": "rooftopcms/rooftop-s3-upload-setup",

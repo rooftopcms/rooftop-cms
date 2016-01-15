@@ -4,7 +4,6 @@
 [submodule "public/web/app/plugins/rooftop-events"]
 	path = public/web/app/plugins/rooftop-events
 	url = ssh://git@github.com/rooftopcms/rooftop-events
-
-[submodule "acf-repeater"]
-	path = public/web/app/mu-plugins/acf-repeater
+[submodule "public/web/app/mu-plugins/acf-repater"]
+	path = public/web/app/mu-plugins/acf-repater
 	url = git@bitbucket.org:errorstudio/acf-repeater.git

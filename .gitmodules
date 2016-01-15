@@ -6,5 +6,5 @@
 	url = ssh://git@github.com/rooftopcms/rooftop-events
 
 [submodule "acf-repeater"]
-	path = acf-repeater
+	path = public/web/app/mu-plugins/acf-repeater
 	url = git@bitbucket.org:errorstudio/acf-repeater.git

@@ -524,7 +524,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-custom-content-setup.git",
-                "reference": "efacdc6a238ff40cbcae745acb41eaa6a01da46a"
+                "reference": "6dda74f9eb528f06dd5e6cda3786cad89ad98653"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -537,7 +537,7 @@
                 }
             ],
             "description": "Add custom content types, taxonomies and page templates",
-            "time": "2016-01-14 12:54:38"
+            "time": "2016-01-18 12:24:08"
         },
         {
             "name": "rooftopcms/rooftop-gravityforms-exposer",
@@ -636,7 +636,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-response-sanitiser.git",
-                "reference": "94a8a04e5bd0ca13351b6b96430b8749a7dcd609"
+                "reference": "d5d72a7ff3e66ed6a8d7d7058aaa434360953d2d"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -649,7 +649,7 @@
                 }
             ],
             "description": "The awesome WP-API includes some things in its response that we would rather handle in the client.\nFor example, we remove content['rendered'] and replace with content['json'] with links replaced with shortcodes.",
-            "time": "2016-01-14 10:10:10"
+            "time": "2016-01-18 12:24:38"
         },
         {
             "name": "rooftopcms/rooftop-s3-upload-setup",

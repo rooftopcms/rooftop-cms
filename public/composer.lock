@@ -391,7 +391,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-acf-exposer.git",
-                "reference": "90f48a7c284e69fabaf774d4d082fec3f2a7dba7"
+                "reference": "0d1282e6d046280354d1745d5fa75ae32849ffbf"
             },
             "require": {
                 "wpackagist-plugin/advanced-custom-fields": "4.4.3"
@@ -407,7 +407,7 @@
                 }
             ],
             "description": "Include the ACF fields in a post response",
-            "time": "2016-01-15 12:10:09"
+            "time": "2016-01-18 18:02:52"
         },
         {
             "name": "rooftopcms/rooftop-admin-theme",

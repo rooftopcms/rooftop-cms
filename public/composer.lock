@@ -482,7 +482,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-content-hierarchy.git",
-                "reference": "cf7ec671c4f1b8ddde2aa3df7a1961779270f10c"
+                "reference": "f814e52e978bd3ce52af92a9a9cf80992df2dc94"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -495,7 +495,7 @@
                 }
             ],
             "description": "Include the content hierarchy for a given post in its JSON response",
-            "time": "2016-01-15 12:10:55"
+            "time": "2016-01-20 22:38:57"
         },
         {
             "name": "rooftopcms/rooftop-content-settings",
@@ -503,7 +503,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-content-settings.git",
-                "reference": "36f15b8dde67140600b8b84ee4b1541c8a1dcf4a"
+                "reference": "b41ff7c7fea92a3c531d724160beb70c97fa2f9c"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -516,7 +516,7 @@
                 }
             ],
             "description": "Change some site defaults and the example content when a sub-site is created",
-            "time": "2015-10-29 17:22:50"
+            "time": "2016-01-20 22:39:15"
         },
         {
             "name": "rooftopcms/rooftop-custom-content-setup",

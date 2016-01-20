@@ -636,7 +636,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-response-sanitiser.git",
-                "reference": "d5d72a7ff3e66ed6a8d7d7058aaa434360953d2d"
+                "reference": "1aba700e4159b1b7ab91ceddf9e960c35307bbfe"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -649,7 +649,7 @@
                 }
             ],
             "description": "The awesome WP-API includes some things in its response that we would rather handle in the client.\nFor example, we remove content['rendered'] and replace with content['json'] with links replaced with shortcodes.",
-            "time": "2016-01-18 12:24:38"
+            "time": "2016-01-20 23:26:56"
         },
         {
             "name": "rooftopcms/rooftop-s3-upload-setup",

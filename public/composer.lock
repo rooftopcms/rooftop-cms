@@ -566,7 +566,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-preview-mode.git",
-                "reference": "df870a0b9c2c6b1d2f27c8890ca22941a3b38558"
+                "reference": "465c12ea4a553f167fb69ce5e9994abfbcfdf79e"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -579,7 +579,7 @@
                 }
             ],
             "description": "Detect whether a client is making a request in preview mode and define a constant accordingly",
-            "time": "2015-11-26 14:20:07"
+            "time": "2016-01-25 15:01:29"
         },
         {
             "name": "rooftopcms/rooftop-queue-pusher",

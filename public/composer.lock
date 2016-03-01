@@ -612,7 +612,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-response-headers.git",
-                "reference": "7605d4cc098439ac229ed858cefdf7b2dfc34237"
+                "reference": "4d72dff8eb0da94173b606304e8849c2cc264b9d"
             },
             "require": {
                 "predis/predis": "~1.0.3"
@@ -628,7 +628,7 @@
                 }
             ],
             "description": "Send additional headers to API requests",
-            "time": "2016-01-24 15:04:52"
+            "time": "2016-03-01 14:58:31"
         },
         {
             "name": "rooftopcms/rooftop-response-sanitiser",

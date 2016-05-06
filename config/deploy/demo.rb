@@ -7,7 +7,7 @@ role :web, [
     "deployment@rooftop-demo.vm.errorstudio.com"
 ]
 
-role :db, %w{deployment@rooftop-demo.vm.errorstudio.com}, no_release: true
+role :db, %w{deployment@rooftop-demo.vm.errorstudio.com}
 
 # Git branch
 set :branch, 'master'
@@ -44,7 +44,7 @@ set :basic_auth_username, 'testing'
 set :basic_auth_password, 'testing'
 
 # Wordpress settings
-set :db_host, "rooftop-db-master1.internal"
+set :db_host, `source public/.env.demo; echo $DB_HOST`.strip
 set :db_prefix, `source public/.env.demo; echo $DB_PREFIX`.strip
 
 # Custom env vars for Rooftop

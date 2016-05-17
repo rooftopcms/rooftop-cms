@@ -84,16 +84,16 @@
         },
         {
             "name": "composer/installers",
-            "version": "v1.0.23",
+            "version": "v1.0.25",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "6213d900e92647831f7a406d5c530ea1f3d4360e"
+                "reference": "36e5b5843203d7f1cf6ffb0305a97e014387bd8e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/6213d900e92647831f7a406d5c530ea1f3d4360e",
-                "reference": "6213d900e92647831f7a406d5c530ea1f3d4360e",
+                "url": "https://api.github.com/repos/composer/installers/zipball/36e5b5843203d7f1cf6ffb0305a97e014387bd8e",
+                "reference": "36e5b5843203d7f1cf6ffb0305a97e014387bd8e",
                 "shasum": ""
             },
             "require": {
@@ -115,8 +115,8 @@
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Composer\\Installers\\": "src/"
+                "psr-4": {
+                    "Composer\\Installers\\": "src/Composer/Installers"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -131,12 +131,14 @@
                 }
             ],
             "description": "A multi-framework Composer library installer",
-            "homepage": "http://composer.github.com/installers/",
+            "homepage": "https://composer.github.io/installers/",
             "keywords": [
                 "Craft",
                 "Dolibarr",
                 "Hurad",
+                "ImageCMS",
                 "MODX Evo",
+                "Mautic",
                 "OXID",
                 "SMF",
                 "Thelia",
@@ -178,7 +180,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2016-01-27 12:54:22"
+            "time": "2016-04-13 19:46:30"
         },
         {
             "name": "errorstudio/rooftop-hosted-hooks",
@@ -252,16 +254,16 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.4.2",
+            "version": "4.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "fe9320de0793602084c600e22c0c5e0bb601a264"
+                "reference": "e0273619488dd1e082d5f380963f6f2aab7ecc66"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/fe9320de0793602084c600e22c0c5e0bb601a264",
-                "reference": "fe9320de0793602084c600e22c0c5e0bb601a264",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/e0273619488dd1e082d5f380963f6f2aab7ecc66",
+                "reference": "e0273619488dd1e082d5f380963f6f2aab7ecc66",
                 "shasum": ""
             },
             "require": {
@@ -285,7 +287,7 @@
                 "blog",
                 "cms"
             ],
-            "time": "2016-02-02 17:16:14"
+            "time": "2016-05-06 18:16:15"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -415,7 +417,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-admin-theme.git",
-                "reference": "188356950667d75e9a8ce975fd2d55ad72b86be1"
+                "reference": "c879724341e7a5072317d7b26b53150507b6b8eb"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -428,7 +430,7 @@
                 }
             ],
             "description": "Authenticates requests to the API",
-            "time": "2016-01-08 11:26:39"
+            "time": "2016-05-17 14:04:01"
         },
         {
             "name": "rooftopcms/rooftop-api-authentication",
@@ -612,7 +614,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-response-headers.git",
-                "reference": "4d72dff8eb0da94173b606304e8849c2cc264b9d"
+                "reference": "f5e802e80f381bf90fb11b39d1bb57882b21b995"
             },
             "require": {
                 "predis/predis": "~1.0.3"
@@ -628,7 +630,7 @@
                 }
             ],
             "description": "Send additional headers to API requests",
-            "time": "2016-03-01 14:58:31"
+            "time": "2016-05-11 15:53:42"
         },
         {
             "name": "rooftopcms/rooftop-response-sanitiser",
@@ -698,23 +700,23 @@
         },
         {
             "name": "vlucas/phpdotenv",
-            "version": "v2.2.0",
+            "version": "v2.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "9caf304153dc2288e4970caec6f1f3b3bc205412"
+                "reference": "63f37b9395e8041cd4313129c08ece896d06ca8e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/9caf304153dc2288e4970caec6f1f3b3bc205412",
-                "reference": "9caf304153dc2288e4970caec6f1f3b3bc205412",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/63f37b9395e8041cd4313129c08ece896d06ca8e",
+                "reference": "63f37b9395e8041cd4313129c08ece896d06ca8e",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.9"
             },
             "require-dev": {
-                "phpunit/phpunit": "^4.8|^5.0"
+                "phpunit/phpunit": "^4.8 || ^5.0"
             },
             "type": "library",
             "extra": {
@@ -729,7 +731,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "BSD"
+                "BSD-3-Clause-Attribution"
             ],
             "authors": [
                 {
@@ -739,13 +741,12 @@
                 }
             ],
             "description": "Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER` automagically.",
-            "homepage": "http://github.com/vlucas/phpdotenv",
             "keywords": [
                 "dotenv",
                 "env",
                 "environment"
             ],
-            "time": "2015-12-29 15:10:30"
+            "time": "2016-04-15 10:48:49"
         },
         {
             "name": "wpackagist-plugin/advanced-custom-fields",

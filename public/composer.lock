@@ -415,7 +415,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-admin-theme.git",
-                "reference": "188356950667d75e9a8ce975fd2d55ad72b86be1"
+                "reference": "c879724341e7a5072317d7b26b53150507b6b8eb"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -428,7 +428,7 @@
                 }
             ],
             "description": "Authenticates requests to the API",
-            "time": "2016-01-08 11:26:39"
+            "time": "2016-05-17 14:04:01"
         },
         {
             "name": "rooftopcms/rooftop-api-authentication",
@@ -612,7 +612,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-response-headers.git",
-                "reference": "4d72dff8eb0da94173b606304e8849c2cc264b9d"
+                "reference": "f5e802e80f381bf90fb11b39d1bb57882b21b995"
             },
             "require": {
                 "predis/predis": "~1.0.3"
@@ -628,7 +628,7 @@
                 }
             ],
             "description": "Send additional headers to API requests",
-            "time": "2016-03-01 14:58:31"
+            "time": "2016-05-11 15:53:42"
         },
         {
             "name": "rooftopcms/rooftop-response-sanitiser",

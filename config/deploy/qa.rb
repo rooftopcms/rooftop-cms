@@ -30,11 +30,6 @@ set :site_domains, [fetch(:deploy_domain), "~^.*\.qa\.rooftopcms\.io"]
 #rewrites in nginx format - useful for specifying hard-coded urls for redirection after launch
 set :url_rewrites, {}
 
-#http basic auth
-set :basic_auth_required, true
-set :basic_auth_username, 'rooftopqa'
-set :basic_auth_password, 'rooftopqa'
-
 # Wordpress settings
 set :db_host, `source public/.env.qa; echo $DB_HOST`.strip
 set :db_prefix, `source public/.env.qa; echo $DB_PREFIX`.strip

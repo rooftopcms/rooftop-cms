@@ -526,7 +526,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-custom-content-setup.git",
-                "reference": "6dda74f9eb528f06dd5e6cda3786cad89ad98653"
+                "reference": "1b03b35b39663d8c409e8c870830651a21d4b0d8"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -539,7 +539,7 @@
                 }
             ],
             "description": "Add custom content types, taxonomies and page templates",
-            "time": "2016-01-18 12:24:08"
+            "time": "2016-05-24 11:01:23"
         },
         {
             "name": "rooftopcms/rooftop-gravityforms-exposer",

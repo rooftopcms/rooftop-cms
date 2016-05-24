@@ -1,3 +1,5 @@
+[![Gitter](https://badges.gitter.im/rooftopcms/rooftop-cms.svg)](https://gitter.im/rooftopcms/rooftop-cms?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+
 __This project is in public beta, and is being actively developed. If you want to take part,
 visit http://www.rooftopcms.com__
 # Rooftop CMS - WordPress, without borders

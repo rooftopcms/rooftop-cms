@@ -484,7 +484,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-content-hierarchy.git",
-                "reference": "32cf8622ee84a49ef0d78a0682ab7975c9e119cf"
+                "reference": "78cb8278ca4b5882b48ed5c772260c555a8764f1"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -497,7 +497,7 @@
                 }
             ],
             "description": "Include the content hierarchy for a given post in its JSON response",
-            "time": "2016-05-11 16:01:32"
+            "time": "2016-05-23 13:35:36"
         },
         {
             "name": "rooftopcms/rooftop-content-settings",
@@ -568,7 +568,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-preview-mode-admin.git",
-                "reference": "0983e997a1bc6742f0fbe088a9d43fbdd9c2dfc6"
+                "reference": "fb69f34044a5d3c72215c76e0bd28a7a338b140b"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -581,7 +581,7 @@
                 }
             ],
             "description": "Detect whether a client is making a request in preview mode and define a constant accordingly",
-            "time": "2016-05-20 18:56:36"
+            "time": "2016-05-25 10:37:43"
         },
         {
             "name": "rooftopcms/rooftop-queue-pusher",

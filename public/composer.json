@@ -70,7 +70,7 @@
     },
     {
         "type": "git",
-        "url": "https://github.com/rooftopcms/rooftop-preview-mode-admin.git"
+        "url": "https://github.com/rooftopcms/rooftop-preview-mode.git"
     },
     {
         "type": "git",
@@ -123,16 +123,16 @@
     "vlucas/phpdotenv": "^2.0.1",
     "johnpbloch/wordpress": "~4.4.0",
     "wpackagist-plugin/rest-api": "2.0-beta9",
-    "rooftopcms/rooftop-preview-mode-admin": "dev-preview_mode",
-    "rooftopcms/rooftop-api-authentication": "dev-preview_mode",
-    "rooftopcms/rooftop-admin-theme": "dev-preview_mode",
-    "rooftopcms/rooftop-response-sanitiser": "dev-preview_mode",
+    "rooftopcms/rooftop-preview-mode": "dev-development",
+    "rooftopcms/rooftop-api-authentication": "dev-development",
+    "rooftopcms/rooftop-admin-theme": "dev-development",
+    "rooftopcms/rooftop-response-sanitiser": "dev-development",
     "rooftopcms/rooftop-gravityforms-exposer": "dev-development",
     "rooftopcms/rooftop-webhooks-admin": "dev-development",
     "rooftopcms/rooftop-acf-exposer": "dev-development",
-    "rooftopcms/rooftop-content-hierarchy": "dev-preview_mode",
+    "rooftopcms/rooftop-content-hierarchy": "dev-development",
     "rooftopcms/rooftop-content-fields": "dev-development",
-    "rooftopcms/rooftop-custom-content-setup": "dev-preview_mode",
+    "rooftopcms/rooftop-custom-content-setup": "dev-development",
     "rooftopcms/rooftop-content-settings": "dev-development",
     "rooftopcms/rooftop-response-headers": "dev-development",
     "rooftopcms/rooftop-queue-pusher": "dev-development",

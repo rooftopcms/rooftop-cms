@@ -129,7 +129,7 @@
     "rooftopcms/rooftop-response-sanitiser": "dev-development",
     "rooftopcms/rooftop-gravityforms-exposer": "dev-development",
     "rooftopcms/rooftop-webhooks-admin": "dev-development",
-    "rooftopcms/rooftop-acf-exposer": "dev-development",
+    "rooftopcms/rooftop-acf-exposer": "dev-qa",
     "rooftopcms/rooftop-content-hierarchy": "dev-development",
     "rooftopcms/rooftop-content-fields": "dev-development",
     "rooftopcms/rooftop-custom-content-setup": "dev-development",

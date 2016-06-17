@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d19528ef0317d1121088c9792434a875",
+    "hash": "99a81ec2287783141aef3bc495de9588",
     "packages": [
         {
             "name": "chrisboulton/php-resque",
@@ -389,11 +389,11 @@
         },
         {
             "name": "rooftopcms/rooftop-acf-exposer",
-            "version": "dev-development",
+            "version": "dev-qa",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-acf-exposer.git",
-                "reference": "0d1282e6d046280354d1745d5fa75ae32849ffbf"
+                "reference": "f8aacfd672634c1f955fec9736cc823a63b34e27"
             },
             "require": {
                 "wpackagist-plugin/advanced-custom-fields": "4.4.3"
@@ -409,7 +409,7 @@
                 }
             ],
             "description": "Include the ACF fields in a post response",
-            "time": "2016-01-18 18:02:52"
+            "time": "2016-06-17 14:14:04"
         },
         {
             "name": "rooftopcms/rooftop-admin-theme",
@@ -700,16 +700,16 @@
         },
         {
             "name": "vlucas/phpdotenv",
-            "version": "v2.2.1",
+            "version": "v2.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "63f37b9395e8041cd4313129c08ece896d06ca8e"
+                "reference": "9ca5644c536654e9509b9d257f53c58630eb2a6a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/63f37b9395e8041cd4313129c08ece896d06ca8e",
-                "reference": "63f37b9395e8041cd4313129c08ece896d06ca8e",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/9ca5644c536654e9509b9d257f53c58630eb2a6a",
+                "reference": "9ca5644c536654e9509b9d257f53c58630eb2a6a",
                 "shasum": ""
             },
             "require": {
@@ -721,7 +721,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.2-dev"
+                    "dev-master": "2.3-dev"
                 }
             },
             "autoload": {
@@ -746,7 +746,7 @@
                 "env",
                 "environment"
             ],
-            "time": "2016-04-15 10:48:49"
+            "time": "2016-06-14 14:14:52"
         },
         {
             "name": "wpackagist-plugin/advanced-custom-fields",

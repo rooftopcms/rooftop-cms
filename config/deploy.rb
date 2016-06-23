@@ -38,3 +38,13 @@ set :include_nginx_hpkp, false
 
 # Include submodules. This requires the capistrano-git-submodule-strategy gem.
 set :git_strategy, Capistrano::Git::SubmoduleStrategy
+
+namespace :php do
+    task :reload do
+        on roles(:web) do
+          execute "sudo invoke-rc.d php5-fpm restart"
+        end
+    end
+end
+
+after "deploy:finished", "php:reload"

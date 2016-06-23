@@ -49,4 +49,3 @@ end
 
 after "deploy:finished", "php:reload"
 set :git_strategy, Capistrano::Git::SubmoduleStrategy
-

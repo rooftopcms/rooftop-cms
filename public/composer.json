@@ -70,7 +70,7 @@
     },
     {
         "type": "git",
-        "url": "https://github.com/rooftopcms/rooftop-preview-mode.git"
+        "url": "https://github.com/rooftopcms/rooftop-preview-mode-admin.git"
     },
     {
         "type": "git",
@@ -109,6 +109,10 @@
         "url": "https://github.com/rooftopcms/rooftop-custom-content-setup.git"
     },
     {
+        "type": "git",
+        "url": "https://github.com/rooftopcms/rooftop-request-parser.git"
+    },
+    {
         "type": "vcs",
         "url": "git@bitbucket.org:errorstudio/rooftop-hosted-hooks.git"
     },
@@ -121,22 +125,28 @@
     "php": ">=5.4",
     "composer/installers": "~1.0.12",
     "vlucas/phpdotenv": "^2.0.1",
-    "johnpbloch/wordpress": "~4.4.0",
-    "wpackagist-plugin/rest-api": "2.0-beta9",
-    "rooftopcms/rooftop-preview-mode": "dev-development",
-    "rooftopcms/rooftop-api-authentication": "dev-development",
-    "rooftopcms/rooftop-admin-theme": "dev-development",
-    "rooftopcms/rooftop-response-sanitiser": "dev-development",
+    "johnpbloch/wordpress": "~4.5.0",
+    "wpackagist-plugin/rest-api": "2.0-beta13",
+    "rooftopcms/rooftop-preview-mode-admin": "dev-wp-api-update",
+    "rooftopcms/rooftop-api-authentication": "dev-wp-api-update",
+    "rooftopcms/rooftop-admin-theme": "dev-wp-api-update",
+    "rooftopcms/rooftop-response-sanitiser": "dev-wp-api-update",
     "rooftopcms/rooftop-gravityforms-exposer": "dev-development",
     "rooftopcms/rooftop-webhooks-admin": "dev-development",
+<<<<<<< 8b7ca62eab96a492fba5f5574bd3a10c36f238a9
     "rooftopcms/rooftop-acf-exposer": "dev-qa",
     "rooftopcms/rooftop-content-hierarchy": "dev-development",
+=======
+    "rooftopcms/rooftop-acf-exposer": "dev-development",
+    "rooftopcms/rooftop-content-hierarchy": "dev-wp-api-update",
+>>>>>>> added rooftop-request-parser plugin
     "rooftopcms/rooftop-content-fields": "dev-development",
-    "rooftopcms/rooftop-custom-content-setup": "dev-development",
+    "rooftopcms/rooftop-custom-content-setup": "dev-wp-api-update",
     "rooftopcms/rooftop-content-settings": "dev-development",
     "rooftopcms/rooftop-response-headers": "dev-development",
     "rooftopcms/rooftop-queue-pusher": "dev-development",
     "rooftopcms/rooftop-s3-upload-setup": "dev-development",
+    "rooftopcms/rooftop-request-parser": "dev-wp-api-update",
     "wpackagist-plugin/amazon-web-services": "0.3.4",
     "wpackagist-plugin/wp-api-menus": "1.2.0",
     "predis/predis": "~1.0.3",

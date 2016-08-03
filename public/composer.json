@@ -133,13 +133,8 @@
     "rooftopcms/rooftop-response-sanitiser": "dev-wp-api-update",
     "rooftopcms/rooftop-gravityforms-exposer": "dev-development",
     "rooftopcms/rooftop-webhooks-admin": "dev-development",
-<<<<<<< 8b7ca62eab96a492fba5f5574bd3a10c36f238a9
-    "rooftopcms/rooftop-acf-exposer": "dev-qa",
-    "rooftopcms/rooftop-content-hierarchy": "dev-development",
-=======
     "rooftopcms/rooftop-acf-exposer": "dev-development",
     "rooftopcms/rooftop-content-hierarchy": "dev-wp-api-update",
->>>>>>> added rooftop-request-parser plugin
     "rooftopcms/rooftop-content-fields": "dev-development",
     "rooftopcms/rooftop-custom-content-setup": "dev-wp-api-update",
     "rooftopcms/rooftop-content-settings": "dev-development",

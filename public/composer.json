@@ -133,7 +133,7 @@
     "rooftopcms/rooftop-response-sanitiser": "dev-wp-api-update",
     "rooftopcms/rooftop-gravityforms-exposer": "dev-development",
     "rooftopcms/rooftop-webhooks-admin": "dev-development",
-    "rooftopcms/rooftop-acf-exposer": "dev-development",
+    "rooftopcms/rooftop-acf-exposer": "dev-wp-api-update",
     "rooftopcms/rooftop-content-hierarchy": "dev-wp-api-update",
     "rooftopcms/rooftop-content-fields": "dev-development",
     "rooftopcms/rooftop-custom-content-setup": "dev-wp-api-update",

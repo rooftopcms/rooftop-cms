@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "edea03bea2dd13121284fdda0253c0a8",
+    "hash": "55e4a63358994637ed9b4632798a11e0",
     "packages": [
         {
             "name": "chrisboulton/php-resque",
@@ -389,11 +389,11 @@
         },
         {
             "name": "rooftopcms/rooftop-acf-exposer",
-            "version": "dev-development",
+            "version": "dev-wp-api-update",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-acf-exposer.git",
-                "reference": "d3fdd5020f1ce37aee2153630096aa14ef06a601"
+                "reference": "7a9c818a6a3b65e100ac51552f6ae411a9451599"
             },
             "require": {
                 "wpackagist-plugin/advanced-custom-fields": "4.4.3"
@@ -409,7 +409,7 @@
                 }
             ],
             "description": "Include the ACF fields in a post response",
-            "time": "2016-07-15 13:52:52"
+            "time": "2016-08-04 11:37:57"
         },
         {
             "name": "rooftopcms/rooftop-admin-theme",
@@ -613,7 +613,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-request-parser.git",
-                "reference": "bae715f201b011039e559bd41edc74a8b059be62"
+                "reference": "dd90f99a0d93919e812de638cb9b654036cf7959"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -626,7 +626,7 @@
                 }
             ],
             "description": "Manipulate the REST request or server variables to alter queries or remove/change default params",
-            "time": "2016-08-03 15:34:34"
+            "time": "2016-08-04 09:16:51"
         },
         {
             "name": "rooftopcms/rooftop-response-headers",

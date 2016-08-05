@@ -66,14 +66,6 @@
     },
     {
         "type": "git",
-        "url": "https://github.com/rooftopcms/rooftop-events.git"
-    },
-    {
-        "type": "git",
-        "url": "https://github.com/rooftopcms/rooftop-preview-mode-admin.git"
-    },
-    {
-        "type": "git",
         "url": "https://github.com/rooftopcms/rooftop-webhooks-admin.git"
     },
     {
@@ -127,7 +119,6 @@
     "vlucas/phpdotenv": "^2.0.1",
     "johnpbloch/wordpress": "~4.5.0",
     "wpackagist-plugin/rest-api": "2.0-beta13",
-    "rooftopcms/rooftop-preview-mode-admin": "dev-wp-api-update",
     "rooftopcms/rooftop-api-authentication": "dev-wp-api-update",
     "rooftopcms/rooftop-admin-theme": "dev-wp-api-update",
     "rooftopcms/rooftop-response-sanitiser": "dev-wp-api-update",

@@ -7,3 +7,6 @@
 [submodule "public/web/app/mu-plugins/acf-repater"]
 	path = public/web/app/mu-plugins/acf-repater
 	url = git@bitbucket.org:errorstudio/acf-repeater.git
+[submodule "public/web/app/plugins/rooftop-preview-mode-admin"]
+	path = public/web/app/plugins/rooftop-preview-mode-admin
+	url = https://github.com/rooftopcms/rooftop-preview-mode-admin.git

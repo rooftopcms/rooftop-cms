@@ -31,7 +31,7 @@ Our aim for Rooftop is that you can make use of a set of well-used plugins, and 
 * `rooftop-events`: an extensible model for events management
 * `rooftop-posts2posts-exposer`: expose https://github.com/scribu/wp-posts-to-posts data as part of your API responses
 * `rooftop-gravityforms-exposer`: expose http://www.gravityforms.com/ data as part of your API responses. If you use the hosted Rooftop solution, you won't need to pay a separate licence fee.
-* `rooftop-acf-exposer`: expose http://www.advancedcustomfields.com/ data pas part of your API responses. If you use the hosted Rooftop solution, you won't need to pay a separate licence fee.
+* `rooftop-acf-exposer`: expose http://www.advancedcustomfields.com/ data as part of your API responses. If you use the hosted Rooftop solution, you won't need to pay a separate licence fee.
 * `rooftop-search`: a more powerful search, based on ElasticSearch.
 
 ### Other Services

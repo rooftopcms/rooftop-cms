@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6803c77cf6afcdb261c70dae9da69dc3",
+    "hash": "1593a7a2a78bd74fcc2eaa0912466690",
     "packages": [
         {
             "name": "chrisboulton/php-resque",
@@ -564,9 +564,9 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-preview-mode-admin.git",
-                "reference": "11dfea6ce76aecc0024d13e473bf620564d0bc34"
+                "reference": "1eefcf77f9d825bdcd8c0d83a3e039b6ea3e8452"
             },
-            "type": "wordpress-muplugin",
+            "type": "wordpress-optional-plugin",
             "license": [
                 "GPL-3.0"
             ],
@@ -577,7 +577,7 @@
                 }
             ],
             "description": "Detect whether a client is making a request in preview mode and define a constant accordingly",
-            "time": "2016-08-05 14:32:49"
+            "time": "2016-08-11 15:08:43"
         },
         {
             "name": "rooftopcms/rooftop-queue-pusher",

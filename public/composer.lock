@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "edea03bea2dd13121284fdda0253c0a8",
+    "hash": "d1215da4aed9951d927c5d1c28b79864",
     "packages": [
         {
             "name": "chrisboulton/php-resque",
@@ -389,7 +389,7 @@
         },
         {
             "name": "rooftopcms/rooftop-acf-exposer",
-            "version": "dev-wp-api-update",
+            "version": "dev-development",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-acf-exposer.git",
@@ -413,11 +413,11 @@
         },
         {
             "name": "rooftopcms/rooftop-admin-theme",
-            "version": "dev-wp-api-update",
+            "version": "dev-development",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-admin-theme.git",
-                "reference": "d4297847e6495f6b3da306c4b84143327ffbe3d6"
+                "reference": "f0ae02c97843def873ef4cd1a9297b96aab49c47"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -430,18 +430,15 @@
                 }
             ],
             "description": "Authenticates requests to the API",
-            "time": "2016-08-03 10:01:52"
+            "time": "2016-06-29 05:37:53"
         },
         {
             "name": "rooftopcms/rooftop-api-authentication",
-            "version": "dev-wp-api-update",
+            "version": "dev-development",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-api-authentication.git",
-                "reference": "110dbaad437e8d5dba06f036ad52717b46fa6eca"
-            },
-            "require": {
-                "rooftopcms/rooftop-preview-mode-admin": "dev-wp-api-update"
+                "reference": "29ef95aae28b471c59f8e6abb246d0b02100a119"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -454,7 +451,7 @@
                 }
             ],
             "description": "Authenticates requests to the API",
-            "time": "2016-08-03 10:23:10"
+            "time": "2016-08-11 14:01:29"
         },
         {
             "name": "rooftopcms/rooftop-content-fields",
@@ -479,11 +476,11 @@
         },
         {
             "name": "rooftopcms/rooftop-content-hierarchy",
-            "version": "dev-wp-api-update",
+            "version": "dev-development",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-content-hierarchy.git",
-                "reference": "a85679091c7df5deadb95959e9428c723f50c748"
+                "reference": "17dd8bebc2b7c8c4f98834492542c0ca58f12134"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -496,7 +493,7 @@
                 }
             ],
             "description": "Include the content hierarchy for a given post in its JSON response",
-            "time": "2016-08-03 10:02:58"
+            "time": "2016-05-23 14:17:52"
         },
         {
             "name": "rooftopcms/rooftop-content-settings",
@@ -521,11 +518,11 @@
         },
         {
             "name": "rooftopcms/rooftop-custom-content-setup",
-            "version": "dev-wp-api-update",
+            "version": "dev-development",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-custom-content-setup.git",
-                "reference": "be3b2b15bceaa9010b3fd1d4bb2379fe8db293f8"
+                "reference": "1b03b35b39663d8c409e8c870830651a21d4b0d8"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -538,7 +535,7 @@
                 }
             ],
             "description": "Add custom content types, taxonomies and page templates",
-            "time": "2016-08-03 10:03:52"
+            "time": "2016-05-24 11:01:23"
         },
         {
             "name": "rooftopcms/rooftop-gravityforms-exposer",
@@ -563,11 +560,11 @@
         },
         {
             "name": "rooftopcms/rooftop-preview-mode-admin",
-            "version": "dev-wp-api-update",
+            "version": "dev-development",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-preview-mode-admin.git",
-                "reference": "4216e8e4aa2ca03dfceb5e5927527d9b566508fc"
+                "reference": "11dfea6ce76aecc0024d13e473bf620564d0bc34"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -580,7 +577,7 @@
                 }
             ],
             "description": "Detect whether a client is making a request in preview mode and define a constant accordingly",
-            "time": "2016-05-26 16:50:25"
+            "time": "2016-08-05 14:32:49"
         },
         {
             "name": "rooftopcms/rooftop-queue-pusher",
@@ -588,7 +585,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-queue-pusher.git",
-                "reference": "f141822c4d548dbf6aafd9b728fab030e9e64a70"
+                "reference": "16b5fc173607a775a4d5cdbcb551ac6fc225fd5f"
             },
             "require": {
                 "chrisboulton/php-resque": "1.2.x",
@@ -605,15 +602,15 @@
                 }
             ],
             "description": "Hook into WP post events to push events onto a queue",
-            "time": "2016-03-01 17:09:46"
+            "time": "2016-08-10 16:16:38"
         },
         {
             "name": "rooftopcms/rooftop-request-parser",
-            "version": "dev-wp-api-update",
+            "version": "dev-development",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-request-parser.git",
-                "reference": "bae715f201b011039e559bd41edc74a8b059be62"
+                "reference": "23b59849d2b6048e4f929704295727a08a887106"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -626,7 +623,7 @@
                 }
             ],
             "description": "Manipulate the REST request or server variables to alter queries or remove/change default params",
-            "time": "2016-08-03 15:34:34"
+            "time": "2016-08-05 13:47:45"
         },
         {
             "name": "rooftopcms/rooftop-response-headers",
@@ -634,7 +631,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-response-headers.git",
-                "reference": "f5e802e80f381bf90fb11b39d1bb57882b21b995"
+                "reference": "073c89d6839113758e77f4f67cedcda0292b5dc7"
             },
             "require": {
                 "predis/predis": "~1.0.3"
@@ -650,15 +647,15 @@
                 }
             ],
             "description": "Send additional headers to API requests",
-            "time": "2016-05-11 15:53:42"
+            "time": "2016-08-10 14:38:48"
         },
         {
             "name": "rooftopcms/rooftop-response-sanitiser",
-            "version": "dev-wp-api-update",
+            "version": "dev-development",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-response-sanitiser.git",
-                "reference": "07f7026534fbfba7c6721d0e2890ca14ca230834"
+                "reference": "c2dd7b3fb38369633bc742c20b7fa7bbeecae434"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -671,7 +668,7 @@
                 }
             ],
             "description": "The awesome WP-API includes some things in its response that we would rather handle in the client.\nFor example, we remove content['rendered'] and replace with content['json'] with links replaced with shortcodes.",
-            "time": "2016-08-03 10:05:19"
+            "time": "2016-06-03 13:59:45"
         },
         {
             "name": "rooftopcms/rooftop-s3-upload-setup",
@@ -874,21 +871,21 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "wpackagist-plugin/rest-api": 10,
-        "rooftopcms/rooftop-preview-mode-admin": 20,
-        "rooftopcms/rooftop-api-authentication": 20,
-        "rooftopcms/rooftop-admin-theme": 20,
-        "rooftopcms/rooftop-response-sanitiser": 20,
-        "rooftopcms/rooftop-gravityforms-exposer": 20,
-        "rooftopcms/rooftop-webhooks-admin": 20,
         "rooftopcms/rooftop-acf-exposer": 20,
+        "rooftopcms/rooftop-admin-theme": 20,
+        "rooftopcms/rooftop-api-authentication": 20,
         "rooftopcms/rooftop-content-hierarchy": 20,
         "rooftopcms/rooftop-content-fields": 20,
         "rooftopcms/rooftop-custom-content-setup": 20,
         "rooftopcms/rooftop-content-settings": 20,
+        "rooftopcms/rooftop-gravityforms-exposer": 20,
+        "rooftopcms/rooftop-preview-mode-admin": 20,
         "rooftopcms/rooftop-response-headers": 20,
+        "rooftopcms/rooftop-request-parser": 20,
+        "rooftopcms/rooftop-response-sanitiser": 20,
         "rooftopcms/rooftop-queue-pusher": 20,
         "rooftopcms/rooftop-s3-upload-setup": 20,
-        "rooftopcms/rooftop-request-parser": 20,
+        "rooftopcms/rooftop-webhooks-admin": 20,
         "errorstudio/rooftop-hosted-hooks": 20
     },
     "prefer-stable": false,

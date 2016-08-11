@@ -38,6 +38,7 @@ bin
 .idea
 public/vendor
 public/web/app/mu-plugins
+public/web/app/plugins
 public/web/wp
 psysh
 vvv-hosts

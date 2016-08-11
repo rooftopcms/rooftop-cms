@@ -1,0 +1,150 @@
+{
+  "name": "errorstudio/rooftop-cms",
+  "type": "project",
+  "license": "MIT",
+  "description": "An API-based Wordpress CMS",
+  "homepage": "http://github.com/rooftopcms",
+  "authors": [
+    {
+      "name": "Paul Hendrick",
+      "email": "paul@errorstudio.co.uk",
+      "homepage": "https://github.com/foxpaul"
+    },
+    {
+      "name": "Ed Jones",
+      "email": "ed@errorstudio.co.uk",
+      "homepage": "https://github.com/edtjones"
+    },
+    {
+      "name": "Martin Chapman Fromm",
+      "email": "martin@errorstudio.co.uk",
+      "homepage": "https://github.com/martincf"
+    },
+    {
+      "name": "Andy Wilkinson",
+      "email": "andy@errorstudio.co.uk",
+      "homepage": "https://github.com/andyerror"
+    }
+  ],
+  "keywords": [
+    "wp","cms","api","rooftop"
+  ],
+  "support": {
+    "issues": "https://github.com/rooftopcms/rooftop-cms/issues"
+  },
+  "config": {
+    "preferred-install": "dist"
+  },
+  "repositories": [
+    {
+        "type": "composer",
+        "url": "http://wpackagist.org"
+    },
+    {
+        "type": "git",
+        "url": "https://github.com/ICanBoogie/Inflector.git"
+    },
+    {
+        "type": "git",
+        "url": "https://github.com/wp-api/wp-api.git"
+    },
+    {
+        "type": "git",
+        "url": "https://github.com/rooftopcms/rooftop-acf-exposer.git"
+    },
+    {
+        "type": "git",
+        "url": "https://github.com/rooftopcms/rooftop-admin-theme.git"
+    },
+    {
+        "type": "git",
+        "url": "https://github.com/rooftopcms/rooftop-api-authentication.git"
+    },
+    {
+        "type": "git",
+        "url": "https://github.com/rooftopcms/rooftop-content-hierarchy.git"
+    },
+    {
+        "type": "git",
+        "url": "https://github.com/rooftopcms/rooftop-content-fields.git"
+    },
+    {
+        "type": "git",
+        "url": "https://github.com/rooftopcms/rooftop-custom-content-setup.git"
+    },
+    {
+        "type": "git",
+        "url": "https://github.com/rooftopcms/rooftop-content-settings.git"
+    },
+    {
+        "type": "git",
+        "url": "https://github.com/rooftopcms/rooftop-gravityforms-exposer.git"
+    },
+    {
+        "type": "git",
+        "url": "https://github.com/rooftopcms/rooftop-preview-mode-admin.git"
+    },
+    {
+        "type": "git",
+        "url": "https://github.com/rooftopcms/rooftop-response-headers.git"
+    },
+    {
+        "type": "git",
+        "url": "https://github.com/rooftopcms/rooftop-request-parser.git"
+    },
+    {
+        "type": "git",
+        "url": "https://github.com/rooftopcms/rooftop-response-sanitiser.git"
+    },
+    {
+        "type": "git",
+        "url": "https://github.com/rooftopcms/rooftop-queue-pusher.git"
+    },
+    {
+        "type": "git",
+        "url": "https://github.com/rooftopcms/rooftop-s3-upload-setup.git"
+    },
+    {
+        "type": "git",
+        "url": "https://github.com/rooftopcms/rooftop-webhooks-admin.git"
+    },
+    {
+        "type": "vcs",
+        "url": "git@bitbucket.org:errorstudio/rooftop-hosted-hooks.git"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "composer/installers": "~1.0.12",
+    "vlucas/phpdotenv": "^2.0.1",
+    "johnpbloch/wordpress": "~4.5.0",
+    "wpackagist-plugin/rest-api": "2.0-beta13",
+    "rooftopcms/rooftop-acf-exposer": "dev-qa",
+    "rooftopcms/rooftop-admin-theme": "dev-qa",
+    "rooftopcms/rooftop-api-authentication": "dev-qa",
+    "rooftopcms/rooftop-content-hierarchy": "dev-qa",
+    "rooftopcms/rooftop-content-fields": "dev-qa",
+    "rooftopcms/rooftop-custom-content-setup": "dev-qa",
+    "rooftopcms/rooftop-content-settings": "dev-qa",
+    "rooftopcms/rooftop-gravityforms-exposer": "dev-qa",
+    "rooftopcms/rooftop-preview-mode-admin": "dev-qa",
+    "rooftopcms/rooftop-response-headers": "dev-qa",
+    "rooftopcms/rooftop-request-parser": "dev-qa",
+    "rooftopcms/rooftop-response-sanitiser": "dev-qa",
+    "rooftopcms/rooftop-queue-pusher": "dev-qa",
+    "rooftopcms/rooftop-s3-upload-setup": "dev-qa",
+    "rooftopcms/rooftop-webhooks-admin": "dev-qa",
+    "wpackagist-plugin/amazon-web-services": "0.3.4",
+    "wpackagist-plugin/wp-api-menus": "1.2.0",
+    "predis/predis": "~1.0.3",
+    "icanboogie/inflector": "1.3.3",
+    "errorstudio/rooftop-hosted-hooks": "dev-qa"
+  },
+  "extra": {
+    "installer-paths": {
+      "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin", "type:wordpress-plugin"],
+      "web/app/themes/{$name}/": ["type:wordpress-theme"]
+    },
+    "wordpress-install-dir": "web/wp"
+  }
+}

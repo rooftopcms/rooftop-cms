@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1593a7a2a78bd74fcc2eaa0912466690",
+    "hash": "c07ba6ea5393fe53c4aad4e81a70a0fc",
     "packages": [
         {
             "name": "chrisboulton/php-resque",
@@ -181,6 +181,45 @@
                 "zikula"
             ],
             "time": "2016-04-13 19:46:30"
+        },
+        {
+            "name": "davidbarratt/custom-installer",
+            "version": "1.0.0-alpha2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/davidbarratt/custom-installer.git",
+                "reference": "90009113204b8b6257ead91866cc5cddc6876834"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/davidbarratt/custom-installer/zipball/90009113204b8b6257ead91866cc5cddc6876834",
+                "reference": "90009113204b8b6257ead91866cc5cddc6876834",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "~1.0"
+            },
+            "require-dev": {
+                "composer/composer": "~1.0@dev",
+                "phpunit/phpunit": "~4.1",
+                "squizlabs/php_codesniffer": "~2.5"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "DavidBarratt\\CustomInstaller\\CustomInstallerPlugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "DavidBarratt\\CustomInstaller\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "description": "Install custom types into custom locations.",
+            "homepage": "https://github.com/davidbarratt/custom-installer",
+            "time": "2016-01-23 14:33:27"
         },
         {
             "name": "errorstudio/rooftop-hosted-hooks",
@@ -538,6 +577,30 @@
             "time": "2016-08-03 10:03:52"
         },
         {
+            "name": "rooftopcms/rooftop-events",
+            "version": "dev-qa",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rooftopcms/rooftop-events.git",
+                "reference": "017cecf176cff53853914fe54335ef924baba4c8"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Rooftop CMS",
+                    "email": "hello@rooftopcms.com"
+                }
+            ],
+            "description": "Authenticates requests to the API",
+            "time": "2016-08-12 11:57:54"
+        },
+        {
             "name": "rooftopcms/rooftop-gravityforms-exposer",
             "version": "dev-qa",
             "source": {
@@ -564,9 +627,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-preview-mode-admin.git",
-                "reference": "1eefcf77f9d825bdcd8c0d83a3e039b6ea3e8452"
+                "reference": "8c6df0d0fe834f18e9fcbca0f07497c801e2c07a"
             },
-            "type": "wordpress-optional-plugin",
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
             "license": [
                 "GPL-3.0"
             ],
@@ -577,7 +643,7 @@
                 }
             ],
             "description": "Detect whether a client is making a request in preview mode and define a constant accordingly",
-            "time": "2016-08-11 15:08:43"
+            "time": "2016-08-12 11:59:36"
         },
         {
             "name": "rooftopcms/rooftop-queue-pusher",
@@ -770,7 +836,7 @@
             "version": "4.4.3",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/advanced-custom-fields/",
+                "url": "https://plugins.svn.wordpress.org/advanced-custom-fields/",
                 "reference": "tags/4.4.3"
             },
             "dist": {
@@ -790,7 +856,7 @@
             "version": "0.9.6",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/amazon-s3-and-cloudfront/",
+                "url": "https://plugins.svn.wordpress.org/amazon-s3-and-cloudfront/",
                 "reference": "tags/0.9.6"
             },
             "dist": {
@@ -807,15 +873,15 @@
         },
         {
             "name": "wpackagist-plugin/amazon-web-services",
-            "version": "0.3.4",
+            "version": "0.3.6",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/amazon-web-services/",
-                "reference": "trunk"
+                "url": "https://plugins.svn.wordpress.org/amazon-web-services/",
+                "reference": "tags/0.3.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/amazon-web-services.zip",
+                "url": "https://downloads.wordpress.org/plugin/amazon-web-services.0.3.6.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -850,7 +916,7 @@
             "version": "1.2.0",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/wp-api-menus/",
+                "url": "https://plugins.svn.wordpress.org/wp-api-menus/",
                 "reference": "tags/1.2.0"
             },
             "dist": {
@@ -870,6 +936,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "davidbarratt/custom-installer": 20,
         "wpackagist-plugin/rest-api": 10,
         "rooftopcms/rooftop-acf-exposer": 20,
         "rooftopcms/rooftop-admin-theme": 20,
@@ -878,6 +945,7 @@
         "rooftopcms/rooftop-content-fields": 20,
         "rooftopcms/rooftop-custom-content-setup": 20,
         "rooftopcms/rooftop-content-settings": 20,
+        "rooftopcms/rooftop-events": 20,
         "rooftopcms/rooftop-gravityforms-exposer": 20,
         "rooftopcms/rooftop-preview-mode-admin": 20,
         "rooftopcms/rooftop-response-headers": 20,

@@ -651,7 +651,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-queue-pusher.git",
-                "reference": "185549fe56df591c3bc2650375e6c04cec7c04bf"
+                "reference": "5f46cbee6fab480fe19372276984c48ff40d05c2"
             },
             "require": {
                 "chrisboulton/php-resque": "1.2.x",
@@ -668,7 +668,7 @@
                 }
             ],
             "description": "Hook into WP post events to push events onto a queue",
-            "time": "2016-08-11 17:09:43"
+            "time": "2016-08-16 09:49:42"
         },
         {
             "name": "rooftopcms/rooftop-request-parser",

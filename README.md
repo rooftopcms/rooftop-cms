@@ -3,6 +3,8 @@
 __This project is in public beta, and is being actively developed. If you want to take part,
 visit http://www.rooftopcms.com__
 # Rooftop CMS - WordPress, without borders
+
+[![Join the chat at https://gitter.im/rooftopcms/rooftop-cms](https://badges.gitter.im/rooftopcms/rooftop-cms.svg)](https://gitter.im/rooftopcms/rooftop-cms?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 __The CMS you know, with the website you want__
 
 ## What is Rooftop?

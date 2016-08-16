@@ -44,6 +44,8 @@ These are a work-in-progress. We want to build an ecosystem of open client libra
 * `rooftop_model`: a Ruby client gem for the Rooftop API, following a similar approach to ActiveRecord
 * `rooftop_rails`: building on `rooftop_model` and providing Rails-specific features
 * `rooftop-laravel`: an [Eloquent](http://laravel.com/docs/5.1/eloquent)-like library for interacting with Rooftop from Laravel.
+* [rooftop-client](https://github.com/carrot/rooftop-node): a node client for the Rooftop API
+* [spike-rooftop](https://github.com/static-dev/spike-rooftop): a [spike](https://github.com/static-dev/spike) plugin for the Rooftop API
 
 Of course Rooftop exposes a sensible REST API to access your data, so there's no reason why you can't use any REST library which is capable of adding a couple of custom headers. FORTRAN anyone?
 

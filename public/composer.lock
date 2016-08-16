@@ -432,10 +432,10 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-acf-exposer.git",
-                "reference": "e5f4e1a8c1a38e0a95023a5155d3820a73c6b29e"
+                "reference": "c51f64a0071fb99c5b465ec3a0f41b432125e004"
             },
             "require": {
-                "wpackagist-plugin/advanced-custom-fields": "4.4.3"
+                "wpackagist-plugin/advanced-custom-fields": "4.4.8"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -448,7 +448,7 @@
                 }
             ],
             "description": "Include the ACF fields in a post response",
-            "time": "2016-08-11 16:04:40"
+            "time": "2016-08-16 14:19:42"
         },
         {
             "name": "rooftopcms/rooftop-admin-theme",
@@ -582,7 +582,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-events.git",
-                "reference": "017cecf176cff53853914fe54335ef924baba4c8"
+                "reference": "8355dc0208b13246b45d0e4122a5e757100b55a5"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -598,7 +598,7 @@
                 }
             ],
             "description": "Authenticates requests to the API",
-            "time": "2016-08-12 11:57:54"
+            "time": "2016-08-16 15:09:11"
         },
         {
             "name": "rooftopcms/rooftop-gravityforms-exposer",
@@ -833,15 +833,15 @@
         },
         {
             "name": "wpackagist-plugin/advanced-custom-fields",
-            "version": "4.4.3",
+            "version": "4.4.8",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/advanced-custom-fields/",
-                "reference": "tags/4.4.3"
+                "reference": "tags/4.4.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.4.4.3.zip",
+                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.4.4.8.zip",
                 "reference": null,
                 "shasum": null
             },

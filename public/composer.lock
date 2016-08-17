@@ -582,7 +582,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-events.git",
-                "reference": "8355dc0208b13246b45d0e4122a5e757100b55a5"
+                "reference": "e87926264f11a041a38059c7ab2f229f1827a60b"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -598,7 +598,7 @@
                 }
             ],
             "description": "Authenticates requests to the API",
-            "time": "2016-08-16 15:09:11"
+            "time": "2016-08-17 13:41:35"
         },
         {
             "name": "rooftopcms/rooftop-gravityforms-exposer",
@@ -676,7 +676,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-request-parser.git",
-                "reference": "23b59849d2b6048e4f929704295727a08a887106"
+                "reference": "a27ef57826c94a9c6091817859ed0655954f0d22"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -689,7 +689,7 @@
                 }
             ],
             "description": "Manipulate the REST request or server variables to alter queries or remove/change default params",
-            "time": "2016-08-05 13:47:45"
+            "time": "2016-08-17 13:38:30"
         },
         {
             "name": "rooftopcms/rooftop-response-headers",

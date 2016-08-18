@@ -676,7 +676,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-request-parser.git",
-                "reference": "1bf845368547733008399c522ce300bf0da4f0d6"
+                "reference": "dd24e5c60c365104b1bfb466f8a89d9ba1cb7ab8"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -689,7 +689,7 @@
                 }
             ],
             "description": "Manipulate the REST request or server variables to alter queries or remove/change default params",
-            "time": "2016-08-17 17:03:30"
+            "time": "2016-08-18 11:48:03"
         },
         {
             "name": "rooftopcms/rooftop-response-headers",

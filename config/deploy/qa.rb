@@ -10,7 +10,7 @@ role :web, [
 role :db, %w{deployment@rooftop-qa.vm.errorstudio.com}
 
 # Git branch
-set :branch, 'development'
+set :branch, 'qa'
 
 #the base domain for this site - is appended to the primary domain for a prelaunch url
 set :base_domain, "prelaunch.errorstudio.com"

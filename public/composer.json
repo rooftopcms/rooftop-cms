@@ -149,7 +149,7 @@
     "wpackagist-plugin/wp-api-menus": "1.2.0",
     "predis/predis": "~1.0.3",
     "icanboogie/inflector": "1.3.3",
-    "errorstudio/rooftop-hosted-hooks": "dev-qa"
+    "errorstudio/rooftop-hosted-hooks": "dev-master"
   },
   "extra": {
     "installer-paths": {

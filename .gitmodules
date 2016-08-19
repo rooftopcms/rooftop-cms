@@ -1,6 +1,3 @@
-[submodule "public/web/app/themes/rooftop-theme"]
-	path = public/web/app/themes/rooftop-theme
-	url = ssh://git@github.com/rooftopcms/rooftop-theme
 [submodule "public/web/app/mu-plugins/acf-repater"]
 	path = public/web/app/mu-plugins/acf-repater
 	url = git@bitbucket.org:errorstudio/acf-repeater.git

@@ -106,6 +106,10 @@
     },
     {
         "type": "git",
+        "url": "https://github.com/rooftopcms/rooftop-theme.git"
+    },
+    {
+        "type": "git",
         "url": "https://github.com/rooftopcms/rooftop-s3-upload-setup.git"
     },
     {
@@ -126,11 +130,12 @@
     "wpackagist-plugin/rest-api": "2.0-beta13",
     "rooftopcms/rooftop-acf-exposer": "dev-development",
     "rooftopcms/rooftop-admin-theme": "dev-development",
-    "rooftopcms/rooftop-api-authentication": "dev-development",
+    "rooftopcms/rooftop-api-authentication": "dev-v",
     "rooftopcms/rooftop-content-hierarchy": "dev-development",
     "rooftopcms/rooftop-content-fields": "dev-development",
     "rooftopcms/rooftop-custom-content-setup": "dev-development",
     "rooftopcms/rooftop-content-settings": "dev-development",
+    "rooftopcms/rooftop-events": "dev-development",
     "rooftopcms/rooftop-gravityforms-exposer": "dev-development",
     "rooftopcms/rooftop-preview-mode-admin": "dev-development",
     "rooftopcms/rooftop-response-headers": "dev-development",
@@ -138,6 +143,7 @@
     "rooftopcms/rooftop-response-sanitiser": "dev-development",
     "rooftopcms/rooftop-queue-pusher": "dev-development",
     "rooftopcms/rooftop-s3-upload-setup": "dev-development",
+    "rooftopcms/rooftop-theme": "dev-development",
     "rooftopcms/rooftop-webhooks-admin": "dev-development",
     "wpackagist-plugin/amazon-web-services": "0.3.6",
     "wpackagist-plugin/wp-api-menus": "1.2.0",

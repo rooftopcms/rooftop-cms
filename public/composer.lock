@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c07ba6ea5393fe53c4aad4e81a70a0fc",
+    "hash": "c55fb15dcf9818b1159d1007491793b9",
     "packages": [
         {
             "name": "chrisboulton/php-resque",
@@ -761,6 +761,27 @@
             "time": "2016-01-07 15:59:19"
         },
         {
+            "name": "rooftopcms/rooftop-theme",
+            "version": "dev-qa",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rooftopcms/rooftop-theme.git",
+                "reference": "8a0efd8eeb48be5c8a8bcc41394b936f35ae6894"
+            },
+            "type": "wordpress-theme",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Rooftop CMS",
+                    "email": "hello@rooftopcms.com"
+                }
+            ],
+            "description": "Appearance and menu options",
+            "time": "2016-08-19 10:30:57"
+        },
+        {
             "name": "rooftopcms/rooftop-webhooks-admin",
             "version": "dev-qa",
             "source": {
@@ -953,6 +974,7 @@
         "rooftopcms/rooftop-response-sanitiser": 20,
         "rooftopcms/rooftop-queue-pusher": 20,
         "rooftopcms/rooftop-s3-upload-setup": 20,
+        "rooftopcms/rooftop-theme": 20,
         "rooftopcms/rooftop-webhooks-admin": 20,
         "errorstudio/rooftop-hosted-hooks": 20
     },

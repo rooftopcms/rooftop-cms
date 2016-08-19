@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "acf119f5c2f644723cb9c79a5775edc2",
+    "hash": "651fc534cc32096b4e14cbcd1afb0fe1",
     "packages": [
         {
             "name": "chrisboulton/php-resque",
@@ -223,7 +223,7 @@
         },
         {
             "name": "errorstudio/rooftop-hosted-hooks",
-            "version": "dev-qa",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:errorstudio/rooftop-hosted-hooks.git",

@@ -106,6 +106,10 @@
     },
     {
         "type": "git",
+        "url": "https://github.com/rooftopcms/rooftop-theme.git"
+    },
+    {
+        "type": "git",
         "url": "https://github.com/rooftopcms/rooftop-s3-upload-setup.git"
     },
     {
@@ -139,6 +143,7 @@
     "rooftopcms/rooftop-response-sanitiser": "dev-qa",
     "rooftopcms/rooftop-queue-pusher": "dev-qa",
     "rooftopcms/rooftop-s3-upload-setup": "dev-qa",
+    "rooftopcms/rooftop-theme": "dev-qa",
     "rooftopcms/rooftop-webhooks-admin": "dev-qa",
     "wpackagist-plugin/amazon-web-services": "0.3.6",
     "wpackagist-plugin/wp-api-menus": "1.2.0",

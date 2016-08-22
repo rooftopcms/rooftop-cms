@@ -48,3 +48,5 @@ set :custom_env_vars, {
     "REDIS_PORT" => `source public/.env.qa; echo $REDIS_PORT`.strip,
     "REDIS_DB" => `source public/.env.qa; echo $REDIS_DB`.strip,
 }
+
+set :cron_scripts,  {d: [File.join(File.expand_path(File.dirname(__FILE__)), "templates", "rebuild_demo")]}

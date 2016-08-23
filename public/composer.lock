@@ -651,7 +651,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-queue-pusher.git",
-                "reference": "5f46cbee6fab480fe19372276984c48ff40d05c2"
+                "reference": "603cb1c12038dd4f577483731f156f3dca9c3846"
             },
             "require": {
                 "chrisboulton/php-resque": "1.2.x",
@@ -668,7 +668,7 @@
                 }
             ],
             "description": "Hook into WP post events to push events onto a queue",
-            "time": "2016-08-16 09:49:42"
+            "time": "2016-08-23 13:21:14"
         },
         {
             "name": "rooftopcms/rooftop-request-parser",
@@ -676,7 +676,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-request-parser.git",
-                "reference": "1bf845368547733008399c522ce300bf0da4f0d6"
+                "reference": "f25ac0234cfd053c275391635b7e21e19e727b9c"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -689,7 +689,7 @@
                 }
             ],
             "description": "Manipulate the REST request or server variables to alter queries or remove/change default params",
-            "time": "2016-08-17 17:03:30"
+            "time": "2016-08-23 13:23:30"
         },
         {
             "name": "rooftopcms/rooftop-response-headers",

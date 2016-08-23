@@ -130,7 +130,7 @@
     "wpackagist-plugin/rest-api": "2.0-beta13",
     "rooftopcms/rooftop-acf-exposer": "dev-development",
     "rooftopcms/rooftop-admin-theme": "dev-development",
-    "rooftopcms/rooftop-api-authentication": "dev-v",
+    "rooftopcms/rooftop-api-authentication": "dev-development",
     "rooftopcms/rooftop-content-hierarchy": "dev-development",
     "rooftopcms/rooftop-content-fields": "dev-development",
     "rooftopcms/rooftop-custom-content-setup": "dev-development",

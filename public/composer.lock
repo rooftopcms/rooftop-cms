@@ -432,7 +432,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-acf-exposer.git",
-                "reference": "b17244ea317ac99c1ee72de51cc3ded2fa8a9441"
+                "reference": "20269e5829ecff8db9aa743871c2efbd92b1ff8b"
             },
             "require": {
                 "wpackagist-plugin/advanced-custom-fields": "4.4.3"
@@ -448,7 +448,7 @@
                 }
             ],
             "description": "Include the ACF fields in a post response",
-            "time": "2016-08-19 09:48:23"
+            "time": "2016-08-23 12:00:15"
         },
         {
             "name": "rooftopcms/rooftop-admin-theme",
@@ -627,7 +627,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-preview-mode-admin.git",
-                "reference": "b9bd7645704924ae4e860ecd7ad5b0e7c0adba46"
+                "reference": "c1321607f8b96d51a77d09e01905783ddeae880f"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -643,7 +643,7 @@
                 }
             ],
             "description": "Detect whether a client is making a request in preview mode and define a constant accordingly",
-            "time": "2016-08-18 08:46:03"
+            "time": "2016-08-23 12:19:51"
         },
         {
             "name": "rooftopcms/rooftop-queue-pusher",

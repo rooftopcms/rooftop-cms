@@ -432,7 +432,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-acf-exposer.git",
-                "reference": "bda53b808766cce6dd6ac709d2dd49ce0eb75727"
+                "reference": "b9d31b0fb6a80a02ec5f14fed580bc686d7ff1a3"
             },
             "require": {
                 "wpackagist-plugin/advanced-custom-fields": "4.4.8"
@@ -448,7 +448,7 @@
                 }
             ],
             "description": "Include the ACF fields in a post response",
-            "time": "2016-08-19 09:48:34"
+            "time": "2016-08-23 12:07:25"
         },
         {
             "name": "rooftopcms/rooftop-admin-theme",
@@ -627,7 +627,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-preview-mode-admin.git",
-                "reference": "b9bd7645704924ae4e860ecd7ad5b0e7c0adba46"
+                "reference": "c1321607f8b96d51a77d09e01905783ddeae880f"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -643,7 +643,7 @@
                 }
             ],
             "description": "Detect whether a client is making a request in preview mode and define a constant accordingly",
-            "time": "2016-08-18 08:46:03"
+            "time": "2016-08-23 12:19:51"
         },
         {
             "name": "rooftopcms/rooftop-queue-pusher",
@@ -651,7 +651,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-queue-pusher.git",
-                "reference": "75faf571f3704f328315ff4e69adb71974df40c4"
+                "reference": "9740595ada5c19d60e350bd11831e1d3573e4146"
             },
             "require": {
                 "chrisboulton/php-resque": "1.2.x",
@@ -668,7 +668,7 @@
                 }
             ],
             "description": "Hook into WP post events to push events onto a queue",
-            "time": "2016-08-18 16:50:19"
+            "time": "2016-08-23 13:22:04"
         },
         {
             "name": "rooftopcms/rooftop-request-parser",
@@ -676,7 +676,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-request-parser.git",
-                "reference": "dd24e5c60c365104b1bfb466f8a89d9ba1cb7ab8"
+                "reference": "e586fd74d7cd15407945a245cdb3355e078fdda6"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -689,7 +689,7 @@
                 }
             ],
             "description": "Manipulate the REST request or server variables to alter queries or remove/change default params",
-            "time": "2016-08-18 11:48:03"
+            "time": "2016-08-23 13:23:40"
         },
         {
             "name": "rooftopcms/rooftop-response-headers",

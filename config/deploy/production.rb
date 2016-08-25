@@ -60,3 +60,5 @@ set :custom_env_vars, {
     "CLOUDFLARE_CDN_DOMAIN_ZONE" => `source public/.env.production; echo $CLOUDFLARE_CDN_DOMAIN_ZONE`.strip
 
 }
+
+after "deploy:finished", "deploy:dr"

@@ -47,4 +47,11 @@ namespace :php do
     end
 end
 
+namespace :deploy do
+    desc "Deploy master to the DR environment"
+    task :dr do
+        system("cap dr deploy")
+    end
+end
+
 after "deploy:finished", "php:reload"

@@ -38,7 +38,7 @@
   "repositories": [
     {
         "type": "composer",
-        "url": "http://wpackagist.org"
+        "url": "https://wpackagist.org"
     },
     {
         "type": "git",
@@ -149,7 +149,8 @@
     "wpackagist-plugin/wp-api-menus": "1.2.0",
     "predis/predis": "~1.0.3",
     "icanboogie/inflector": "1.3.3",
-    "errorstudio/rooftop-hosted-hooks": "dev-development"
+    "errorstudio/rooftop-hosted-hooks": "dev-development",
+    "rollbar/rollbar": "~0.18.2"
   },
   "extra": {
     "installer-paths": {

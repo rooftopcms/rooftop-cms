@@ -1,10 +1,11 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7bf64926b25ca31430d91965d7445719",
+    "hash": "6d48d963f70912e935d4b52d1c9c7ec7",
+    "content-hash": "099175cc54f3555713cca98fb4beda0e",
     "packages": [
         {
             "name": "chrisboulton/php-resque",
@@ -427,6 +428,56 @@
             "time": "2016-05-30 15:25:52"
         },
         {
+            "name": "rollbar/rollbar",
+            "version": "v0.18.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rollbar/rollbar-php.git",
+                "reference": "fafe13f8beb669d6bba0137f3703fa808d50cbb7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rollbar/rollbar-php/zipball/fafe13f8beb669d6bba0137f3703fa808d50cbb7",
+                "reference": "fafe13f8beb669d6bba0137f3703fa808d50cbb7",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*"
+            },
+            "require-dev": {
+                "mockery/mockery": "0.9.*",
+                "phpunit/phpunit": "4.5.*"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/Level.php",
+                    "src/rollbar.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Rollbar, Inc.",
+                    "email": "support@rollbar.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Monitors errors and exceptions and reports them to Rollbar",
+            "homepage": "http://github.com/rollbar/rollbar-php",
+            "keywords": [
+                "debugging",
+                "errors",
+                "exceptions",
+                "logging",
+                "monitoring"
+            ],
+            "time": "2016-07-05 15:50:29"
+        },
+        {
             "name": "rooftopcms/rooftop-acf-exposer",
             "version": "dev-development",
             "source": {
@@ -582,7 +633,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-events.git",
-                "reference": "cac32ee87aaca2719854dcfbd94fd8dcb4b0a0c4"
+                "reference": "46d4304063ad48d91e3b37004cfd8e2bea5cfacc"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -598,7 +649,7 @@
                 }
             ],
             "description": "Authenticates requests to the API",
-            "time": "2016-08-23 08:55:24"
+            "time": "2016-08-24 13:00:54"
         },
         {
             "name": "rooftopcms/rooftop-gravityforms-exposer",
@@ -627,7 +678,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-preview-mode-admin.git",
-                "reference": "c1321607f8b96d51a77d09e01905783ddeae880f"
+                "reference": "524211c0316dca1ff50e7220cc5e16d691d30719"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -643,7 +694,7 @@
                 }
             ],
             "description": "Detect whether a client is making a request in preview mode and define a constant accordingly",
-            "time": "2016-08-23 12:19:51"
+            "time": "2016-08-24 17:01:32"
         },
         {
             "name": "rooftopcms/rooftop-queue-pusher",
@@ -651,7 +702,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-queue-pusher.git",
-                "reference": "d8072d133a28a00a32d39e0a68a1c5b1b5a4f885"
+                "reference": "603cb1c12038dd4f577483731f156f3dca9c3846"
             },
             "require": {
                 "chrisboulton/php-resque": "1.2.x",
@@ -668,7 +719,7 @@
                 }
             ],
             "description": "Hook into WP post events to push events onto a queue",
-            "time": "2016-08-18 15:54:45"
+            "time": "2016-08-23 13:21:14"
         },
         {
             "name": "rooftopcms/rooftop-request-parser",

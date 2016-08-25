@@ -31,7 +31,7 @@ Our aim for Rooftop is that you can make use of a set of well-used plugins, and 
 * `rooftop-events`: an extensible model for events management
 * `rooftop-posts2posts-exposer`: expose https://github.com/scribu/wp-posts-to-posts data as part of your API responses
 * `rooftop-gravityforms-exposer`: expose http://www.gravityforms.com/ data as part of your API responses. If you use the hosted Rooftop solution, you won't need to pay a separate licence fee.
-* `rooftop-acf-exposer`: expose http://www.advancedcustomfields.com/ data pas part of your API responses. If you use the hosted Rooftop solution, you won't need to pay a separate licence fee.
+* `rooftop-acf-exposer`: expose http://www.advancedcustomfields.com/ data as part of your API responses. If you use the hosted Rooftop solution, you won't need to pay a separate licence fee.
 * `rooftop-search`: a more powerful search, based on ElasticSearch.
 
 ### Other Services
@@ -44,6 +44,8 @@ These are a work-in-progress. We want to build an ecosystem of open client libra
 * `rooftop_model`: a Ruby client gem for the Rooftop API, following a similar approach to ActiveRecord
 * `rooftop_rails`: building on `rooftop_model` and providing Rails-specific features
 * `rooftop-laravel`: an [Eloquent](http://laravel.com/docs/5.1/eloquent)-like library for interacting with Rooftop from Laravel.
+* [rooftop-client](https://github.com/carrot/rooftop-node): a node client for the Rooftop API
+* [spike-rooftop](https://github.com/static-dev/spike-rooftop): a [spike](https://github.com/static-dev/spike) plugin for the Rooftop API
 
 Of course Rooftop exposes a sensible REST API to access your data, so there's no reason why you can't use any REST library which is capable of adding a couple of custom headers. FORTRAN anyone?
 

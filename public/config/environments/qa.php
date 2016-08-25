@@ -1,9 +1,8 @@
 <?php
-/* Production */
-ini_set('display_errors', 0);
-define('WP_DEBUG_DISPLAY', false);
-define('SCRIPT_DEBUG', false);
-define('DISALLOW_FILE_MODS', true); // this disables all file modifications including updates and update notifications
+define('SAVEQUERIES', true);
+define('WP_DEBUG', true);
+define('WP_DEBUG_DISPLAY', true);
+define('SCRIPT_DEBUG', true);
 
 // Rollbar config
 $rollbar_lib_path = ABSPATH."../../vendor/rollbar/rollbar/src/rollbar.php";

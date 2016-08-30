@@ -633,7 +633,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-events.git",
-                "reference": "42b8d1dd11c3c1325fc81c1f512db22d0f4830d5"
+                "reference": "891f023f802fa0ceff0ab4704741b2f649fb42e9"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -649,7 +649,7 @@
                 }
             ],
             "description": "Authenticates requests to the API",
-            "time": "2016-08-24 13:01:01"
+            "time": "2016-08-30 15:01:48"
         },
         {
             "name": "rooftopcms/rooftop-gravityforms-exposer",
@@ -772,7 +772,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-response-sanitiser.git",
-                "reference": "dd2a8622319b62ed029e7579365959ffe26f0d76"
+                "reference": "f47db6d65a72b493c42ee674dd555e3ab98950fd"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -785,7 +785,7 @@
                 }
             ],
             "description": "The awesome WP-API includes some things in its response that we would rather handle in the client.\nFor example, we remove content['rendered'] and replace with content['json'] with links replaced with shortcodes.",
-            "time": "2016-08-05 13:46:37"
+            "time": "2016-08-30 15:02:39"
         },
         {
             "name": "rooftopcms/rooftop-s3-upload-setup",

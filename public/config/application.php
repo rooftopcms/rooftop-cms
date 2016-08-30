@@ -20,6 +20,13 @@ if (file_exists($root_dir . '/.env')) {
 }
 
 /**
+ * Bootstrap WordPress
+ */
+if (!defined('ABSPATH')) {
+    define('ABSPATH', $webroot_dir . '/wp/');
+}
+
+/**
  * Set up our global environment constant and load its config first
  * Default: development
  */
@@ -92,13 +99,3 @@ define('REDIS_HOST', getenv('REDIS_HOST'));
 define('REDIS_PORT', getenv('REDIS_PORT'));
 define('REDIS_DB', getenv('REDIS_DB'));
 define('REDIS_PASSWORD', getenv('REDIS_PASSWORD'));
-
-
-
-
-/**
- * Bootstrap WordPress
- */
-if (!defined('ABSPATH')) {
-    define('ABSPATH', $webroot_dir . '/wp/');
-}

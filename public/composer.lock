@@ -633,7 +633,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-events.git",
-                "reference": "46d4304063ad48d91e3b37004cfd8e2bea5cfacc"
+                "reference": "61336794c7312daae7a2548b59f3d56645d11d68"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -649,7 +649,7 @@
                 }
             ],
             "description": "Authenticates requests to the API",
-            "time": "2016-08-24 13:00:54"
+            "time": "2016-08-30 15:01:43"
         },
         {
             "name": "rooftopcms/rooftop-gravityforms-exposer",
@@ -678,7 +678,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-preview-mode-admin.git",
-                "reference": "d5ff575112ed6b28238e1ba9102a68c9f0665ac8"
+                "reference": "8cde37167710dafc7c4e9f31821e097ca6d9c5d1"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -694,7 +694,7 @@
                 }
             ],
             "description": "Detect whether a client is making a request in preview mode and define a constant accordingly",
-            "time": "2016-08-26 14:59:50"
+            "time": "2016-08-30 14:20:23"
         },
         {
             "name": "rooftopcms/rooftop-queue-pusher",
@@ -772,7 +772,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-response-sanitiser.git",
-                "reference": "dd2a8622319b62ed029e7579365959ffe26f0d76"
+                "reference": "f47db6d65a72b493c42ee674dd555e3ab98950fd"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -785,7 +785,7 @@
                 }
             ],
             "description": "The awesome WP-API includes some things in its response that we would rather handle in the client.\nFor example, we remove content['rendered'] and replace with content['json'] with links replaced with shortcodes.",
-            "time": "2016-08-05 13:46:37"
+            "time": "2016-08-30 15:02:39"
         },
         {
             "name": "rooftopcms/rooftop-s3-upload-setup",

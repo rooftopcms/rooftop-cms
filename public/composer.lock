@@ -1,10 +1,11 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "651fc534cc32096b4e14cbcd1afb0fe1",
+    "hash": "d1f7d34e82cd02a147bdba1294ea1db9",
+    "content-hash": "97c8628d1493ab66eb0722a56fe4e6ab",
     "packages": [
         {
             "name": "chrisboulton/php-resque",
@@ -676,7 +677,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-request-parser.git",
-                "reference": "e586fd74d7cd15407945a245cdb3355e078fdda6"
+                "reference": "f45162e19142a5113c6ff8bb0193471956ffaab7"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -689,7 +690,7 @@
                 }
             ],
             "description": "Manipulate the REST request or server variables to alter queries or remove/change default params",
-            "time": "2016-08-23 13:23:40"
+            "time": "2016-08-25 11:46:00"
         },
         {
             "name": "rooftopcms/rooftop-response-headers",

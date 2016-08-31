@@ -59,6 +59,10 @@ set :custom_env_vars, {
     "CLOUDFLARE_CDN_DOMAIN_ZONE" => `source public/.env.dr; echo $CLOUDFLARE_CDN_DOMAIN_ZONE`.strip
 }
 
+set :access_log, "syslog:server=unix:/dev/log,facility=local7,tag=nginx"
+set :error_log, "syslog:server=unix:/dev/log,facility=local7,tag=nginx,severity=error;"
+
+
 set :custom_nginx_rules, [
     "if ($request_method != GET) { return 403; }"
 ]

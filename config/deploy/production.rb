@@ -1,15 +1,15 @@
 # Server configuration. For a simple site this is just one entry.
 role :app, [
-    "deployment@rooftop-web1.hosts.errorstudio.com",
-    "deployment@rooftop-web2.hosts.errorstudio.com"
+    "deployment@rooftop-web01.hosts.errorstudio.com",
+    "deployment@rooftop-web02.hosts.errorstudio.com"
 ]
 
 role :web, [
-    "deployment@rooftop-web1.hosts.errorstudio.com",
-    "deployment@rooftop-web2.hosts.errorstudio.com"
+    "deployment@rooftop-web01.hosts.errorstudio.com",
+    "deployment@rooftop-web02.hosts.errorstudio.com"
 ]
 
-role :db, %w{deployment@rooftop-db-master1.hosts.errorstudio.com}, no_release: true
+role :db, %w{deployment@rooftop-db01.hosts.errorstudio.com}, no_release: true
 
 # Git branch
 set :branch, 'master'
@@ -46,7 +46,7 @@ set :basic_auth_username, 'testing'
 set :basic_auth_password, 'testing'
 
 # Wordpress settings
-set :db_host, "rooftop-db-master1.internal"
+set :db_host, "db01.rooftop"
 set :db_prefix, `source public/.env.production; echo $DB_PREFIX`.strip
 
 # Custom env vars for Rooftop
@@ -60,5 +60,8 @@ set :custom_env_vars, {
     "CLOUDFLARE_CDN_DOMAIN_ZONE" => `source public/.env.production; echo $CLOUDFLARE_CDN_DOMAIN_ZONE`.strip
 
 }
+
+set :access_log, "syslog:server=unix:/dev/log,facility=local7,tag=nginx"
+set :error_log, "syslog:server=unix:/dev/log,facility=local7,tag=nginx,severity=error"
 
 after "deploy:finished", "deploy:dr"

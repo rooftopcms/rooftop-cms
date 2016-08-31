@@ -7,7 +7,7 @@ GIT
 
 GIT
   remote: git@bitbucket.org:errorstudio/errorstudio_capistrano_recipes.git
-  revision: a2fa0732aead068fdba79fa921cd50c43e036403
+  revision: 1aac49e86ca07419ffa6f6be9ecf123e04a022ba
   specs:
     errorstudio_capistrano_recipes (0.1.3)
       capistrano (~> 3.4.0)

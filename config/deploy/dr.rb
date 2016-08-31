@@ -1,13 +1,13 @@
 # Server configuration. For a simple site this is just one entry.
 role :app, [
-    "deployment@rooftop-dr1.hosts.errorstudio.com"
+    "deployment@rooftop-dr01.hosts.errorstudio.com"
 ]
 
 role :web, [
-    "deployment@rooftop-dr1.hosts.errorstudio.com"
+    "deployment@rooftop-dr01.hosts.errorstudio.com"
 ]
 
-role :db, %w{deployment@rooftop-dr1.hosts.errorstudio.com}
+role :db, %w{deployment@rooftop-dr01.hosts.errorstudio.com}
 
 # Git branch
 set :branch, 'master'
@@ -59,8 +59,12 @@ set :custom_env_vars, {
     "CLOUDFLARE_CDN_DOMAIN_ZONE" => `source public/.env.dr; echo $CLOUDFLARE_CDN_DOMAIN_ZONE`.strip
 }
 
-set :access_log, "syslog:server=unix:/dev/log,facility=local7,tag=nginx"
-set :error_log, "syslog:server=unix:/dev/log,facility=local7,tag=nginx,severity=error;"
+set :log_formats, {
+    "with_subdomain_and_time" => '$remote_addr [$time_local] $host $request $status $body_bytes_sent $http_user_agent $request_time $upstream_response_time'
+}
+
+set :access_log, "syslog:server=unix:/dev/log,facility=local7,tag=nginx,nohostname with_subdomain_and_time"
+set :error_log, "syslog:server=unix:/dev/log,facility=local7,tag=nginx,severity=error,nohostname"
 
 
 set :custom_nginx_rules, [

@@ -61,7 +61,11 @@ set :custom_env_vars, {
 
 }
 
-set :access_log, "syslog:server=unix:/dev/log,facility=local7,tag=nginx"
-set :error_log, "syslog:server=unix:/dev/log,facility=local7,tag=nginx,severity=error"
+set :log_formats, {
+    "with_subdomain_and_time" => '$remote_addr [$time_local] $host $request $status $body_bytes_sent $http_user_agent $request_time $upstream_response_time'
+}
+
+set :access_log, "syslog:server=unix:/dev/log,facility=local7,tag=nginx,nohostname with_subdomain_and_time"
+set :error_log, "syslog:server=unix:/dev/log,facility=local7,tag=nginx,severity=error,nohostname"
 
 after "deploy:finished", "deploy:dr"

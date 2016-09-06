@@ -633,7 +633,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-events.git",
-                "reference": "891f023f802fa0ceff0ab4704741b2f649fb42e9"
+                "reference": "de7c4688dd8ef6bb9412e8a8b3ee38f9ab0ed0c7"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -649,7 +649,7 @@
                 }
             ],
             "description": "Authenticates requests to the API",
-            "time": "2016-08-30 15:01:48"
+            "time": "2016-09-06 11:43:13"
         },
         {
             "name": "rooftopcms/rooftop-gravityforms-exposer",
@@ -678,7 +678,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-preview-mode-admin.git",
-                "reference": "43fdd83873c0f5bd9c956bfe807adbf8237eba0c"
+                "reference": "b313339d093967fccec6566641aa5d93aedeb331"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -694,7 +694,7 @@
                 }
             ],
             "description": "Detect whether a client is making a request in preview mode and define a constant accordingly",
-            "time": "2016-08-30 16:12:07"
+            "time": "2016-09-06 11:42:40"
         },
         {
             "name": "rooftopcms/rooftop-queue-pusher",
@@ -855,16 +855,16 @@
         },
         {
             "name": "vlucas/phpdotenv",
-            "version": "v2.3.0",
+            "version": "v2.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "9ca5644c536654e9509b9d257f53c58630eb2a6a"
+                "reference": "3cc116adbe4b11be5ec557bf1d24dc5e3a21d18c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/9ca5644c536654e9509b9d257f53c58630eb2a6a",
-                "reference": "9ca5644c536654e9509b9d257f53c58630eb2a6a",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/3cc116adbe4b11be5ec557bf1d24dc5e3a21d18c",
+                "reference": "3cc116adbe4b11be5ec557bf1d24dc5e3a21d18c",
                 "shasum": ""
             },
             "require": {
@@ -876,7 +876,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.3-dev"
+                    "dev-master": "2.4-dev"
                 }
             },
             "autoload": {
@@ -901,7 +901,7 @@
                 "env",
                 "environment"
             ],
-            "time": "2016-06-14 14:14:52"
+            "time": "2016-09-01 10:05:43"
         },
         {
             "name": "wpackagist-plugin/advanced-custom-fields",

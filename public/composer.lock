@@ -294,16 +294,16 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.5.3",
+            "version": "4.5.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "f5c6f4dd899e6365ddf2752d2705ed1de7e10715"
+                "reference": "b40963ace67a277425f5214ce64a7aba631cf758"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/f5c6f4dd899e6365ddf2752d2705ed1de7e10715",
-                "reference": "f5c6f4dd899e6365ddf2752d2705ed1de7e10715",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/b40963ace67a277425f5214ce64a7aba631cf758",
+                "reference": "b40963ace67a277425f5214ce64a7aba631cf758",
                 "shasum": ""
             },
             "require": {
@@ -327,7 +327,7 @@
                 "blog",
                 "cms"
             ],
-            "time": "2016-06-21 16:31:21"
+            "time": "2016-09-07 15:01:42"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -583,7 +583,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-events.git",
-                "reference": "62d5461bff178f8eff0bd1f10c12aaa275449e8c"
+                "reference": "21f5485ec9c03266830353ebd9e8b6bf1fb60eed"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -599,7 +599,7 @@
                 }
             ],
             "description": "Authenticates requests to the API",
-            "time": "2016-09-07 08:47:30"
+            "time": "2016-09-08 10:27:46"
         },
         {
             "name": "rooftopcms/rooftop-gravityforms-exposer",

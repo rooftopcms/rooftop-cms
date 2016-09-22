@@ -61,6 +61,13 @@ set :custom_env_vars, {
 
 }
 
+# Custom settings for nginx
+http_context = <<-CONTEXT
+set_real_ip_from 10.0.0.0/8;
+add_header X-Rooftop-Backend $hostname;
+CONTEXT
+set :nginx_custom_http_context, http_context
+
 set :log_formats, {
     "with_subdomain_and_time" => '$remote_addr [$time_local] $host $request $status $body_bytes_sent $http_user_agent $request_time $upstream_response_time'
 }

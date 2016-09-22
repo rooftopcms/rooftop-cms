@@ -7,9 +7,9 @@ GIT
 
 GIT
   remote: git@bitbucket.org:errorstudio/errorstudio_capistrano_recipes.git
-  revision: f6e6e5bead5b122714e26ff286caa73da1683528
+  revision: faeb7e8cc3a0cc51ec9f6adff64dd17f0b3bc657
   specs:
-    errorstudio_capistrano_recipes (0.1.4.2)
+    errorstudio_capistrano_recipes (0.1.4.3)
       capistrano (~> 3.4.0)
       capistrano-bundler
       capistrano-composer (>= 0.0.6)
@@ -31,18 +31,18 @@ GEM
       capistrano (>= 3.0.0.pre)
     capistrano-passenger (0.2.0)
       capistrano (~> 3.0)
-    capistrano-rails (1.1.7)
+    capistrano-rails (1.1.8)
       capistrano (~> 3.1)
       capistrano-bundler (~> 1.1)
     i18n (0.7.0)
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
     net-ssh (3.2.0)
-    rake (11.2.2)
+    rake (11.3.0)
     rvm1-capistrano3 (1.4.0)
       capistrano (~> 3.0)
       sshkit (>= 1.2)
-    sshkit (1.11.2)
+    sshkit (1.11.3)
       net-scp (>= 1.1.2)
       net-ssh (>= 2.8.0)
 

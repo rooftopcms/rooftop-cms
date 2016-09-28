@@ -628,7 +628,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-preview-mode-admin.git",
-                "reference": "b313339d093967fccec6566641aa5d93aedeb331"
+                "reference": "7f7fa9822ff833e2b1381bb5ee5bd9e2a54f392e"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -644,7 +644,7 @@
                 }
             ],
             "description": "Detect whether a client is making a request in preview mode and define a constant accordingly",
-            "time": "2016-09-06 11:42:40"
+            "time": "2016-09-28 15:45:25"
         },
         {
             "name": "rooftopcms/rooftop-queue-pusher",

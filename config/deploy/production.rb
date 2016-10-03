@@ -69,10 +69,11 @@ CONTEXT
 set :nginx_custom_http_context, http_context
 
 set :log_formats, {
-    "with_subdomain_and_time" => '$remote_addr [$time_local] $host $request $status $body_bytes_sent $http_user_agent $request_time $upstream_response_time'
+    "with_subdomain_and_time" => '$remote_addr [$time_local] $host $request $status $body_bytes_sent $http_user_agent $request_time $upstream_response_time',
+    "logentries_json" => '{ "time": "$time_iso8601", "remote_addr": "$remote_addr", "host": "$host", "body_bytes_sent": "$body_bytes_sent", "request_time": "$request_time", "status": "$status", "request": "$request", "request_method": "$request_method", "http_user_agent": "$http_user_agent", "request_time": "$request_time", "upstream_response_time": "$upstream_response_time" }'
 }
 
-set :access_log, "syslog:server=unix:/dev/log,facility=local7,tag=nginx,nohostname with_subdomain_and_time"
+set :access_log, "syslog:server=unix:/dev/log,facility=local7,tag=nginx,nohostname logentries_json"
 set :error_log, "syslog:server=unix:/dev/log,facility=local7,tag=nginx,severity=error,nohostname"
 
 after "deploy:finished", "deploy:dr"

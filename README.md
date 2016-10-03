@@ -1,7 +1,7 @@
 [![Gitter](https://badges.gitter.im/rooftopcms/rooftop-cms.svg)](https://gitter.im/rooftopcms/rooftop-cms?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 ## What is Rooftop?
-Rooftop is a hosted, API-only implementation of the [WordPress](http://wordpress.org) CMS. Write your content from the comfort of the familiar WordPress content management tools, and use it anywhere you like, across mobile applications and websites. For more information visit https://www.rooftopcms.com
+Rooftop is a hosted, API-only implementation of the [WordPress](http://wordpress.org) CMS. Write your content from the comfort of the familiar WordPress content management tools, and use it anywhere you like, across mobile applications and websites. For more information visit https://www.rooftopcms.com. Documentation is available at https://rooftopcms.readme.io 
 
 ## What problem does this solve?
 At [Error](http://www.errorstudio.co.uk) we have built many projects where we needed to expose content in several different ways: a web application and marketing site, for example. Or maybe a native mobile app and a website. It's been fraught with complexity, and the solution is simple. Expose the content as data, without style, so we can display as we want.
@@ -44,7 +44,7 @@ These are a work-in-progress. We want to build an ecosystem of open client libra
 Of course Rooftop exposes a sensible REST API to access your data, so there's no reason why you can't use any REST library which is capable of adding a couple of custom headers. FORTRAN anyone?
 
 ## What's the licence for Rooftop?
-This project is MIT licenced (see the LICENCE file in this repo), so if you want to host it yourself, you can.
+This project is GPLv3 licenced (see the LICENCE file in this repo), so if you want to host it yourself, you can.
 
 Of course, there's a non-trivial amount of hassle involved in maintaining a secure WordPress multisite installation, so we do the hard work for you at http://www.rooftopcms.com. 
 

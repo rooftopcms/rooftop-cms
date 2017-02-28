@@ -93,6 +93,10 @@
         "url": "https://github.com/rooftopcms/rooftop-response-headers.git"
     },
     {
+      "type": "git",
+      "url": "https://github.com/rooftopcms/rooftop-resource-metadata.git"
+    },
+    {
         "type": "git",
         "url": "https://github.com/rooftopcms/rooftop-request-parser.git"
     },
@@ -141,6 +145,7 @@
     "rooftopcms/rooftop-response-headers": "dev-master",
     "rooftopcms/rooftop-request-parser": "dev-master",
     "rooftopcms/rooftop-response-sanitiser": "dev-master",
+    "rooftopcms/rooftop-resource-metadata": "dev-master",
     "rooftopcms/rooftop-queue-pusher": "dev-master",
     "rooftopcms/rooftop-s3-upload-setup": "dev-master",
     "rooftopcms/rooftop-theme": "dev-master",

@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d1f7d34e82cd02a147bdba1294ea1db9",
-    "content-hash": "97c8628d1493ab66eb0722a56fe4e6ab",
+    "hash": "b9ec7c61126b208e82bdf9c04b36179c",
+    "content-hash": "b0a00809a3a12640393517ec4da310c2",
     "packages": [
         {
             "name": "chrisboulton/php-resque",
@@ -693,6 +693,27 @@
             "time": "2016-08-25 11:46:00"
         },
         {
+            "name": "rooftopcms/rooftop-resource-metadata",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rooftopcms/rooftop-resource-metadata.git",
+                "reference": "9ab5f6bccc2eff78121877f6a2559a8c29c9ba74"
+            },
+            "type": "wordpress-muplugin",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Rooftop CMS",
+                    "email": "hello@rooftopcms.com"
+                }
+            ],
+            "description": "Include the custom post metadata in the responses, under a post-type specific key",
+            "time": "2017-02-24 17:59:21"
+        },
+        {
             "name": "rooftopcms/rooftop-response-headers",
             "version": "dev-master",
             "source": {
@@ -973,6 +994,7 @@
         "rooftopcms/rooftop-response-headers": 20,
         "rooftopcms/rooftop-request-parser": 20,
         "rooftopcms/rooftop-response-sanitiser": 20,
+        "rooftopcms/rooftop-resource-metadata": 20,
         "rooftopcms/rooftop-queue-pusher": 20,
         "rooftopcms/rooftop-s3-upload-setup": 20,
         "rooftopcms/rooftop-theme": 20,

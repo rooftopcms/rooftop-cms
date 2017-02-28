@@ -294,16 +294,16 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.5.4",
+            "version": "4.5.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "b40963ace67a277425f5214ce64a7aba631cf758"
+                "reference": "7ba8d331162763776d9ca3c3e5ca86b7e260d026"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/b40963ace67a277425f5214ce64a7aba631cf758",
-                "reference": "b40963ace67a277425f5214ce64a7aba631cf758",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/7ba8d331162763776d9ca3c3e5ca86b7e260d026",
+                "reference": "7ba8d331162763776d9ca3c3e5ca86b7e260d026",
                 "shasum": ""
             },
             "require": {
@@ -327,7 +327,7 @@
                 "blog",
                 "cms"
             ],
-            "time": "2016-09-07 15:01:42"
+            "time": "2017-01-26 18:32:08"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -583,7 +583,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-events.git",
-                "reference": "35f3460bb5ecc532a5b43ea4bf38db1024cf2c8e"
+                "reference": "90c5c5ce76e049c0b02c867cc1468705bb3860f1"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -599,7 +599,7 @@
                 }
             ],
             "description": "Authenticates requests to the API",
-            "time": "2016-09-08 15:36:06"
+            "time": "2017-02-27 22:29:16"
         },
         {
             "name": "rooftopcms/rooftop-gravityforms-exposer",
@@ -698,7 +698,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-response-headers.git",
-                "reference": "073c89d6839113758e77f4f67cedcda0292b5dc7"
+                "reference": "b2f44fd1c0bbe51de7f254811b98ce5434e744b2"
             },
             "require": {
                 "predis/predis": "~1.0.3"
@@ -714,7 +714,7 @@
                 }
             ],
             "description": "Send additional headers to API requests",
-            "time": "2016-08-10 14:38:48"
+            "time": "2017-02-27 23:47:32"
         },
         {
             "name": "rooftopcms/rooftop-response-sanitiser",

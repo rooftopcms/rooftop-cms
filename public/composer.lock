@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "986b9af09a6cbcf563216857e5d0a176",
-    "content-hash": "e7b5b9bc62b0181ec1e58717b65155fd",
+    "hash": "4020ce06bd06660108f698eb05f4d8c0",
+    "content-hash": "4932984e84ce3e5597267bb9afc1978a",
     "packages": [
         {
             "name": "chrisboulton/php-resque",
@@ -294,20 +294,58 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.5.3",
+            "version": "4.5.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "f5c6f4dd899e6365ddf2752d2705ed1de7e10715"
+                "reference": "86fc7ec944299be76cefd72c531b21d708617189"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/f5c6f4dd899e6365ddf2752d2705ed1de7e10715",
-                "reference": "f5c6f4dd899e6365ddf2752d2705ed1de7e10715",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/86fc7ec944299be76cefd72c531b21d708617189",
+                "reference": "86fc7ec944299be76cefd72c531b21d708617189",
                 "shasum": ""
             },
             "require": {
+                "johnpbloch/wordpress-core": "4.5.9",
                 "johnpbloch/wordpress-core-installer": "~0.2",
+                "php": ">=5.3.2"
+            },
+            "type": "package",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "WordPress Community",
+                    "homepage": "http://wordpress.org/about/"
+                }
+            ],
+            "description": "WordPress is web software you can use to create a beautiful website or blog.",
+            "homepage": "http://wordpress.org/",
+            "keywords": [
+                "blog",
+                "cms",
+                "wordpress"
+            ],
+            "time": "2017-05-17 11:55:29"
+        },
+        {
+            "name": "johnpbloch/wordpress-core",
+            "version": "4.5.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/johnpbloch/wordpress-core.git",
+                "reference": "aaf31d6f1918335524f7bdaef58cdd8e6f6d28d1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/aaf31d6f1918335524f7bdaef58cdd8e6f6d28d1",
+                "reference": "aaf31d6f1918335524f7bdaef58cdd8e6f6d28d1",
+                "shasum": ""
+            },
+            "require": {
                 "php": ">=5.3.2"
             },
             "type": "wordpress-core",
@@ -325,9 +363,10 @@
             "homepage": "http://wordpress.org/",
             "keywords": [
                 "blog",
-                "cms"
+                "cms",
+                "wordpress"
             ],
-            "time": "2016-06-21 16:31:21"
+            "time": "2017-05-16 22:48:35"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -633,7 +672,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-events.git",
-                "reference": "de7c4688dd8ef6bb9412e8a8b3ee38f9ab0ed0c7"
+                "reference": "e0699e76b9f62728cec1dca7bb2c60790712b385"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -649,7 +688,7 @@
                 }
             ],
             "description": "Authenticates requests to the API",
-            "time": "2016-09-06 11:43:13"
+            "time": "2017-06-13 13:43:35"
         },
         {
             "name": "rooftopcms/rooftop-gravityforms-exposer",
@@ -673,12 +712,36 @@
             "time": "2015-12-16 09:52:31"
         },
         {
+            "name": "rooftopcms/rooftop-network-settings",
+            "version": "dev-qa",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rooftopcms/rooftop-network-settings.git",
+                "reference": "a22724ec9706a62173291180735f765cbc7b8965"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-muplugin",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Rooftop CMS",
+                    "email": "hello@rooftopcms.com"
+                }
+            ],
+            "description": "Network-level admin interface for adding Google Tag Manager config",
+            "time": "2017-06-13 14:29:37"
+        },
+        {
             "name": "rooftopcms/rooftop-preview-mode-admin",
             "version": "dev-qa",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-preview-mode-admin.git",
-                "reference": "b313339d093967fccec6566641aa5d93aedeb331"
+                "reference": "5a0a7a9ca19fa9f63dc48e5f69f6cafcba92aae1"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -694,7 +757,7 @@
                 }
             ],
             "description": "Detect whether a client is making a request in preview mode and define a constant accordingly",
-            "time": "2016-09-06 11:42:40"
+            "time": "2016-12-13 13:34:09"
         },
         {
             "name": "rooftopcms/rooftop-queue-pusher",
@@ -748,7 +811,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-response-headers.git",
-                "reference": "073c89d6839113758e77f4f67cedcda0292b5dc7"
+                "reference": "b2f44fd1c0bbe51de7f254811b98ce5434e744b2"
             },
             "require": {
                 "predis/predis": "~1.0.3"
@@ -764,7 +827,7 @@
                 }
             ],
             "description": "Send additional headers to API requests",
-            "time": "2016-08-10 14:38:48"
+            "time": "2017-02-27 23:47:32"
         },
         {
             "name": "rooftopcms/rooftop-response-sanitiser",
@@ -1019,6 +1082,7 @@
         "rooftopcms/rooftop-content-settings": 20,
         "rooftopcms/rooftop-events": 20,
         "rooftopcms/rooftop-gravityforms-exposer": 20,
+        "rooftopcms/rooftop-network-settings": 20,
         "rooftopcms/rooftop-preview-mode-admin": 20,
         "rooftopcms/rooftop-response-headers": 20,
         "rooftopcms/rooftop-request-parser": 20,

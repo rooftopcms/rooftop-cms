@@ -85,6 +85,10 @@
         "url": "https://github.com/rooftopcms/rooftop-gravityforms-exposer.git"
     },
     {
+      "type": "git",
+      "url": "https://github.com/rooftopcms/rooftop-network-settings.git"
+    },
+    {
         "type": "git",
         "url": "https://github.com/rooftopcms/rooftop-preview-mode-admin.git"
     },
@@ -137,6 +141,7 @@
     "rooftopcms/rooftop-content-settings": "dev-qa",
     "rooftopcms/rooftop-events": "dev-qa",
     "rooftopcms/rooftop-gravityforms-exposer": "dev-qa",
+    "rooftopcms/rooftop-network-settings": "dev-qa",
     "rooftopcms/rooftop-preview-mode-admin": "dev-qa",
     "rooftopcms/rooftop-response-headers": "dev-qa",
     "rooftopcms/rooftop-request-parser": "dev-qa",

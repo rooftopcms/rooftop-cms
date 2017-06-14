@@ -880,7 +880,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-theme.git",
-                "reference": "61b7208c255e577c9346f7c8eefd23ad966e25a5"
+                "reference": "434f87d0a9984b38444c97e169c9feb095f402c2"
             },
             "type": "wordpress-theme",
             "license": [
@@ -893,7 +893,7 @@
                 }
             ],
             "description": "Appearance and menu options",
-            "time": "2017-06-13 15:37:04"
+            "time": "2017-06-14 09:44:55"
         },
         {
             "name": "rooftopcms/rooftop-webhooks-admin",

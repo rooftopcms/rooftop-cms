@@ -98,6 +98,10 @@
     },
     {
         "type": "git",
+        "url": "https://github.com/rooftopcms/rooftop-resource-metadata.git"
+    },
+    {
+        "type": "git",
         "url": "https://github.com/rooftopcms/rooftop-request-parser.git"
     },
     {
@@ -146,6 +150,7 @@
     "rooftopcms/rooftop-response-headers": "dev-qa",
     "rooftopcms/rooftop-request-parser": "dev-qa",
     "rooftopcms/rooftop-response-sanitiser": "dev-qa",
+    "rooftopcms/rooftop-resource-metadata": "dev-qa",
     "rooftopcms/rooftop-queue-pusher": "dev-qa",
     "rooftopcms/rooftop-s3-upload-setup": "dev-qa",
     "rooftopcms/rooftop-theme": "dev-qa",

@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "9069202ecb5caa3d85e09da49acf778a",
-    "content-hash": "26ddb212d21baead69d26ba0c1e5f321",
+    "hash": "524834a6689eee6fd5f1fefa15438454",
+    "content-hash": "025a5f0b2640ff9454ae2fa4908189c1",
     "packages": [
         {
             "name": "chrisboulton/php-resque",
@@ -652,7 +652,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-custom-content-setup.git",
-                "reference": "65dfa0c8159bc1a050a1ad2a5248ce7a85d5761d"
+                "reference": "18f7061e20005233f530b435cd2528bba4a44729"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -665,7 +665,7 @@
                 }
             ],
             "description": "Add custom content types, taxonomies and page templates",
-            "time": "2017-06-15 12:01:34"
+            "time": "2017-06-15 16:02:02"
         },
         {
             "name": "rooftopcms/rooftop-events",
@@ -673,7 +673,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-events.git",
-                "reference": "09a83fc93879c20162ff311a3e0ba06a3258dfa1"
+                "reference": "04bc5e5827775c6bd07ef454b47b4075ef7432c3"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -689,7 +689,7 @@
                 }
             ],
             "description": "Authenticates requests to the API",
-            "time": "2017-02-27 22:25:11"
+            "time": "2017-06-15 16:04:56"
         },
         {
             "name": "rooftopcms/rooftop-gravityforms-exposer",
@@ -1067,6 +1067,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/rest-api/"
+        },
+        {
+            "name": "wpackagist-plugin/simple-custom-post-order",
+            "version": "2.3.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/simple-custom-post-order/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/simple-custom-post-order.zip?timestamp=1489777411",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/simple-custom-post-order/"
         },
         {
             "name": "wpackagist-plugin/wp-api-menus",

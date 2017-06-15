@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3d5cb175e712cf389ba952587da2fa85",
-    "content-hash": "0cc87a59f597f5e37db7bdb380ac9f97",
+    "hash": "9069202ecb5caa3d85e09da49acf778a",
+    "content-hash": "26ddb212d21baead69d26ba0c1e5f321",
     "packages": [
         {
             "name": "chrisboulton/php-resque",
@@ -652,7 +652,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-custom-content-setup.git",
-                "reference": "933ba3a306c86eae25d88941fc8c1f20a765bf27"
+                "reference": "65dfa0c8159bc1a050a1ad2a5248ce7a85d5761d"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -665,7 +665,7 @@
                 }
             ],
             "description": "Add custom content types, taxonomies and page templates",
-            "time": "2017-06-15 09:12:53"
+            "time": "2017-06-15 12:01:34"
         },
         {
             "name": "rooftopcms/rooftop-events",
@@ -718,7 +718,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-network-settings.git",
-                "reference": "cd9bf97101092d06f95dec80162af771e4855915"
+                "reference": "615e60dec533a0939da44b26c800804158810642"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -734,7 +734,7 @@
                 }
             ],
             "description": "Network-level admin interface for adding Google Tag Manager config",
-            "time": "2017-06-15 09:52:05"
+            "time": "2017-06-15 12:26:58"
         },
         {
             "name": "rooftopcms/rooftop-preview-mode-admin",
@@ -807,6 +807,27 @@
             "time": "2016-08-18 11:48:03"
         },
         {
+            "name": "rooftopcms/rooftop-resource-metadata",
+            "version": "dev-development",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rooftopcms/rooftop-resource-metadata.git",
+                "reference": "9ab5f6bccc2eff78121877f6a2559a8c29c9ba74"
+            },
+            "type": "wordpress-muplugin",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Rooftop CMS",
+                    "email": "hello@rooftopcms.com"
+                }
+            ],
+            "description": "Include the custom post metadata in the responses, under a post-type specific key",
+            "time": "2017-02-24 17:59:21"
+        },
+        {
             "name": "rooftopcms/rooftop-response-headers",
             "version": "dev-development",
             "source": {
@@ -857,7 +878,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-s3-upload-setup.git",
-                "reference": "1b671ca8790daa4669b8d4707d2f446b229b7402"
+                "reference": "06cdb8f1fbe17d05a577f63dc48a60078201309e"
             },
             "require": {
                 "wpackagist-plugin/amazon-s3-and-cloudfront": "1.1.6"
@@ -873,7 +894,7 @@
                 }
             ],
             "description": "Allows sites in a network to define their own S3 credentials",
-            "time": "2017-06-15 10:25:02"
+            "time": "2017-06-15 11:56:02"
         },
         {
             "name": "rooftopcms/rooftop-theme",
@@ -902,7 +923,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-webhooks-admin.git",
-                "reference": "f20302df6bf174e2b776e50dde391b71eb4b52fe"
+                "reference": "5e75002f04dd024743d46c9d1914994c2555dc1f"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -915,7 +936,7 @@
                 }
             ],
             "description": "Configure the webhook URI's",
-            "time": "2016-08-11 15:45:38"
+            "time": "2017-06-15 11:59:50"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -1009,15 +1030,15 @@
         },
         {
             "name": "wpackagist-plugin/amazon-web-services",
-            "version": "0.3.6",
+            "version": "1.0.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/amazon-web-services/",
-                "reference": "tags/0.3.6"
+                "reference": "tags/1.0.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/amazon-web-services.0.3.6.zip",
+                "url": "https://downloads.wordpress.org/plugin/amazon-web-services.1.0.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1088,6 +1109,7 @@
         "rooftopcms/rooftop-response-headers": 20,
         "rooftopcms/rooftop-request-parser": 20,
         "rooftopcms/rooftop-response-sanitiser": 20,
+        "rooftopcms/rooftop-resource-metadata": 20,
         "rooftopcms/rooftop-queue-pusher": 20,
         "rooftopcms/rooftop-s3-upload-setup": 20,
         "rooftopcms/rooftop-theme": 20,

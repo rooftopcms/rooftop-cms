@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1140857bbc8ccd62be3ef182938660de",
-    "content-hash": "c45138074cf540a2170f87dde1ee34cd",
+    "hash": "751f0efc8f687119dffbf44d11561e97",
+    "content-hash": "528735fead50afa800db404f6defe522",
     "packages": [
         {
             "name": "chrisboulton/php-resque",
@@ -652,7 +652,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-custom-content-setup.git",
-                "reference": "be3b2b15bceaa9010b3fd1d4bb2379fe8db293f8"
+                "reference": "65dfa0c8159bc1a050a1ad2a5248ce7a85d5761d"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -665,7 +665,7 @@
                 }
             ],
             "description": "Add custom content types, taxonomies and page templates",
-            "time": "2016-08-03 10:03:52"
+            "time": "2017-06-15 12:01:34"
         },
         {
             "name": "rooftopcms/rooftop-events",
@@ -857,10 +857,10 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-s3-upload-setup.git",
-                "reference": "bf97a0b1b0847a348c576f845737c92708e758cd"
+                "reference": "06cdb8f1fbe17d05a577f63dc48a60078201309e"
             },
             "require": {
-                "wpackagist-plugin/amazon-s3-and-cloudfront": "0.9.6"
+                "wpackagist-plugin/amazon-s3-and-cloudfront": "1.1.6"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -873,7 +873,7 @@
                 }
             ],
             "description": "Allows sites in a network to define their own S3 credentials",
-            "time": "2016-01-07 15:59:19"
+            "time": "2017-06-15 11:56:02"
         },
         {
             "name": "rooftopcms/rooftop-theme",
@@ -902,7 +902,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-webhooks-admin.git",
-                "reference": "f20302df6bf174e2b776e50dde391b71eb4b52fe"
+                "reference": "5e75002f04dd024743d46c9d1914994c2555dc1f"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -915,7 +915,7 @@
                 }
             ],
             "description": "Configure the webhook URI's",
-            "time": "2016-08-11 15:45:38"
+            "time": "2017-06-15 11:59:50"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -989,15 +989,15 @@
         },
         {
             "name": "wpackagist-plugin/amazon-s3-and-cloudfront",
-            "version": "0.9.6",
+            "version": "1.1.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/amazon-s3-and-cloudfront/",
-                "reference": "tags/0.9.6"
+                "reference": "tags/1.1.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/amazon-s3-and-cloudfront.0.9.6.zip",
+                "url": "https://downloads.wordpress.org/plugin/amazon-s3-and-cloudfront.1.1.6.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1009,15 +1009,15 @@
         },
         {
             "name": "wpackagist-plugin/amazon-web-services",
-            "version": "0.3.6",
+            "version": "1.0.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/amazon-web-services/",
-                "reference": "tags/0.3.6"
+                "reference": "tags/1.0.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/amazon-web-services.0.3.6.zip",
+                "url": "https://downloads.wordpress.org/plugin/amazon-web-services.1.0.2.zip",
                 "reference": null,
                 "shasum": null
             },

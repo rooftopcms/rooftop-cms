@@ -135,7 +135,6 @@
     "davidbarratt/custom-installer": "1.0.*@dev",
     "vlucas/phpdotenv": "^2.0.1",
     "johnpbloch/wordpress": "~4.8.0",
-    "wpackagist-plugin/rest-api": "2.0-beta15",
     "rooftopcms/rooftop-acf-exposer": "dev-development",
     "rooftopcms/rooftop-admin-theme": "dev-development",
     "rooftopcms/rooftop-api-authentication": "dev-development",

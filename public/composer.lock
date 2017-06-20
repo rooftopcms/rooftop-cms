@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "29c6e5ccb6c4a32163b517a85ea62835",
-    "content-hash": "478bbd615efdf9b4f6a65d2c7ea0bd52",
+    "hash": "a406f6a74f105a073b29f537b52a8493",
+    "content-hash": "a648e66c41cd053bba2c49ff2d5641d2",
     "packages": [
         {
             "name": "chrisboulton/php-resque",
@@ -1049,26 +1049,6 @@
             "homepage": "https://wordpress.org/plugins/amazon-web-services/"
         },
         {
-            "name": "wpackagist-plugin/rest-api",
-            "version": "2.0-beta15",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/rest-api/",
-                "reference": "tags/2.0-beta15"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/rest-api.2.0-beta15.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/rest-api/"
-        },
-        {
             "name": "wpackagist-plugin/simple-custom-post-order",
             "version": "2.3.2",
             "source": {
@@ -1114,7 +1094,6 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "davidbarratt/custom-installer": 20,
-        "wpackagist-plugin/rest-api": 10,
         "rooftopcms/rooftop-acf-exposer": 20,
         "rooftopcms/rooftop-admin-theme": 20,
         "rooftopcms/rooftop-api-authentication": 20,

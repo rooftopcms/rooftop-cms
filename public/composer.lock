@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b9ec7c61126b208e82bdf9c04b36179c",
-    "content-hash": "b0a00809a3a12640393517ec4da310c2",
+    "hash": "ade096b5ddc425fad4d2cb252f0568c2",
+    "content-hash": "93685a227619d663219f546c9ed43edb",
     "packages": [
         {
             "name": "chrisboulton/php-resque",
@@ -294,20 +294,58 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.5.6",
+            "version": "4.5.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "7ba8d331162763776d9ca3c3e5ca86b7e260d026"
+                "reference": "86fc7ec944299be76cefd72c531b21d708617189"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/7ba8d331162763776d9ca3c3e5ca86b7e260d026",
-                "reference": "7ba8d331162763776d9ca3c3e5ca86b7e260d026",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/86fc7ec944299be76cefd72c531b21d708617189",
+                "reference": "86fc7ec944299be76cefd72c531b21d708617189",
                 "shasum": ""
             },
             "require": {
+                "johnpbloch/wordpress-core": "4.5.9",
                 "johnpbloch/wordpress-core-installer": "~0.2",
+                "php": ">=5.3.2"
+            },
+            "type": "package",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "WordPress Community",
+                    "homepage": "http://wordpress.org/about/"
+                }
+            ],
+            "description": "WordPress is web software you can use to create a beautiful website or blog.",
+            "homepage": "http://wordpress.org/",
+            "keywords": [
+                "blog",
+                "cms",
+                "wordpress"
+            ],
+            "time": "2017-05-17 11:55:29"
+        },
+        {
+            "name": "johnpbloch/wordpress-core",
+            "version": "4.5.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/johnpbloch/wordpress-core.git",
+                "reference": "aaf31d6f1918335524f7bdaef58cdd8e6f6d28d1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/aaf31d6f1918335524f7bdaef58cdd8e6f6d28d1",
+                "reference": "aaf31d6f1918335524f7bdaef58cdd8e6f6d28d1",
+                "shasum": ""
+            },
+            "require": {
                 "php": ">=5.3.2"
             },
             "type": "wordpress-core",
@@ -325,9 +363,10 @@
             "homepage": "http://wordpress.org/",
             "keywords": [
                 "blog",
-                "cms"
+                "cms",
+                "wordpress"
             ],
-            "time": "2017-01-26 18:32:08"
+            "time": "2017-05-16 22:48:35"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -621,6 +660,30 @@
             ],
             "description": "Authenticates requests to the API",
             "time": "2015-12-16 09:52:31"
+        },
+        {
+            "name": "rooftopcms/rooftop-network-settings",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rooftopcms/rooftop-network-settings.git",
+                "reference": "157818d873e39e03bad426901e7955a507948a8e"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-muplugin",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Rooftop CMS",
+                    "email": "hello@rooftopcms.com"
+                }
+            ],
+            "description": "Network-level admin interface for adding Google Tag Manager config",
+            "time": "2017-06-15 12:27:47"
         },
         {
             "name": "rooftopcms/rooftop-preview-mode-admin",
@@ -990,6 +1053,7 @@
         "rooftopcms/rooftop-content-settings": 20,
         "rooftopcms/rooftop-events": 20,
         "rooftopcms/rooftop-gravityforms-exposer": 20,
+        "rooftopcms/rooftop-network-settings": 20,
         "rooftopcms/rooftop-preview-mode-admin": 20,
         "rooftopcms/rooftop-response-headers": 20,
         "rooftopcms/rooftop-request-parser": 20,

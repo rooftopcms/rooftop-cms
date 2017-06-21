@@ -523,7 +523,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-acf-exposer.git",
-                "reference": "b9d31b0fb6a80a02ec5f14fed580bc686d7ff1a3"
+                "reference": "e67d9d91ffc0d3f1308c1e2e628086b273c9d818"
             },
             "require": {
                 "wpackagist-plugin/advanced-custom-fields": "4.4.8"
@@ -539,7 +539,7 @@
                 }
             ],
             "description": "Include the ACF fields in a post response",
-            "time": "2016-08-23 12:07:25"
+            "time": "2017-06-21 08:43:56"
         },
         {
             "name": "rooftopcms/rooftop-admin-theme",
@@ -673,7 +673,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-events.git",
-                "reference": "9e0cbac4153acecbe3a025480bdaa0ceafa3ec76"
+                "reference": "5094821e1d64af8576d36aba1a28648d0362fb7e"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -689,7 +689,7 @@
                 }
             ],
             "description": "Authenticates requests to the API",
-            "time": "2017-06-15 16:37:02"
+            "time": "2017-06-21 08:43:32"
         },
         {
             "name": "rooftopcms/rooftop-gravityforms-exposer",
@@ -791,7 +791,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-request-parser.git",
-                "reference": "2dde9d33f9881c25931810a2c653b702bb019078"
+                "reference": "2f28b0f6ca5fa4346aeaae5d9df9d5d1bf1b68bb"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -804,7 +804,7 @@
                 }
             ],
             "description": "Manipulate the REST request or server variables to alter queries or remove/change default params",
-            "time": "2017-06-20 10:52:21"
+            "time": "2017-06-21 08:43:59"
         },
         {
             "name": "rooftopcms/rooftop-resource-metadata",

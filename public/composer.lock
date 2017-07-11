@@ -673,7 +673,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-events.git",
-                "reference": "9c6e89d57f57ebabba646ef81564d51923590e0f"
+                "reference": "6ca3a543c6ca73c334973449a6cea9963aba11a5"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -689,7 +689,7 @@
                 }
             ],
             "description": "Authenticates requests to the API",
-            "time": "2017-07-11 15:32:32"
+            "time": "2017-07-11 15:56:10"
         },
         {
             "name": "rooftopcms/rooftop-gravityforms-exposer",

@@ -878,7 +878,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-s3-upload-setup.git",
-                "reference": "06cdb8f1fbe17d05a577f63dc48a60078201309e"
+                "reference": "ed90fc2120732a354d7420c1ebfa9f0d46be6740"
             },
             "require": {
                 "wpackagist-plugin/amazon-s3-and-cloudfront": "1.1.6"
@@ -894,7 +894,7 @@
                 }
             ],
             "description": "Allows sites in a network to define their own S3 credentials",
-            "time": "2017-06-15 11:56:02"
+            "time": "2017-07-11 11:38:33"
         },
         {
             "name": "rooftopcms/rooftop-theme",

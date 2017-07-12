@@ -718,7 +718,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-network-settings.git",
-                "reference": "157818d873e39e03bad426901e7955a507948a8e"
+                "reference": "e686f5d0de06dca5e8539fc84e3d2b03bb8d1dda"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -734,7 +734,7 @@
                 }
             ],
             "description": "Network-level admin interface for adding Google Tag Manager config",
-            "time": "2017-06-15 12:27:47"
+            "time": "2017-07-12 09:54:52"
         },
         {
             "name": "rooftopcms/rooftop-preview-mode-admin",

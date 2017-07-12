@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ade096b5ddc425fad4d2cb252f0568c2",
-    "content-hash": "93685a227619d663219f546c9ed43edb",
+    "hash": "5f9fcb01b3512090437fa69b0f37845a",
+    "content-hash": "775ab77f4838cf76b040a38be07f237f",
     "packages": [
         {
             "name": "chrisboulton/php-resque",
@@ -294,21 +294,21 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.5.9.1",
+            "version": "4.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "86fc7ec944299be76cefd72c531b21d708617189"
+                "reference": "24edf4daca6bc15ad3b78c5927468df487d47a37"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/86fc7ec944299be76cefd72c531b21d708617189",
-                "reference": "86fc7ec944299be76cefd72c531b21d708617189",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/24edf4daca6bc15ad3b78c5927468df487d47a37",
+                "reference": "24edf4daca6bc15ad3b78c5927468df487d47a37",
                 "shasum": ""
             },
             "require": {
-                "johnpbloch/wordpress-core": "4.5.9",
-                "johnpbloch/wordpress-core-installer": "~0.2",
+                "johnpbloch/wordpress-core": "4.8.0",
+                "johnpbloch/wordpress-core-installer": "^1.0",
                 "php": ">=5.3.2"
             },
             "type": "package",
@@ -329,20 +329,20 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2017-05-17 11:55:29"
+            "time": "2017-06-08 15:12:19"
         },
         {
             "name": "johnpbloch/wordpress-core",
-            "version": "4.5.9",
+            "version": "4.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "aaf31d6f1918335524f7bdaef58cdd8e6f6d28d1"
+                "reference": "58f209dfd66f61c4398a47cf53e90d378abc25d7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/aaf31d6f1918335524f7bdaef58cdd8e6f6d28d1",
-                "reference": "aaf31d6f1918335524f7bdaef58cdd8e6f6d28d1",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/58f209dfd66f61c4398a47cf53e90d378abc25d7",
+                "reference": "58f209dfd66f61c4398a47cf53e90d378abc25d7",
                 "shasum": ""
             },
             "require": {
@@ -366,20 +366,20 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2017-05-16 22:48:35"
+            "time": "2017-06-08 15:12:14"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
-            "version": "0.2.1",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core-installer.git",
-                "reference": "a04c2c383ef13aae077f36799ed2eafdebd618d2"
+                "reference": "e9e767f2d9f994f358c34b41def2c410ad8717f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core-installer/zipball/a04c2c383ef13aae077f36799ed2eafdebd618d2",
-                "reference": "a04c2c383ef13aae077f36799ed2eafdebd618d2",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core-installer/zipball/e9e767f2d9f994f358c34b41def2c410ad8717f2",
+                "reference": "e9e767f2d9f994f358c34b41def2c410ad8717f2",
                 "shasum": ""
             },
             "require": {
@@ -389,7 +389,8 @@
                 "composer/installers": "<1.0.6"
             },
             "require-dev": {
-                "composer/composer": "1.0.*@dev"
+                "composer/composer": "^1.0",
+                "phpunit/phpunit": ">=4.8.35"
             },
             "type": "composer-plugin",
             "extra": {
@@ -414,7 +415,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2015-06-11 15:15:30"
+            "time": "2017-05-31 18:42:33"
         },
         {
             "name": "predis/predis",
@@ -467,12 +468,62 @@
             "time": "2016-05-30 15:25:52"
         },
         {
+            "name": "rollbar/rollbar",
+            "version": "v0.18.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rollbar/rollbar-php.git",
+                "reference": "fafe13f8beb669d6bba0137f3703fa808d50cbb7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rollbar/rollbar-php/zipball/fafe13f8beb669d6bba0137f3703fa808d50cbb7",
+                "reference": "fafe13f8beb669d6bba0137f3703fa808d50cbb7",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*"
+            },
+            "require-dev": {
+                "mockery/mockery": "0.9.*",
+                "phpunit/phpunit": "4.5.*"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/Level.php",
+                    "src/rollbar.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Rollbar, Inc.",
+                    "email": "support@rollbar.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Monitors errors and exceptions and reports them to Rollbar",
+            "homepage": "http://github.com/rollbar/rollbar-php",
+            "keywords": [
+                "debugging",
+                "errors",
+                "exceptions",
+                "logging",
+                "monitoring"
+            ],
+            "time": "2016-07-05 15:50:29"
+        },
+        {
             "name": "rooftopcms/rooftop-acf-exposer",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-acf-exposer.git",
-                "reference": "b9d31b0fb6a80a02ec5f14fed580bc686d7ff1a3"
+                "reference": "e67d9d91ffc0d3f1308c1e2e628086b273c9d818"
             },
             "require": {
                 "wpackagist-plugin/advanced-custom-fields": "4.4.8"
@@ -488,7 +539,7 @@
                 }
             ],
             "description": "Include the ACF fields in a post response",
-            "time": "2016-08-23 12:07:25"
+            "time": "2017-06-21 08:43:56"
         },
         {
             "name": "rooftopcms/rooftop-admin-theme",
@@ -601,7 +652,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-custom-content-setup.git",
-                "reference": "be3b2b15bceaa9010b3fd1d4bb2379fe8db293f8"
+                "reference": "c31991bc8eb6e5b8cdb8b2d6639050cbd9b338d3"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -614,7 +665,7 @@
                 }
             ],
             "description": "Add custom content types, taxonomies and page templates",
-            "time": "2016-08-03 10:03:52"
+            "time": "2017-07-12 10:32:34"
         },
         {
             "name": "rooftopcms/rooftop-events",
@@ -622,7 +673,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-events.git",
-                "reference": "90c5c5ce76e049c0b02c867cc1468705bb3860f1"
+                "reference": "2de993ea2a3f3db743ec6a17d9e28c7d1bfc59af"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -638,7 +689,7 @@
                 }
             ],
             "description": "Authenticates requests to the API",
-            "time": "2017-02-27 22:29:16"
+            "time": "2017-07-12 12:23:23"
         },
         {
             "name": "rooftopcms/rooftop-gravityforms-exposer",
@@ -667,7 +718,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-network-settings.git",
-                "reference": "157818d873e39e03bad426901e7955a507948a8e"
+                "reference": "8840f6d39cfa340edb3b79bc8b0ad0391c29025b"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -683,7 +734,7 @@
                 }
             ],
             "description": "Network-level admin interface for adding Google Tag Manager config",
-            "time": "2017-06-15 12:27:47"
+            "time": "2017-07-12 10:35:45"
         },
         {
             "name": "rooftopcms/rooftop-preview-mode-admin",
@@ -740,7 +791,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-request-parser.git",
-                "reference": "f45162e19142a5113c6ff8bb0193471956ffaab7"
+                "reference": "af6d1c19a3e3e8600a1325a45d1fa220de4f81b4"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -753,7 +804,7 @@
                 }
             ],
             "description": "Manipulate the REST request or server variables to alter queries or remove/change default params",
-            "time": "2016-08-25 11:46:00"
+            "time": "2017-07-12 12:22:53"
         },
         {
             "name": "rooftopcms/rooftop-resource-metadata",
@@ -827,10 +878,10 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-s3-upload-setup.git",
-                "reference": "bf97a0b1b0847a348c576f845737c92708e758cd"
+                "reference": "ed90fc2120732a354d7420c1ebfa9f0d46be6740"
             },
             "require": {
-                "wpackagist-plugin/amazon-s3-and-cloudfront": "0.9.6"
+                "wpackagist-plugin/amazon-s3-and-cloudfront": "1.1.6"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -843,7 +894,7 @@
                 }
             ],
             "description": "Allows sites in a network to define their own S3 credentials",
-            "time": "2016-01-07 15:59:19"
+            "time": "2017-07-11 11:38:33"
         },
         {
             "name": "rooftopcms/rooftop-theme",
@@ -851,7 +902,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-theme.git",
-                "reference": "8a0efd8eeb48be5c8a8bcc41394b936f35ae6894"
+                "reference": "2dabf39dd95465959f14535059bb810557e155ae"
             },
             "type": "wordpress-theme",
             "license": [
@@ -864,7 +915,7 @@
                 }
             ],
             "description": "Appearance and menu options",
-            "time": "2016-08-19 10:30:57"
+            "time": "2017-07-12 11:01:05"
         },
         {
             "name": "rooftopcms/rooftop-webhooks-admin",
@@ -872,7 +923,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-webhooks-admin.git",
-                "reference": "f20302df6bf174e2b776e50dde391b71eb4b52fe"
+                "reference": "5e75002f04dd024743d46c9d1914994c2555dc1f"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -885,7 +936,7 @@
                 }
             ],
             "description": "Configure the webhook URI's",
-            "time": "2016-08-11 15:45:38"
+            "time": "2017-06-15 11:59:50"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -959,15 +1010,15 @@
         },
         {
             "name": "wpackagist-plugin/amazon-s3-and-cloudfront",
-            "version": "0.9.6",
+            "version": "1.1.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/amazon-s3-and-cloudfront/",
-                "reference": "tags/0.9.6"
+                "reference": "tags/1.1.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/amazon-s3-and-cloudfront.0.9.6.zip",
+                "url": "https://downloads.wordpress.org/plugin/amazon-s3-and-cloudfront.1.1.6.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -979,15 +1030,15 @@
         },
         {
             "name": "wpackagist-plugin/amazon-web-services",
-            "version": "0.3.6",
+            "version": "1.0.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/amazon-web-services/",
-                "reference": "tags/0.3.6"
+                "reference": "tags/1.0.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/amazon-web-services.0.3.6.zip",
+                "url": "https://downloads.wordpress.org/plugin/amazon-web-services.1.0.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -998,16 +1049,16 @@
             "homepage": "https://wordpress.org/plugins/amazon-web-services/"
         },
         {
-            "name": "wpackagist-plugin/rest-api",
-            "version": "2.0-beta13",
+            "name": "wpackagist-plugin/simple-custom-post-order",
+            "version": "2.3.2",
             "source": {
                 "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/rest-api/",
-                "reference": "tags/2.0-beta13"
+                "url": "https://plugins.svn.wordpress.org/simple-custom-post-order/",
+                "reference": "trunk"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/rest-api.2.0-beta13.zip",
+                "url": "https://downloads.wordpress.org/plugin/simple-custom-post-order.zip?timestamp=1489777411",
                 "reference": null,
                 "shasum": null
             },
@@ -1015,7 +1066,7 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/rest-api/"
+            "homepage": "https://wordpress.org/plugins/simple-custom-post-order/"
         },
         {
             "name": "wpackagist-plugin/wp-api-menus",
@@ -1043,7 +1094,6 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "davidbarratt/custom-installer": 20,
-        "wpackagist-plugin/rest-api": 10,
         "rooftopcms/rooftop-acf-exposer": 20,
         "rooftopcms/rooftop-admin-theme": 20,
         "rooftopcms/rooftop-api-authentication": 20,

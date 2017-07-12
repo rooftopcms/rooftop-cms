@@ -1,0 +1,2 @@
+0,30 * * * * root source <%= shared_path %>/.env && mysql -u $DB_USER -p$DB_PASSWORD --host $DB_HOST rooftop_demo <
+/root/rooftop_demo.sql

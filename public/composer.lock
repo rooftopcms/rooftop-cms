@@ -652,7 +652,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-custom-content-setup.git",
-                "reference": "18f7061e20005233f530b435cd2528bba4a44729"
+                "reference": "c31991bc8eb6e5b8cdb8b2d6639050cbd9b338d3"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -665,7 +665,7 @@
                 }
             ],
             "description": "Add custom content types, taxonomies and page templates",
-            "time": "2017-06-15 16:02:02"
+            "time": "2017-07-12 10:32:34"
         },
         {
             "name": "rooftopcms/rooftop-events",
@@ -718,7 +718,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-network-settings.git",
-                "reference": "e686f5d0de06dca5e8539fc84e3d2b03bb8d1dda"
+                "reference": "8840f6d39cfa340edb3b79bc8b0ad0391c29025b"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -734,7 +734,7 @@
                 }
             ],
             "description": "Network-level admin interface for adding Google Tag Manager config",
-            "time": "2017-07-12 09:54:52"
+            "time": "2017-07-12 10:35:45"
         },
         {
             "name": "rooftopcms/rooftop-preview-mode-admin",
@@ -902,7 +902,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-theme.git",
-                "reference": "434f87d0a9984b38444c97e169c9feb095f402c2"
+                "reference": "3b8a4bf4d0b15df3e07f53d9e1f2531c79489d4e"
             },
             "type": "wordpress-theme",
             "license": [
@@ -915,7 +915,7 @@
                 }
             ],
             "description": "Appearance and menu options",
-            "time": "2017-06-14 09:44:55"
+            "time": "2017-07-12 10:40:18"
         },
         {
             "name": "rooftopcms/rooftop-webhooks-admin",

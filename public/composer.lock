@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a406f6a74f105a073b29f537b52a8493",
-    "content-hash": "a648e66c41cd053bba2c49ff2d5641d2",
+    "hash": "fc7086c430b83a7587f5dfff3f88d6ea",
+    "content-hash": "c93281e309ea823d3f76c65c6888a807",
     "packages": [
         {
             "name": "chrisboulton/php-resque",
@@ -791,7 +791,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-request-parser.git",
-                "reference": "298eef38d6aada38b43b75206962ffd10bd8bec3"
+                "reference": "f687438c01c8d51e6d4eb85c905bf2705625f3d3"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -804,7 +804,7 @@
                 }
             ],
             "description": "Manipulate the REST request or server variables to alter queries or remove/change default params",
-            "time": "2017-07-13 11:17:36"
+            "time": "2017-07-13 12:48:28"
         },
         {
             "name": "rooftopcms/rooftop-resource-metadata",
@@ -1047,6 +1047,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/amazon-web-services/"
+        },
+        {
+            "name": "wpackagist-plugin/duplicate-post",
+            "version": "3.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/duplicate-post/",
+                "reference": "tags/3.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/duplicate-post.3.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/duplicate-post/"
         },
         {
             "name": "wpackagist-plugin/simple-custom-post-order",

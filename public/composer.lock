@@ -673,7 +673,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-events.git",
-                "reference": "6ca3a543c6ca73c334973449a6cea9963aba11a5"
+                "reference": "de5280625d9433015217aafcc641b795a1429a33"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -689,7 +689,7 @@
                 }
             ],
             "description": "Authenticates requests to the API",
-            "time": "2017-07-11 15:56:10"
+            "time": "2017-07-12 20:33:37"
         },
         {
             "name": "rooftopcms/rooftop-gravityforms-exposer",
@@ -791,7 +791,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-request-parser.git",
-                "reference": "9d0e59aabfd9849043059ad40e0712eb1550e816"
+                "reference": "b279f5ad05cefa46f420dd2e171b4c960f2c7e19"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -804,7 +804,7 @@
                 }
             ],
             "description": "Manipulate the REST request or server variables to alter queries or remove/change default params",
-            "time": "2017-07-11 14:50:55"
+            "time": "2017-07-13 08:55:13"
         },
         {
             "name": "rooftopcms/rooftop-resource-metadata",
@@ -812,7 +812,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-resource-metadata.git",
-                "reference": "9ab5f6bccc2eff78121877f6a2559a8c29c9ba74"
+                "reference": "d0d5264936c52a5940f5577eeb8321124967812d"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -825,7 +825,7 @@
                 }
             ],
             "description": "Include the custom post metadata in the responses, under a post-type specific key",
-            "time": "2017-02-24 17:59:21"
+            "time": "2017-06-30 12:51:12"
         },
         {
             "name": "rooftopcms/rooftop-response-headers",
@@ -857,7 +857,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-response-sanitiser.git",
-                "reference": "f47db6d65a72b493c42ee674dd555e3ab98950fd"
+                "reference": "1878481b199ca4bc826f9853b75f0111ae31f483"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -870,7 +870,7 @@
                 }
             ],
             "description": "The awesome WP-API includes some things in its response that we would rather handle in the client.\nFor example, we remove content['rendered'] and replace with content['json'] with links replaced with shortcodes.",
-            "time": "2016-08-30 15:02:39"
+            "time": "2017-07-13 08:52:34"
         },
         {
             "name": "rooftopcms/rooftop-s3-upload-setup",

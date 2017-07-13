@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d81b94e5b325134bd5c64659f2d17319",
-    "content-hash": "d7f252435009133b89aa9049a43997d3",
+    "hash": "9b7a69a329ffd2ef6955d8b34256ea2b",
+    "content-hash": "526cf82b1b5e30d44e05d3f4568e00f3",
     "packages": [
         {
             "name": "chrisboulton/php-resque",
@@ -652,7 +652,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-custom-content-setup.git",
-                "reference": "18f7061e20005233f530b435cd2528bba4a44729"
+                "reference": "c31991bc8eb6e5b8cdb8b2d6639050cbd9b338d3"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -665,7 +665,7 @@
                 }
             ],
             "description": "Add custom content types, taxonomies and page templates",
-            "time": "2017-06-15 16:02:02"
+            "time": "2017-07-12 10:32:34"
         },
         {
             "name": "rooftopcms/rooftop-events",
@@ -673,7 +673,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-events.git",
-                "reference": "8fc21802d759905590d61f09788b028af2de60f3"
+                "reference": "3e245d432999c435b73f66ad0d7b43da685936ea"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -689,7 +689,7 @@
                 }
             ],
             "description": "Authenticates requests to the API",
-            "time": "2017-06-21 10:39:06"
+            "time": "2017-07-12 20:33:27"
         },
         {
             "name": "rooftopcms/rooftop-gravityforms-exposer",
@@ -718,7 +718,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-network-settings.git",
-                "reference": "615e60dec533a0939da44b26c800804158810642"
+                "reference": "dd98acffaaecdaaf76835ca457d4286a4d785f3c"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -734,7 +734,7 @@
                 }
             ],
             "description": "Network-level admin interface for adding Google Tag Manager config",
-            "time": "2017-06-15 12:26:58"
+            "time": "2017-07-12 10:35:33"
         },
         {
             "name": "rooftopcms/rooftop-preview-mode-admin",
@@ -791,7 +791,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-request-parser.git",
-                "reference": "366c9b35968cb8464fa83d3de45b9602c403cc34"
+                "reference": "50ad55c377a2b5c2bad15e5ed351ea1fdebc442d"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -804,7 +804,7 @@
                 }
             ],
             "description": "Manipulate the REST request or server variables to alter queries or remove/change default params",
-            "time": "2017-06-21 13:15:49"
+            "time": "2017-07-13 12:48:16"
         },
         {
             "name": "rooftopcms/rooftop-resource-metadata",
@@ -812,7 +812,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-resource-metadata.git",
-                "reference": "9ab5f6bccc2eff78121877f6a2559a8c29c9ba74"
+                "reference": "d0d5264936c52a5940f5577eeb8321124967812d"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -825,7 +825,7 @@
                 }
             ],
             "description": "Include the custom post metadata in the responses, under a post-type specific key",
-            "time": "2017-02-24 17:59:21"
+            "time": "2017-06-30 12:51:12"
         },
         {
             "name": "rooftopcms/rooftop-response-headers",
@@ -857,7 +857,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-response-sanitiser.git",
-                "reference": "f47db6d65a72b493c42ee674dd555e3ab98950fd"
+                "reference": "1878481b199ca4bc826f9853b75f0111ae31f483"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -870,7 +870,7 @@
                 }
             ],
             "description": "The awesome WP-API includes some things in its response that we would rather handle in the client.\nFor example, we remove content['rendered'] and replace with content['json'] with links replaced with shortcodes.",
-            "time": "2016-08-30 15:02:39"
+            "time": "2017-07-13 08:52:34"
         },
         {
             "name": "rooftopcms/rooftop-s3-upload-setup",
@@ -878,7 +878,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-s3-upload-setup.git",
-                "reference": "06cdb8f1fbe17d05a577f63dc48a60078201309e"
+                "reference": "ed90fc2120732a354d7420c1ebfa9f0d46be6740"
             },
             "require": {
                 "wpackagist-plugin/amazon-s3-and-cloudfront": "1.1.6"
@@ -894,7 +894,7 @@
                 }
             ],
             "description": "Allows sites in a network to define their own S3 credentials",
-            "time": "2017-06-15 11:56:02"
+            "time": "2017-07-11 11:38:33"
         },
         {
             "name": "rooftopcms/rooftop-theme",
@@ -902,7 +902,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-theme.git",
-                "reference": "c791abac884b733248ae40d472f923d01af8ffa3"
+                "reference": "d74ae8ecc376c8ba692d50192d7316368ad141c2"
             },
             "type": "wordpress-theme",
             "license": [
@@ -915,7 +915,7 @@
                 }
             ],
             "description": "Appearance and menu options",
-            "time": "2017-06-15 09:44:47"
+            "time": "2017-07-12 11:00:10"
         },
         {
             "name": "rooftopcms/rooftop-webhooks-admin",
@@ -1047,6 +1047,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/amazon-web-services/"
+        },
+        {
+            "name": "wpackagist-plugin/duplicate-post",
+            "version": "3.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/duplicate-post/",
+                "reference": "tags/3.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/duplicate-post.3.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/duplicate-post/"
         },
         {
             "name": "wpackagist-plugin/simple-custom-post-order",

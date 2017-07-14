@@ -161,7 +161,7 @@
   },
   "extra": {
     "installer-paths": {
-      "web/app/plugins/{$name}/": ["rooftopcms/rooftop-events", "rooftopcms/rooftop-preview-mode-admin"],
+      "web/app/plugins/{$name}/": ["rooftopcms/rooftop-events", "rooftopcms/rooftop-preview-mode-admin", "wpackagist-plugin/duplicate-post"],
       "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin", "type:wordpress-plugin"],
       "web/app/themes/{$name}/": ["type:wordpress-theme"]
     },

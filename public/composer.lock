@@ -631,7 +631,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-content-settings.git",
-                "reference": "b41ff7c7fea92a3c531d724160beb70c97fa2f9c"
+                "reference": "6931e25cfa9064d1aba21c3addc11539fec796e9"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -644,7 +644,7 @@
                 }
             ],
             "description": "Change some site defaults and the example content when a sub-site is created",
-            "time": "2016-01-20 22:39:15"
+            "time": "2017-07-18 10:44:28"
         },
         {
             "name": "rooftopcms/rooftop-custom-content-setup",
@@ -902,7 +902,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-theme.git",
-                "reference": "2dabf39dd95465959f14535059bb810557e155ae"
+                "reference": "7fd2e32491206785852389fc285a7f6302675a2e"
             },
             "type": "wordpress-theme",
             "license": [
@@ -915,7 +915,7 @@
                 }
             ],
             "description": "Appearance and menu options",
-            "time": "2017-07-12 11:01:05"
+            "time": "2017-07-18 10:21:42"
         },
         {
             "name": "rooftopcms/rooftop-webhooks-admin",

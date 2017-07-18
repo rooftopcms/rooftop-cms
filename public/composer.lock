@@ -228,7 +228,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:errorstudio/rooftop-hosted-hooks.git",
-                "reference": "5360d352b53eca0146dd558a0451fb96178da086"
+                "reference": "35d2bf3b2a49b502f36a65c7b4ec0adb4111a572"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -241,7 +241,7 @@
                 }
             ],
             "description": "A place for the hosted Rooftop install to run its hooks and WP network events",
-            "time": "2016-01-07 17:32:25"
+            "time": "2017-07-18 10:36:46"
         },
         {
             "name": "icanboogie/inflector",

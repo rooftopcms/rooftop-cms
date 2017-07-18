@@ -228,7 +228,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:errorstudio/rooftop-hosted-hooks.git",
-                "reference": "35d2bf3b2a49b502f36a65c7b4ec0adb4111a572"
+                "reference": "5360d352b53eca0146dd558a0451fb96178da086"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -241,7 +241,7 @@
                 }
             ],
             "description": "A place for the hosted Rooftop install to run its hooks and WP network events",
-            "time": "2017-07-18 10:36:46"
+            "time": "2016-01-07 17:32:25"
         },
         {
             "name": "icanboogie/inflector",
@@ -631,7 +631,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-content-settings.git",
-                "reference": "b41ff7c7fea92a3c531d724160beb70c97fa2f9c"
+                "reference": "6931e25cfa9064d1aba21c3addc11539fec796e9"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -644,7 +644,7 @@
                 }
             ],
             "description": "Change some site defaults and the example content when a sub-site is created",
-            "time": "2016-01-20 22:39:15"
+            "time": "2017-07-18 10:44:28"
         },
         {
             "name": "rooftopcms/rooftop-custom-content-setup",

@@ -547,7 +547,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-admin-theme.git",
-                "reference": "f601fa55dab0358d2261f223ced14c7b69cb86e4"
+                "reference": "4d9b8943ea6befa5d606a24984022b4dee3ff9ba"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -560,7 +560,7 @@
                 }
             ],
             "description": "Authenticates requests to the API",
-            "time": "2017-07-13 15:54:32"
+            "time": "2017-07-25 12:36:06"
         },
         {
             "name": "rooftopcms/rooftop-api-authentication",
@@ -568,7 +568,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-api-authentication.git",
-                "reference": "f005bafa114e31d3d0c03fabb3822335753be55e"
+                "reference": "bdfeca7a759eee2f2bad91ec16effdb439e5968a"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -581,7 +581,7 @@
                 }
             ],
             "description": "Authenticates requests to the API",
-            "time": "2016-08-17 17:07:01"
+            "time": "2017-07-25 12:35:46"
         },
         {
             "name": "rooftopcms/rooftop-content-fields",
@@ -812,7 +812,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-resource-metadata.git",
-                "reference": "d0d5264936c52a5940f5577eeb8321124967812d"
+                "reference": "b7b915bfe8d28dce23b1eb19bfd0a3ae22a34e1f"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -825,7 +825,7 @@
                 }
             ],
             "description": "Include the custom post metadata in the responses, under a post-type specific key",
-            "time": "2017-06-30 12:51:12"
+            "time": "2017-07-25 09:05:54"
         },
         {
             "name": "rooftopcms/rooftop-response-headers",

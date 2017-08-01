@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "fc7086c430b83a7587f5dfff3f88d6ea",
-    "content-hash": "c93281e309ea823d3f76c65c6888a807",
+    "hash": "b3b72385bb779f96502556763ac0ff37",
+    "content-hash": "cc5e3e1b1518c7946003ab6933160431",
     "packages": [
         {
             "name": "chrisboulton/php-resque",
@@ -224,7 +224,7 @@
         },
         {
             "name": "errorstudio/rooftop-hosted-hooks",
-            "version": "dev-qa",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:errorstudio/rooftop-hosted-hooks.git",
@@ -519,7 +519,7 @@
         },
         {
             "name": "rooftopcms/rooftop-acf-exposer",
-            "version": "dev-qa",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-acf-exposer.git",
@@ -543,7 +543,7 @@
         },
         {
             "name": "rooftopcms/rooftop-admin-theme",
-            "version": "dev-qa",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-admin-theme.git",
@@ -564,7 +564,7 @@
         },
         {
             "name": "rooftopcms/rooftop-api-authentication",
-            "version": "dev-qa",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-api-authentication.git",
@@ -585,7 +585,7 @@
         },
         {
             "name": "rooftopcms/rooftop-content-fields",
-            "version": "dev-qa",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-content-fields.git",
@@ -606,7 +606,7 @@
         },
         {
             "name": "rooftopcms/rooftop-content-hierarchy",
-            "version": "dev-qa",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-content-hierarchy.git",
@@ -627,7 +627,7 @@
         },
         {
             "name": "rooftopcms/rooftop-content-settings",
-            "version": "dev-qa",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-content-settings.git",
@@ -648,7 +648,7 @@
         },
         {
             "name": "rooftopcms/rooftop-custom-content-setup",
-            "version": "dev-qa",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-custom-content-setup.git",
@@ -669,11 +669,11 @@
         },
         {
             "name": "rooftopcms/rooftop-events",
-            "version": "dev-qa",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-events.git",
-                "reference": "543eed72de1df9062639b62f45ff0f97008d4767"
+                "reference": "ce2e86c21219e5eb6766799b512bb0e1c9312f04"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -689,11 +689,11 @@
                 }
             ],
             "description": "Authenticates requests to the API",
-            "time": "2017-07-14 09:25:57"
+            "time": "2017-07-14 10:08:18"
         },
         {
             "name": "rooftopcms/rooftop-gravityforms-exposer",
-            "version": "dev-qa",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-gravityforms-exposer.git",
@@ -714,7 +714,7 @@
         },
         {
             "name": "rooftopcms/rooftop-network-settings",
-            "version": "dev-qa",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-network-settings.git",
@@ -738,7 +738,7 @@
         },
         {
             "name": "rooftopcms/rooftop-preview-mode-admin",
-            "version": "dev-qa",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-preview-mode-admin.git",
@@ -762,11 +762,11 @@
         },
         {
             "name": "rooftopcms/rooftop-queue-pusher",
-            "version": "dev-qa",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-queue-pusher.git",
-                "reference": "603cb1c12038dd4f577483731f156f3dca9c3846"
+                "reference": "9740595ada5c19d60e350bd11831e1d3573e4146"
             },
             "require": {
                 "chrisboulton/php-resque": "1.2.x",
@@ -783,15 +783,15 @@
                 }
             ],
             "description": "Hook into WP post events to push events onto a queue",
-            "time": "2016-08-23 13:21:14"
+            "time": "2016-08-23 13:22:04"
         },
         {
             "name": "rooftopcms/rooftop-request-parser",
-            "version": "dev-qa",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-request-parser.git",
-                "reference": "f687438c01c8d51e6d4eb85c905bf2705625f3d3"
+                "reference": "8fb7cbbae403f454b21efcc93d41e38e3a197784"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -804,11 +804,11 @@
                 }
             ],
             "description": "Manipulate the REST request or server variables to alter queries or remove/change default params",
-            "time": "2017-07-13 12:48:28"
+            "time": "2017-07-13 12:49:33"
         },
         {
             "name": "rooftopcms/rooftop-resource-metadata",
-            "version": "dev-qa",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-resource-metadata.git",
@@ -829,7 +829,7 @@
         },
         {
             "name": "rooftopcms/rooftop-response-headers",
-            "version": "dev-qa",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-response-headers.git",
@@ -853,7 +853,7 @@
         },
         {
             "name": "rooftopcms/rooftop-response-sanitiser",
-            "version": "dev-qa",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-response-sanitiser.git",
@@ -874,7 +874,7 @@
         },
         {
             "name": "rooftopcms/rooftop-s3-upload-setup",
-            "version": "dev-qa",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-s3-upload-setup.git",
@@ -898,7 +898,7 @@
         },
         {
             "name": "rooftopcms/rooftop-theme",
-            "version": "dev-qa",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-theme.git",
@@ -919,7 +919,7 @@
         },
         {
             "name": "rooftopcms/rooftop-webhooks-admin",
-            "version": "dev-qa",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-webhooks-admin.git",

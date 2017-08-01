@@ -652,7 +652,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-custom-content-setup.git",
-                "reference": "10793215db120817c121fd1b29ea0f99c8a47f4c"
+                "reference": "071e529b95506781c3ddc4419a3d82ccd5058d2b"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -665,7 +665,7 @@
                 }
             ],
             "description": "Add custom content types, taxonomies and page templates",
-            "time": "2017-07-14 13:01:30"
+            "time": "2017-08-01 11:51:54"
         },
         {
             "name": "rooftopcms/rooftop-events",

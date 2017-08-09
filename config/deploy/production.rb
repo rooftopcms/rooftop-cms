@@ -68,6 +68,10 @@ add_header X-Rooftop-Backend $hostname;
 CONTEXT
 set :nginx_custom_http_context, http_context
 
+# Set upload size (managed in WP to 100M)
+set :nginx_custom_server_context, "client_max_body_size 256M;"
+
+
 set :log_formats, {
     "with_subdomain_and_time" => '$remote_addr [$time_local] $host $request $status $body_bytes_sent $http_user_agent $request_time $upstream_response_time',
     "logentries_json" => '{ "time": "$time_iso8601", "remote_addr": "$remote_addr", "host": "$host", "body_bytes_sent": "$body_bytes_sent", "request_time": "$request_time", "status": "$status", "request": "$request", "request_method": "$request_method", "http_user_agent": "$http_user_agent", "request_time": "$request_time", "upstream_response_time": "$upstream_response_time" }'

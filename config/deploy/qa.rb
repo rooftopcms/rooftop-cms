@@ -45,6 +45,7 @@ set :custom_env_vars, {
 http_context = <<-CONTEXT
 set_real_ip_from 10.0.0.0/8;
 add_header X-Rooftop-Backend $hostname;
-client_max_body_size 256M;
 CONTEXT
 set :nginx_custom_http_context, http_context
+
+set :nginx_custom_server_context, "client_max_body_size 256M;"

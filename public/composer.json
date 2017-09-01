@@ -37,25 +37,12 @@
   },
   "repositories": [
     {
-<<<<<<< HEAD
       "type": "composer",
       "url": "https://wpackagist.org"
     },
     {
       "type": "git",
       "url": "https://github.com/ICanBoogie/Inflector.git"
-    },
-    {
-      "type": "vcs",
-      "url": "git@bitbucket.org:errorstudio/rooftop-hosted-hooks.git"
-=======
-        "type": "composer",
-        "url": "https://wpackagist.org"
-    },
-    {
-        "type": "git",
-        "url": "https://github.com/ICanBoogie/Inflector.git"
->>>>>>> qa
     }
   ],
   "require": {

@@ -65,8 +65,8 @@ namespace :composer do
     composer_update_cmd = "cd public && composer update && cd .."
 
     puts "\tMoving current composer to composer.json.deploying-#{branch} and using composer-#{branch}.json" if moved_files = system(move_files_cmd)
-    puts "\tRestoring composer.json from composer.json.deploying-#{branch}" if restored_files = system(restore_files_cmd)
     puts "\tUpdated composer build" if composer_updated = system(composer_update_cmd)
+    puts "\tRestoring composer.json from composer.json.deploying-#{branch}" if restored_files = system(restore_files_cmd)
 
     if moved_files && restored_files && composer_updated
       system("git commit -a -m 'updated composer build' && git push")

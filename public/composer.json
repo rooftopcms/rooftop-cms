@@ -43,6 +43,10 @@
     {
       "type": "git",
       "url": "https://github.com/ICanBoogie/Inflector.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@bitbucket.org:errorstudio/rooftop-hosted-hooks.git"
     }
   ],
   "require": {
@@ -51,7 +55,6 @@
     "davidbarratt/custom-installer": "1.0.*@dev",
     "vlucas/phpdotenv": "^2.0.1",
     "johnpbloch/wordpress": "~4.8.0",
-
     "rooftopcms/rooftop-acf-exposer": "~1.2.0",
     "rooftopcms/rooftop-admin-theme": "~1.2.0",
     "rooftopcms/rooftop-api-authentication": "~1.2.0",
@@ -71,13 +74,14 @@
     "rooftopcms/rooftop-s3-upload-setup": "~1.2.0",
     "rooftopcms/rooftop-theme": "~1.2.0",
     "rooftopcms/rooftop-webhooks-admin": "~1.2.0",
-
     "wpackagist-plugin/amazon-web-services": "1.0.2",
     "wpackagist-plugin/wp-api-menus": "1.2.0",
     "wpackagist-plugin/simple-custom-post-order": "2.3.2",
     "wpackagist-plugin/duplicate-post": "~3.2",
     "predis/predis": "~1.0.3",
-    "icanboogie/inflector": "1.3.3"
+    "icanboogie/inflector": "1.3.3",
+    "errorstudio/rooftop-hosted-hooks": "dev-development",
+    "rollbar/rollbar": "~0.18.2"
   },
   "extra": {
     "installer-paths": {
@@ -85,7 +89,6 @@
       "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin", "type:wordpress-plugin"],
       "web/app/themes/{$name}/": ["type:wordpress-theme"]
     },
-
     "wordpress-install-dir": "web/wp"
   }
 }

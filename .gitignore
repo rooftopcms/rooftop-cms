@@ -44,5 +44,5 @@ public/web/wp
 psysh
 vvv-hosts
 
-public/composer-development.json
+public/composer-*.json
 

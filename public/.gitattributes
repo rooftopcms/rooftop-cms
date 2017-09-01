@@ -1,0 +1,2 @@
+composer.json merge=ours
+composer.lock merge=ours

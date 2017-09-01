@@ -43,3 +43,6 @@ public/web/app/themes
 public/web/wp
 psysh
 vvv-hosts
+
+public/composer-*.json
+

@@ -1,9 +1,9 @@
 GIT
   remote: git://github.com/ekho/capistrano-git-submodule-strategy.git
-  revision: e3b8a78fbe7d3f7d03d473ee488a9c805f8f6fac
+  revision: 559f6b08992027b2380a54b1b4b4cf55a3f10680
   specs:
-    capistrano-git-submodule-strategy (0.1.17)
-      capistrano (~> 3.1)
+    capistrano-git-submodule-strategy (0.1.23)
+      capistrano (>= 3.1.0, < 3.7)
 
 GIT
   remote: git@bitbucket.org:errorstudio/errorstudio_capistrano_recipes.git

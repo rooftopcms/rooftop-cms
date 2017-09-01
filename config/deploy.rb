@@ -55,3 +55,25 @@ namespace :deploy do
 end
 
 after "deploy:finished", "php:reload"
+
+namespace :composer do
+  desc "Move composer.json files into place"
+  task "build" do
+    branch = `git rev-parse --abbrev-ref HEAD`.strip
+    move_files_cmd      = "mv public/composer.json public/composer.json.deploying-#{branch} && cp public/composer-#{branch}.json public/composer.json"
+    restore_files_cmd   = "rm -f public/composer.json && mv public/composer.json.deploying-#{branch} public/composer.json"
+    composer_update_cmd = "cd public && composer update && cd .."
+
+    puts "\tMoving current composer to composer.json.deploying-#{branch} and using composer-#{branch}.json" if moved_files = system(move_files_cmd)
+    puts "\tUpdated composer build" if composer_updated = system(composer_update_cmd)
+    puts "\tRestoring composer.json from composer.json.deploying-#{branch}" if restored_files = system(restore_files_cmd)
+
+    if moved_files && restored_files && composer_updated
+      system("git commit -a -m 'updated composer build' && git push")
+    else
+      puts "\n\tPlease check files were moved (#{moved_files}), restored (#{restored_files}), or composer updated (#{composer_updated})"
+    end
+  end
+end
+
+before "deploy", "composer:build"

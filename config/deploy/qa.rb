@@ -40,3 +40,12 @@ set :custom_env_vars, {
     "REDIS_PORT" => `source public/.env.qa; echo $REDIS_PORT`.strip,
     "REDIS_DB" => `source public/.env.qa; echo $REDIS_DB`.strip,
 }
+
+# Custom settings for nginx
+http_context = <<-CONTEXT
+set_real_ip_from 10.0.0.0/8;
+add_header X-Rooftop-Backend $hostname;
+CONTEXT
+set :nginx_custom_http_context, http_context
+
+set :nginx_custom_server_context, "client_max_body_size 256M;"

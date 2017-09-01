@@ -45,82 +45,6 @@
         "url": "https://github.com/ICanBoogie/Inflector.git"
     },
     {
-        "type": "git",
-        "url": "https://github.com/rooftopcms/rooftop-acf-exposer.git"
-    },
-    {
-        "type": "git",
-        "url": "https://github.com/rooftopcms/rooftop-admin-theme.git"
-    },
-    {
-        "type": "git",
-        "url": "https://github.com/rooftopcms/rooftop-api-authentication.git"
-    },
-    {
-        "type": "git",
-        "url": "https://github.com/rooftopcms/rooftop-content-hierarchy.git"
-    },
-    {
-        "type": "git",
-        "url": "https://github.com/rooftopcms/rooftop-content-fields.git"
-    },
-    {
-        "type": "git",
-        "url": "https://github.com/rooftopcms/rooftop-custom-content-setup.git"
-    },
-    {
-        "type": "git",
-        "url": "https://github.com/rooftopcms/rooftop-content-settings.git"
-    },
-    {
-        "type": "git",
-        "url": "https://github.com/rooftopcms/rooftop-events.git"
-    },
-    {
-        "type": "git",
-        "url": "https://github.com/rooftopcms/rooftop-gravityforms-exposer.git"
-    },
-    {
-      "type": "git",
-      "url": "https://github.com/rooftopcms/rooftop-network-settings.git"
-    },
-    {
-        "type": "git",
-        "url": "https://github.com/rooftopcms/rooftop-preview-mode-admin.git"
-    },
-    {
-        "type": "git",
-        "url": "https://github.com/rooftopcms/rooftop-response-headers.git"
-    },
-    {
-      "type": "git",
-      "url": "https://github.com/rooftopcms/rooftop-resource-metadata.git"
-    },
-    {
-        "type": "git",
-        "url": "https://github.com/rooftopcms/rooftop-request-parser.git"
-    },
-    {
-        "type": "git",
-        "url": "https://github.com/rooftopcms/rooftop-response-sanitiser.git"
-    },
-    {
-        "type": "git",
-        "url": "https://github.com/rooftopcms/rooftop-queue-pusher.git"
-    },
-    {
-        "type": "git",
-        "url": "https://github.com/rooftopcms/rooftop-theme.git"
-    },
-    {
-        "type": "git",
-        "url": "https://github.com/rooftopcms/rooftop-s3-upload-setup.git"
-    },
-    {
-        "type": "git",
-        "url": "https://github.com/rooftopcms/rooftop-webhooks-admin.git"
-    },
-    {
         "type": "vcs",
         "url": "git@bitbucket.org:errorstudio/rooftop-hosted-hooks.git"
     }
@@ -131,25 +55,27 @@
     "davidbarratt/custom-installer": "1.0.*@dev",
     "vlucas/phpdotenv": "^2.0.1",
     "johnpbloch/wordpress": "~4.8.0",
-    "rooftopcms/rooftop-acf-exposer": "dev-development",
-    "rooftopcms/rooftop-admin-theme": "dev-development",
-    "rooftopcms/rooftop-api-authentication": "dev-development",
-    "rooftopcms/rooftop-content-hierarchy": "dev-development",
-    "rooftopcms/rooftop-content-fields": "dev-development",
-    "rooftopcms/rooftop-custom-content-setup": "dev-development",
-    "rooftopcms/rooftop-content-settings": "dev-development",
-    "rooftopcms/rooftop-events": "dev-development",
-    "rooftopcms/rooftop-gravityforms-exposer": "dev-development",
-    "rooftopcms/rooftop-network-settings": "dev-development",
-    "rooftopcms/rooftop-preview-mode-admin": "dev-development",
-    "rooftopcms/rooftop-response-headers": "dev-development",
-    "rooftopcms/rooftop-request-parser": "dev-development",
-    "rooftopcms/rooftop-response-sanitiser": "dev-development",
-    "rooftopcms/rooftop-resource-metadata": "dev-development",
-    "rooftopcms/rooftop-queue-pusher": "dev-development",
-    "rooftopcms/rooftop-s3-upload-setup": "dev-development",
-    "rooftopcms/rooftop-theme": "dev-development",
-    "rooftopcms/rooftop-webhooks-admin": "dev-development",
+
+    "rooftopcms/rooftop-acf-exposer": "~1.2.0",
+    "rooftopcms/rooftop-admin-theme": "~1.2.0",
+    "rooftopcms/rooftop-api-authentication": "~1.2.0",
+    "rooftopcms/rooftop-content-hierarchy": "~1.2.0",
+    "rooftopcms/rooftop-content-fields": "~1.2.0",
+    "rooftopcms/rooftop-custom-content-setup": "~1.2.0",
+    "rooftopcms/rooftop-content-settings": "~1.2.0",
+    "rooftopcms/rooftop-events": "~1.2.0",
+    "rooftopcms/rooftop-gravityforms-exposer": "~1.2.0",
+    "rooftopcms/rooftop-network-settings": "~1.2.0",
+    "rooftopcms/rooftop-preview-mode-admin": "~1.2.0",
+    "rooftopcms/rooftop-response-headers": "~1.2.0",
+    "rooftopcms/rooftop-request-parser": "~1.2.0",
+    "rooftopcms/rooftop-response-sanitiser": "~1.2.0",
+    "rooftopcms/rooftop-resource-metadata": "~1.2.0",
+    "rooftopcms/rooftop-queue-pusher": "~1.2.0",
+    "rooftopcms/rooftop-s3-upload-setup": "~1.2.0",
+    "rooftopcms/rooftop-theme": "~1.2.0",
+    "rooftopcms/rooftop-webhooks-admin": "~1.2.0",
+
     "wpackagist-plugin/amazon-web-services": "1.0.2",
     "wpackagist-plugin/wp-api-menus": "1.2.0",
     "wpackagist-plugin/simple-custom-post-order": "2.3.2",

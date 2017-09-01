@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "9b7a69a329ffd2ef6955d8b34256ea2b",
-    "content-hash": "526cf82b1b5e30d44e05d3f4568e00f3",
+    "hash": "e74e4353074007b97830c97fbcd5ff76",
+    "content-hash": "cf3beb4c2bb33f57f7ebb86b80f22178",
     "packages": [
         {
             "name": "chrisboulton/php-resque",
@@ -294,20 +294,20 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.8.0",
+            "version": "4.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "24edf4daca6bc15ad3b78c5927468df487d47a37"
+                "reference": "75bbc8dade6d66b66c7184656df7b3d545d31baa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/24edf4daca6bc15ad3b78c5927468df487d47a37",
-                "reference": "24edf4daca6bc15ad3b78c5927468df487d47a37",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/75bbc8dade6d66b66c7184656df7b3d545d31baa",
+                "reference": "75bbc8dade6d66b66c7184656df7b3d545d31baa",
                 "shasum": ""
             },
             "require": {
-                "johnpbloch/wordpress-core": "4.8.0",
+                "johnpbloch/wordpress-core": "4.8.1",
                 "johnpbloch/wordpress-core-installer": "^1.0",
                 "php": ">=5.3.2"
             },
@@ -329,20 +329,20 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2017-06-08 15:12:19"
+            "time": "2017-08-02 21:47:41"
         },
         {
             "name": "johnpbloch/wordpress-core",
-            "version": "4.8.0",
+            "version": "4.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "58f209dfd66f61c4398a47cf53e90d378abc25d7"
+                "reference": "eee7b6128469d31803da3a07aaac9c442f81758e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/58f209dfd66f61c4398a47cf53e90d378abc25d7",
-                "reference": "58f209dfd66f61c4398a47cf53e90d378abc25d7",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/eee7b6128469d31803da3a07aaac9c442f81758e",
+                "reference": "eee7b6128469d31803da3a07aaac9c442f81758e",
                 "shasum": ""
             },
             "require": {
@@ -366,7 +366,7 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2017-06-08 15:12:14"
+            "time": "2017-08-02 21:47:36"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -523,7 +523,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-acf-exposer.git",
-                "reference": "48087ab85168240476158b2d9712014f398f166e"
+                "reference": "39ca782615177ddd3c4f493f640753f8cc877f8d"
             },
             "require": {
                 "wpackagist-plugin/advanced-custom-fields": "4.4.8"
@@ -539,7 +539,7 @@
                 }
             ],
             "description": "Include the ACF fields in a post response",
-            "time": "2017-06-13 09:42:40"
+            "time": "2017-08-03 11:00:14"
         },
         {
             "name": "rooftopcms/rooftop-admin-theme",
@@ -547,7 +547,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-admin-theme.git",
-                "reference": "53660003a8fb4805dd951e4687aa92d331d5279c"
+                "reference": "4d9b8943ea6befa5d606a24984022b4dee3ff9ba"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -560,7 +560,7 @@
                 }
             ],
             "description": "Authenticates requests to the API",
-            "time": "2016-08-05 14:32:15"
+            "time": "2017-07-25 12:36:06"
         },
         {
             "name": "rooftopcms/rooftop-api-authentication",
@@ -568,7 +568,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-api-authentication.git",
-                "reference": "f005bafa114e31d3d0c03fabb3822335753be55e"
+                "reference": "bdfeca7a759eee2f2bad91ec16effdb439e5968a"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -581,7 +581,7 @@
                 }
             ],
             "description": "Authenticates requests to the API",
-            "time": "2016-08-17 17:07:01"
+            "time": "2017-07-25 12:35:46"
         },
         {
             "name": "rooftopcms/rooftop-content-fields",
@@ -631,7 +631,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-content-settings.git",
-                "reference": "b41ff7c7fea92a3c531d724160beb70c97fa2f9c"
+                "reference": "6931e25cfa9064d1aba21c3addc11539fec796e9"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -644,7 +644,7 @@
                 }
             ],
             "description": "Change some site defaults and the example content when a sub-site is created",
-            "time": "2016-01-20 22:39:15"
+            "time": "2017-07-18 10:44:28"
         },
         {
             "name": "rooftopcms/rooftop-custom-content-setup",
@@ -652,7 +652,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-custom-content-setup.git",
-                "reference": "c31991bc8eb6e5b8cdb8b2d6639050cbd9b338d3"
+                "reference": "071e529b95506781c3ddc4419a3d82ccd5058d2b"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -665,7 +665,7 @@
                 }
             ],
             "description": "Add custom content types, taxonomies and page templates",
-            "time": "2017-07-12 10:32:34"
+            "time": "2017-08-01 11:51:54"
         },
         {
             "name": "rooftopcms/rooftop-events",
@@ -673,7 +673,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-events.git",
-                "reference": "3e245d432999c435b73f66ad0d7b43da685936ea"
+                "reference": "9c9c13b4f3f23ab349ddc2d481169c0a734c35f7"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -689,7 +689,7 @@
                 }
             ],
             "description": "Authenticates requests to the API",
-            "time": "2017-07-12 20:33:27"
+            "time": "2017-08-04 15:57:20"
         },
         {
             "name": "rooftopcms/rooftop-gravityforms-exposer",
@@ -812,7 +812,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-resource-metadata.git",
-                "reference": "d0d5264936c52a5940f5577eeb8321124967812d"
+                "reference": "b7b915bfe8d28dce23b1eb19bfd0a3ae22a34e1f"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -825,7 +825,7 @@
                 }
             ],
             "description": "Include the custom post metadata in the responses, under a post-type specific key",
-            "time": "2017-06-30 12:51:12"
+            "time": "2017-07-25 09:05:54"
         },
         {
             "name": "rooftopcms/rooftop-response-headers",
@@ -902,7 +902,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-theme.git",
-                "reference": "d74ae8ecc376c8ba692d50192d7316368ad141c2"
+                "reference": "18225438ab3deb2f5d32c64214a5073cc71299b7"
             },
             "type": "wordpress-theme",
             "license": [
@@ -915,7 +915,7 @@
                 }
             ],
             "description": "Appearance and menu options",
-            "time": "2017-07-12 11:00:10"
+            "time": "2017-07-25 14:09:37"
         },
         {
             "name": "rooftopcms/rooftop-webhooks-admin",

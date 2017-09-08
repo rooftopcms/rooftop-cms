@@ -49,3 +49,23 @@ CONTEXT
 set :nginx_custom_http_context, http_context
 
 set :nginx_custom_server_context, "client_max_body_size 256M;"
+
+namespace :wordpress do
+  namespace :db do
+    desc "Copy secrets for Wordpress from an encrypted file"
+    task :configure_secrets do
+      on roles :app do
+        unless test("[ -f #{shared_path}/.env ]")
+          set :gpg_phrase, ask("GPG passphrase for the encrypted secrets:",nil)
+          yaml = `echo #{fetch(:gpg_phrase)} | gpg -d -q --batch --passphrase-fd 0 --no-mdc-warning #{File.join(File.dirname(__FILE__),"wordpress_config","shared_strings.yml.gpg")}`
+          strings = YAML.load(yaml)
+          strings.each do |k,v|
+            set k.to_sym, v
+          end
+        end
+      end
+      
+    end
+  end
+end
+before 'wordpress:db:create_config', 'wordpress:db:configure_secrets'

@@ -80,4 +80,24 @@ set :log_formats, {
 set :access_log, "syslog:server=unix:/dev/log,facility=local7,tag=nginx,nohostname logentries_json"
 set :error_log, "syslog:server=unix:/dev/log,facility=local7,tag=nginx,severity=error,nohostname"
 
+namespace :wordpress do
+  namespace :db do
+    desc "Copy secrets for Wordpress from an encrypted file"
+    task :configure_secrets do
+      on roles :app do
+        unless test("[ -f #{shared_path}/.env ]")
+          set :gpg_phrase, ask("GPG passphrase for the encrypted secrets:",nil)
+          yaml = `echo #{fetch(:gpg_phrase)} | gpg -d -q --batch --passphrase-fd 0 --no-mdc-warning #{File.join(File.dirname(__FILE__),"wordpress_config","shared_strings.yml.gpg")}`
+          strings = YAML.load(yaml)
+          strings.each do |k,v|
+            set k.to_sym, v
+          end
+        end
+      end
+
+    end
+  end
+end
+before 'wordpress:db:create_config', 'wordpress:db:configure_secrets'
+
 after "deploy:finished", "deploy:dr"

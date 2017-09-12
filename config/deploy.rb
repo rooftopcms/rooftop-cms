@@ -76,4 +76,4 @@ namespace :composer do
   end
 end
 
-before "deploy", "composer:build"
+# before "deploy", "composer:build"

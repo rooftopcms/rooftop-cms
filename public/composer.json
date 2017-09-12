@@ -5,22 +5,22 @@
   "description": "An API-based Wordpress CMS",
   "homepage": "http://github.com/rooftopcms",
   "authors": [
-    {
+    { 
       "name": "Paul Hendrick",
       "email": "paul@errorstudio.co.uk",
       "homepage": "https://github.com/foxpaul"
     },
-    {
+    { 
       "name": "Ed Jones",
       "email": "ed@errorstudio.co.uk",
       "homepage": "https://github.com/edtjones"
     },
-    {
+    { 
       "name": "Martin Chapman Fromm",
       "email": "martin@errorstudio.co.uk",
       "homepage": "https://github.com/martincf"
     },
-    {
+    { 
       "name": "Andy Wilkinson",
       "email": "andy@errorstudio.co.uk",
       "homepage": "https://github.com/andyerror"
@@ -36,15 +36,15 @@
     "preferred-install": "dist"
   },
   "repositories": [
-    {
+    { 
       "type": "composer",
       "url": "https://wpackagist.org"
     },
-    {
+    { 
       "type": "git",
       "url": "https://github.com/ICanBoogie/Inflector.git"
     },
-    {
+    { 
       "type": "vcs",
       "url": "git@bitbucket.org:errorstudio/rooftop-hosted-hooks.git"
     }

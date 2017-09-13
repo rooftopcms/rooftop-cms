@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "79c4264e6b304cbe0650289bf1d9a368",
-    "content-hash": "ba33854a6c48a8fa1b3dc65cc2a5667a",
+    "hash": "87c3a1e18dd1205362c1b5b1ba0c6a4b",
+    "content-hash": "837146ba962825ab5370dbd88c3ab28d",
     "packages": [
         {
             "name": "chrisboulton/php-resque",
@@ -221,27 +221,6 @@
             "description": "Install custom types into custom locations.",
             "homepage": "https://github.com/davidbarratt/custom-installer",
             "time": "2016-01-23 14:33:27"
-        },
-        {
-            "name": "errorstudio/rooftop-hosted-hooks",
-            "version": "dev-development",
-            "source": {
-                "type": "git",
-                "url": "git@bitbucket.org:errorstudio/rooftop-hosted-hooks.git",
-                "reference": "3255b200ed46a84c9883869d2fb7bbdbd5150c1b"
-            },
-            "type": "wordpress-muplugin",
-            "license": [
-                "GPL-3.0"
-            ],
-            "authors": [
-                {
-                    "name": "Rooftop CMS",
-                    "email": "hello@rooftopcms.com"
-                }
-            ],
-            "description": "A place for the hosted Rooftop install to run its hooks and WP network events",
-            "time": "2017-09-01 12:03:18"
         },
         {
             "name": "icanboogie/inflector",
@@ -466,56 +445,6 @@
                 "redis"
             ],
             "time": "2016-05-30 15:25:52"
-        },
-        {
-            "name": "rollbar/rollbar",
-            "version": "v0.18.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/rollbar/rollbar-php.git",
-                "reference": "fafe13f8beb669d6bba0137f3703fa808d50cbb7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/rollbar/rollbar-php/zipball/fafe13f8beb669d6bba0137f3703fa808d50cbb7",
-                "reference": "fafe13f8beb669d6bba0137f3703fa808d50cbb7",
-                "shasum": ""
-            },
-            "require": {
-                "ext-curl": "*"
-            },
-            "require-dev": {
-                "mockery/mockery": "0.9.*",
-                "phpunit/phpunit": "4.5.*"
-            },
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "src/Level.php",
-                    "src/rollbar.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Rollbar, Inc.",
-                    "email": "support@rollbar.com",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Monitors errors and exceptions and reports them to Rollbar",
-            "homepage": "http://github.com/rollbar/rollbar-php",
-            "keywords": [
-                "debugging",
-                "errors",
-                "exceptions",
-                "logging",
-                "monitoring"
-            ],
-            "time": "2016-07-05 15:50:29"
         },
         {
             "name": "rooftopcms/rooftop-acf-exposer",
@@ -986,20 +915,20 @@
         },
         {
             "name": "rooftopcms/rooftop-s3-upload-setup",
-            "version": "1.2.1",
+            "version": "1.2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-s3-upload-setup.git",
-                "reference": "9fa3a3201be1a70b4e712c56e95976e56a70804d"
+                "reference": "91a9e445dd5b16f5506ea9c1a5fd3cff04a01ea7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rooftopcms/rooftop-s3-upload-setup/zipball/9fa3a3201be1a70b4e712c56e95976e56a70804d",
-                "reference": "9fa3a3201be1a70b4e712c56e95976e56a70804d",
+                "url": "https://api.github.com/repos/rooftopcms/rooftop-s3-upload-setup/zipball/91a9e445dd5b16f5506ea9c1a5fd3cff04a01ea7",
+                "reference": "91a9e445dd5b16f5506ea9c1a5fd3cff04a01ea7",
                 "shasum": ""
             },
             "require": {
-                "wpackagist-plugin/amazon-s3-and-cloudfront": "1.1.6"
+                "wpackagist-plugin/amazon-s3-and-cloudfront": "0.9.12"
             },
             "type": "wordpress-muplugin",
             "notification-url": "https://packagist.org/downloads/",
@@ -1013,7 +942,7 @@
                 }
             ],
             "description": "Allows sites in a network to define their own S3 credentials",
-            "time": "2017-09-01 12:03:26"
+            "time": "2017-09-12 21:02:15"
         },
         {
             "name": "rooftopcms/rooftop-theme",
@@ -1143,15 +1072,15 @@
         },
         {
             "name": "wpackagist-plugin/amazon-s3-and-cloudfront",
-            "version": "1.1.6",
+            "version": "0.9.12",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/amazon-s3-and-cloudfront/",
-                "reference": "tags/1.1.6"
+                "reference": "tags/0.9.12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/amazon-s3-and-cloudfront.1.1.6.zip",
+                "url": "https://downloads.wordpress.org/plugin/amazon-s3-and-cloudfront.0.9.12.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1246,8 +1175,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "davidbarratt/custom-installer": 20,
-        "errorstudio/rooftop-hosted-hooks": 20
+        "davidbarratt/custom-installer": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f3ae984afa4f69ee36de1d4b746c2132",
-    "content-hash": "0f596f2192ee4be99a41ef0ca3f9ef22",
+    "hash": "505845149c64a09848487696d36642bc",
+    "content-hash": "1e788648701b0e0c528b36b362f5d194",
     "packages": [
         {
             "name": "chrisboulton/php-resque",
@@ -927,16 +927,16 @@
         },
         {
             "name": "rooftopcms/rooftop-response-headers",
-            "version": "1.2.2-beta2",
+            "version": "1.2.2-beta3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-response-headers.git",
-                "reference": "f86a8ac4f40b4d6a1318609815199add2ec54a78"
+                "reference": "6fe22758f2eeffd22aab4cbb6b8c4fa715d302a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rooftopcms/rooftop-response-headers/zipball/f86a8ac4f40b4d6a1318609815199add2ec54a78",
-                "reference": "f86a8ac4f40b4d6a1318609815199add2ec54a78",
+                "url": "https://api.github.com/repos/rooftopcms/rooftop-response-headers/zipball/6fe22758f2eeffd22aab4cbb6b8c4fa715d302a1",
+                "reference": "6fe22758f2eeffd22aab4cbb6b8c4fa715d302a1",
                 "shasum": ""
             },
             "require": {
@@ -954,7 +954,7 @@
                 }
             ],
             "description": "Send additional headers to API requests",
-            "time": "2017-09-14 15:57:05"
+            "time": "2017-09-15 10:13:18"
         },
         {
             "name": "rooftopcms/rooftop-response-sanitiser",

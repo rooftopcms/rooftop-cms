@@ -63,7 +63,7 @@
     "rooftopcms/rooftop-gravityforms-exposer": "~1.2.0",
     "rooftopcms/rooftop-network-settings": "~1.2.0",
     "rooftopcms/rooftop-preview-mode-admin": "~1.2.0",
-    "rooftopcms/rooftop-response-headers": "1.2.2-beta1",
+    "rooftopcms/rooftop-response-headers": "1.2.2-beta3",
     "rooftopcms/rooftop-request-parser": "~1.2.0",
     "rooftopcms/rooftop-response-sanitiser": "~1.2.0",
     "rooftopcms/rooftop-resource-metadata": "~1.2.0",

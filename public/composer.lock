@@ -930,7 +930,7 @@
         },
         {
             "name": "rooftopcms/rooftop-response-headers",
-            "version": "1.2.2",
+            "version": "1.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-response-headers.git",
@@ -957,7 +957,7 @@
                 }
             ],
             "description": "Send additional headers to API requests",
-            "time": "2017-09-20 09:58:52"
+            "time": "2017-09-14 15:57:05"
         },
         {
             "name": "rooftopcms/rooftop-response-sanitiser",

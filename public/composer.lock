@@ -930,16 +930,16 @@
         },
         {
             "name": "rooftopcms/rooftop-response-headers",
-            "version": "1.2.1",
+            "version": "1.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-response-headers.git",
-                "reference": "d30f5df23d19d260422f28ab284d67aa53f50083"
+                "reference": "90bc56ece18172e6a9e73dd92cd3bba67e69b866"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rooftopcms/rooftop-response-headers/zipball/d30f5df23d19d260422f28ab284d67aa53f50083",
-                "reference": "d30f5df23d19d260422f28ab284d67aa53f50083",
+                "url": "https://api.github.com/repos/rooftopcms/rooftop-response-headers/zipball/90bc56ece18172e6a9e73dd92cd3bba67e69b866",
+                "reference": "90bc56ece18172e6a9e73dd92cd3bba67e69b866",
                 "shasum": ""
             },
             "require": {
@@ -957,7 +957,7 @@
                 }
             ],
             "description": "Send additional headers to API requests",
-            "time": "2017-09-01 12:03:26"
+            "time": "2017-09-20 09:58:52"
         },
         {
             "name": "rooftopcms/rooftop-response-sanitiser",

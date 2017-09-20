@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "505845149c64a09848487696d36642bc",
-    "content-hash": "1e788648701b0e0c528b36b362f5d194",
+    "hash": "c978b43dfc7104eb382906f13647e63f",
+    "content-hash": "491c8a0686854d1170980b65dd7cfde7",
     "packages": [
         {
             "name": "chrisboulton/php-resque",
@@ -294,20 +294,20 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.8.1",
+            "version": "4.8.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "75bbc8dade6d66b66c7184656df7b3d545d31baa"
+                "reference": "d500aae1793990e4874cf794b6cf88ce60a38918"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/75bbc8dade6d66b66c7184656df7b3d545d31baa",
-                "reference": "75bbc8dade6d66b66c7184656df7b3d545d31baa",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/d500aae1793990e4874cf794b6cf88ce60a38918",
+                "reference": "d500aae1793990e4874cf794b6cf88ce60a38918",
                 "shasum": ""
             },
             "require": {
-                "johnpbloch/wordpress-core": "4.8.1",
+                "johnpbloch/wordpress-core": "4.8.2",
                 "johnpbloch/wordpress-core-installer": "^1.0",
                 "php": ">=5.3.2"
             },
@@ -329,24 +329,27 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2017-08-02 21:47:41"
+            "time": "2017-09-19 22:27:16"
         },
         {
             "name": "johnpbloch/wordpress-core",
-            "version": "4.8.1",
+            "version": "4.8.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "eee7b6128469d31803da3a07aaac9c442f81758e"
+                "reference": "706faa0d7b6b57a25d4acd18331dd71dfa6b01cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/eee7b6128469d31803da3a07aaac9c442f81758e",
-                "reference": "eee7b6128469d31803da3a07aaac9c442f81758e",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/706faa0d7b6b57a25d4acd18331dd71dfa6b01cf",
+                "reference": "706faa0d7b6b57a25d4acd18331dd71dfa6b01cf",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.2"
+            },
+            "provide": {
+                "wordpress/core-implementation": "4.8.2"
             },
             "type": "wordpress-core",
             "notification-url": "https://packagist.org/downloads/",
@@ -366,7 +369,7 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2017-08-02 21:47:36"
+            "time": "2017-09-19 22:27:11"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -1017,16 +1020,16 @@
         },
         {
             "name": "rooftopcms/rooftop-theme",
-            "version": "1.2.1",
+            "version": "1.2.2-beta1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-theme.git",
-                "reference": "0ee1e4146dc7bca74f5ddb56c8c9e62676bbd19c"
+                "reference": "5d6e2f8615233e76d3af68321ce711da2530b460"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rooftopcms/rooftop-theme/zipball/0ee1e4146dc7bca74f5ddb56c8c9e62676bbd19c",
-                "reference": "0ee1e4146dc7bca74f5ddb56c8c9e62676bbd19c",
+                "url": "https://api.github.com/repos/rooftopcms/rooftop-theme/zipball/5d6e2f8615233e76d3af68321ce711da2530b460",
+                "reference": "5d6e2f8615233e76d3af68321ce711da2530b460",
                 "shasum": ""
             },
             "type": "wordpress-theme",
@@ -1041,7 +1044,7 @@
                 }
             ],
             "description": "Appearance and menu options",
-            "time": "2017-09-01 12:21:17"
+            "time": "2017-09-20 10:31:06"
         },
         {
             "name": "rooftopcms/rooftop-webhooks-admin",
@@ -1248,6 +1251,7 @@
     "stability-flags": {
         "davidbarratt/custom-installer": 20,
         "rooftopcms/rooftop-response-headers": 10,
+        "rooftopcms/rooftop-theme": 10,
         "errorstudio/rooftop-hosted-hooks": 20
     },
     "prefer-stable": false,

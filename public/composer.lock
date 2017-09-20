@@ -934,12 +934,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-response-headers.git",
-                "reference": "90bc56ece18172e6a9e73dd92cd3bba67e69b866"
+                "reference": "f86a8ac4f40b4d6a1318609815199add2ec54a78"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rooftopcms/rooftop-response-headers/zipball/90bc56ece18172e6a9e73dd92cd3bba67e69b866",
-                "reference": "90bc56ece18172e6a9e73dd92cd3bba67e69b866",
+                "url": "https://api.github.com/repos/rooftopcms/rooftop-response-headers/zipball/f86a8ac4f40b4d6a1318609815199add2ec54a78",
+                "reference": "f86a8ac4f40b4d6a1318609815199add2ec54a78",
                 "shasum": ""
             },
             "require": {
@@ -1135,7 +1135,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.4.4.8.zip",
-                "reference": null,
+                "reference": "tags/4.4.8",
                 "shasum": null
             },
             "require": {
@@ -1155,7 +1155,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/amazon-s3-and-cloudfront.0.9.12.zip",
-                "reference": null,
+                "reference": "tags/0.9.12",
                 "shasum": null
             },
             "require": {
@@ -1175,7 +1175,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/amazon-web-services.1.0.2.zip",
-                "reference": null,
+                "reference": "tags/1.0.2",
                 "shasum": null
             },
             "require": {
@@ -1195,7 +1195,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/duplicate-post.3.2.zip",
-                "reference": null,
+                "reference": "tags/3.2",
                 "shasum": null
             },
             "require": {
@@ -1215,7 +1215,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/simple-custom-post-order.zip?timestamp=1489777411",
-                "reference": null,
+                "reference": "trunk",
                 "shasum": null
             },
             "require": {
@@ -1235,7 +1235,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wp-api-menus.1.2.0.zip",
-                "reference": null,
+                "reference": "tags/1.2.0",
                 "shasum": null
             },
             "require": {

@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c978b43dfc7104eb382906f13647e63f",
-    "content-hash": "491c8a0686854d1170980b65dd7cfde7",
+    "hash": "2b54e2f92f76b6270390bc700835528d",
+    "content-hash": "a5513a890a8cc1094b1c1052ff848e2b",
     "packages": [
         {
             "name": "chrisboulton/php-resque",
@@ -842,16 +842,16 @@
         },
         {
             "name": "rooftopcms/rooftop-queue-pusher",
-            "version": "1.2.1",
+            "version": "1.2.2-beta1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-queue-pusher.git",
-                "reference": "4100d4d559fd539b8b5b39b9d03ca9e894c6570f"
+                "reference": "85143d098774be50c7f9570c7da20e16f7afcd1c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rooftopcms/rooftop-queue-pusher/zipball/4100d4d559fd539b8b5b39b9d03ca9e894c6570f",
-                "reference": "4100d4d559fd539b8b5b39b9d03ca9e894c6570f",
+                "url": "https://api.github.com/repos/rooftopcms/rooftop-queue-pusher/zipball/85143d098774be50c7f9570c7da20e16f7afcd1c",
+                "reference": "85143d098774be50c7f9570c7da20e16f7afcd1c",
                 "shasum": ""
             },
             "require": {
@@ -870,7 +870,7 @@
                 }
             ],
             "description": "Hook into WP post events to push events onto a queue",
-            "time": "2017-09-01 12:03:21"
+            "time": "2017-10-18 12:49:38"
         },
         {
             "name": "rooftopcms/rooftop-request-parser",
@@ -930,16 +930,16 @@
         },
         {
             "name": "rooftopcms/rooftop-response-headers",
-            "version": "1.2.2-beta3",
+            "version": "1.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-response-headers.git",
-                "reference": "6fe22758f2eeffd22aab4cbb6b8c4fa715d302a1"
+                "reference": "f86a8ac4f40b4d6a1318609815199add2ec54a78"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rooftopcms/rooftop-response-headers/zipball/6fe22758f2eeffd22aab4cbb6b8c4fa715d302a1",
-                "reference": "6fe22758f2eeffd22aab4cbb6b8c4fa715d302a1",
+                "url": "https://api.github.com/repos/rooftopcms/rooftop-response-headers/zipball/f86a8ac4f40b4d6a1318609815199add2ec54a78",
+                "reference": "f86a8ac4f40b4d6a1318609815199add2ec54a78",
                 "shasum": ""
             },
             "require": {
@@ -957,7 +957,7 @@
                 }
             ],
             "description": "Send additional headers to API requests",
-            "time": "2017-09-15 10:13:18"
+            "time": "2017-09-14 15:57:05"
         },
         {
             "name": "rooftopcms/rooftop-response-sanitiser",
@@ -1020,7 +1020,7 @@
         },
         {
             "name": "rooftopcms/rooftop-theme",
-            "version": "1.2.2-beta1",
+            "version": "1.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-theme.git",
@@ -1135,7 +1135,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.4.4.8.zip",
-                "reference": null,
+                "reference": "tags/4.4.8",
                 "shasum": null
             },
             "require": {
@@ -1155,7 +1155,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/amazon-s3-and-cloudfront.0.9.12.zip",
-                "reference": null,
+                "reference": "tags/0.9.12",
                 "shasum": null
             },
             "require": {
@@ -1175,7 +1175,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/amazon-web-services.1.0.2.zip",
-                "reference": null,
+                "reference": "tags/1.0.2",
                 "shasum": null
             },
             "require": {
@@ -1195,7 +1195,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/duplicate-post.3.2.zip",
-                "reference": null,
+                "reference": "tags/3.2",
                 "shasum": null
             },
             "require": {
@@ -1215,7 +1215,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/simple-custom-post-order.zip?timestamp=1489777411",
-                "reference": null,
+                "reference": "trunk",
                 "shasum": null
             },
             "require": {
@@ -1235,7 +1235,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wp-api-menus.1.2.0.zip",
-                "reference": null,
+                "reference": "tags/1.2.0",
                 "shasum": null
             },
             "require": {
@@ -1250,8 +1250,7 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "davidbarratt/custom-installer": 20,
-        "rooftopcms/rooftop-response-headers": 10,
-        "rooftopcms/rooftop-theme": 10,
+        "rooftopcms/rooftop-queue-pusher": 10,
         "errorstudio/rooftop-hosted-hooks": 20
     },
     "prefer-stable": false,

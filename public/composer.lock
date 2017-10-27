@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "ae4869f8ae91914c14fb644894000384",
+    "content-hash": "7b4b12f7c002e9471f93c8d6725bbca1",
     "packages": [
         {
             "name": "chrisboulton/php-resque",
@@ -521,16 +521,16 @@
         },
         {
             "name": "rooftopcms/rooftop-acf-exposer",
-            "version": "1.2.2-beta1",
+            "version": "1.2.2-beta2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-acf-exposer.git",
-                "reference": "8b8a23b2d1dc4a796e321e62ee69346bc530ffe7"
+                "reference": "25dc083a26c710dc7b5a39d2deeff85634f00312"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rooftopcms/rooftop-acf-exposer/zipball/8b8a23b2d1dc4a796e321e62ee69346bc530ffe7",
-                "reference": "8b8a23b2d1dc4a796e321e62ee69346bc530ffe7",
+                "url": "https://api.github.com/repos/rooftopcms/rooftop-acf-exposer/zipball/25dc083a26c710dc7b5a39d2deeff85634f00312",
+                "reference": "25dc083a26c710dc7b5a39d2deeff85634f00312",
                 "shasum": ""
             },
             "require": {
@@ -548,7 +548,7 @@
                 }
             ],
             "description": "Include the ACF fields in a post response",
-            "time": "2017-10-27T13:11:53+00:00"
+            "time": "2017-10-27T15:45:02+00:00"
         },
         {
             "name": "rooftopcms/rooftop-admin-theme",

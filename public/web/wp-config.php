@@ -8,3 +8,4 @@ define("VENDOR_PATH", dirname(__DIR__).'/vendor/');
 require_once(VENDOR_PATH . 'autoload.php');
 require_once(dirname(__DIR__) . '/config/application.php');
 require_once(ABSPATH . 'wp-settings.php');
+

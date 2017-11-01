@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "dfe3d711e1f997a323509103ffbf5bf1",
+    "content-hash": "ec4920cdfc16b88b161d4cf12a1d9e5c",
     "packages": [
         {
             "name": "chrisboulton/php-resque",
@@ -521,16 +521,16 @@
         },
         {
             "name": "rooftopcms/rooftop-acf-exposer",
-            "version": "1.2.2-beta4",
+            "version": "1.2.2-beta5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-acf-exposer.git",
-                "reference": "e6959d17a147d0efcefdea0a8c29ab77172d6fc2"
+                "reference": "2e368c0d83a6b46c60ab55e74b759f4e5bb04730"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rooftopcms/rooftop-acf-exposer/zipball/e6959d17a147d0efcefdea0a8c29ab77172d6fc2",
-                "reference": "e6959d17a147d0efcefdea0a8c29ab77172d6fc2",
+                "url": "https://api.github.com/repos/rooftopcms/rooftop-acf-exposer/zipball/2e368c0d83a6b46c60ab55e74b759f4e5bb04730",
+                "reference": "2e368c0d83a6b46c60ab55e74b759f4e5bb04730",
                 "shasum": ""
             },
             "require": {
@@ -548,7 +548,7 @@
                 }
             ],
             "description": "Include the ACF fields in a post response",
-            "time": "2017-11-01T14:19:53+00:00"
+            "time": "2017-11-01T14:42:30+00:00"
         },
         {
             "name": "rooftopcms/rooftop-admin-theme",
@@ -901,16 +901,16 @@
         },
         {
             "name": "rooftopcms/rooftop-resource-metadata",
-            "version": "1.2.1",
+            "version": "1.2.2-beta1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-resource-metadata.git",
-                "reference": "679b7ab50663b21fbf78f4c370e1c5c6fcffc506"
+                "reference": "852460d5ff76dba176f0713dcabccadd1e6095de"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rooftopcms/rooftop-resource-metadata/zipball/679b7ab50663b21fbf78f4c370e1c5c6fcffc506",
-                "reference": "679b7ab50663b21fbf78f4c370e1c5c6fcffc506",
+                "url": "https://api.github.com/repos/rooftopcms/rooftop-resource-metadata/zipball/852460d5ff76dba176f0713dcabccadd1e6095de",
+                "reference": "852460d5ff76dba176f0713dcabccadd1e6095de",
                 "shasum": ""
             },
             "type": "wordpress-muplugin",
@@ -925,7 +925,7 @@
                 }
             ],
             "description": "Include the custom post metadata in the responses, under a post-type specific key",
-            "time": "2017-09-01T12:03:26+00:00"
+            "time": "2017-11-01T14:43:43+00:00"
         },
         {
             "name": "rooftopcms/rooftop-response-headers",
@@ -1250,6 +1250,7 @@
     "stability-flags": {
         "davidbarratt/custom-installer": 20,
         "rooftopcms/rooftop-acf-exposer": 10,
+        "rooftopcms/rooftop-resource-metadata": 10,
         "rooftopcms/rooftop-queue-pusher": 10,
         "errorstudio/rooftop-hosted-hooks": 20
     },

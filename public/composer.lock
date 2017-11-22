@@ -720,16 +720,16 @@
         },
         {
             "name": "rooftopcms/rooftop-events",
-            "version": "1.2.1",
+            "version": "1.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-events.git",
-                "reference": "9d786c00185c986a68b5b2fbe78ff398db9b797e"
+                "reference": "c2c4c3224686f8f71345a9b2dc148717223a0766"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rooftopcms/rooftop-events/zipball/9d786c00185c986a68b5b2fbe78ff398db9b797e",
-                "reference": "9d786c00185c986a68b5b2fbe78ff398db9b797e",
+                "url": "https://api.github.com/repos/rooftopcms/rooftop-events/zipball/c2c4c3224686f8f71345a9b2dc148717223a0766",
+                "reference": "c2c4c3224686f8f71345a9b2dc148717223a0766",
                 "shasum": ""
             },
             "require": {
@@ -747,7 +747,7 @@
                 }
             ],
             "description": "Authenticates requests to the API",
-            "time": "2017-09-01T11:57:07+00:00"
+            "time": "2017-11-22T15:17:55+00:00"
         },
         {
             "name": "rooftopcms/rooftop-gravityforms-exposer",

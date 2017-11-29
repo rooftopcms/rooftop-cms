@@ -901,16 +901,16 @@
         },
         {
             "name": "rooftopcms/rooftop-resource-metadata",
-            "version": "1.2.2",
+            "version": "1.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-resource-metadata.git",
-                "reference": "852460d5ff76dba176f0713dcabccadd1e6095de"
+                "reference": "7c267900b6bf21e63153ded799b030c3aa6293d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rooftopcms/rooftop-resource-metadata/zipball/852460d5ff76dba176f0713dcabccadd1e6095de",
-                "reference": "852460d5ff76dba176f0713dcabccadd1e6095de",
+                "url": "https://api.github.com/repos/rooftopcms/rooftop-resource-metadata/zipball/7c267900b6bf21e63153ded799b030c3aa6293d1",
+                "reference": "7c267900b6bf21e63153ded799b030c3aa6293d1",
                 "shasum": ""
             },
             "type": "wordpress-muplugin",
@@ -925,7 +925,7 @@
                 }
             ],
             "description": "Include the custom post metadata in the responses, under a post-type specific key",
-            "time": "2017-11-01T14:43:43+00:00"
+            "time": "2017-11-29T10:23:18+00:00"
         },
         {
             "name": "rooftopcms/rooftop-response-headers",

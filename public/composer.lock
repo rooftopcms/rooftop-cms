@@ -873,16 +873,16 @@
         },
         {
             "name": "rooftopcms/rooftop-request-parser",
-            "version": "1.2.1",
+            "version": "1.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-request-parser.git",
-                "reference": "af98116c5734c3278ef5ae098b44460cb485689e"
+                "reference": "89be22acaf132a7cab1be5f3bd45babe13f54863"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rooftopcms/rooftop-request-parser/zipball/af98116c5734c3278ef5ae098b44460cb485689e",
-                "reference": "af98116c5734c3278ef5ae098b44460cb485689e",
+                "url": "https://api.github.com/repos/rooftopcms/rooftop-request-parser/zipball/89be22acaf132a7cab1be5f3bd45babe13f54863",
+                "reference": "89be22acaf132a7cab1be5f3bd45babe13f54863",
                 "shasum": ""
             },
             "type": "wordpress-muplugin",
@@ -897,7 +897,7 @@
                 }
             ],
             "description": "Manipulate the REST request or server variables to alter queries or remove/change default params",
-            "time": "2017-09-01T12:03:24+00:00"
+            "time": "2017-11-29T10:14:36+00:00"
         },
         {
             "name": "rooftopcms/rooftop-resource-metadata",
@@ -1185,16 +1185,16 @@
         },
         {
             "name": "wpackagist-plugin/duplicate-post",
-            "version": "3.2",
+            "version": "3.2.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/duplicate-post/",
-                "reference": "tags/3.2"
+                "reference": "tags/3.2.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/duplicate-post.3.2.zip",
-                "reference": "tags/3.2",
+                "url": "https://downloads.wordpress.org/plugin/duplicate-post.3.2.1.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {

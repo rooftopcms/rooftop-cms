@@ -81,6 +81,7 @@
     "predis/predis": "~1.0.3",
     "icanboogie/inflector": "1.3.3",
     "errorstudio/rooftop-hosted-hooks": "dev-development",
+    "wpackagist-plugin/members": "2.0.2",
     "rollbar/rollbar": "~0.18.2"
   },
   "extra": {

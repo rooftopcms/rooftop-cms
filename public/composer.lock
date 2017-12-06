@@ -521,16 +521,16 @@
         },
         {
             "name": "rooftopcms/rooftop-acf-exposer",
-            "version": "1.2.2",
+            "version": "1.2.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-acf-exposer.git",
-                "reference": "bd0cb597a1c6b384c04bdf1f9c67aac1b78d8d53"
+                "reference": "d0ac20f6f64906d38c1bab7fe69b8d3c1f996239"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rooftopcms/rooftop-acf-exposer/zipball/bd0cb597a1c6b384c04bdf1f9c67aac1b78d8d53",
-                "reference": "bd0cb597a1c6b384c04bdf1f9c67aac1b78d8d53",
+                "url": "https://api.github.com/repos/rooftopcms/rooftop-acf-exposer/zipball/d0ac20f6f64906d38c1bab7fe69b8d3c1f996239",
+                "reference": "d0ac20f6f64906d38c1bab7fe69b8d3c1f996239",
                 "shasum": ""
             },
             "require": {
@@ -548,7 +548,7 @@
                 }
             ],
             "description": "Include the ACF fields in a post response",
-            "time": "2017-11-11T23:37:04+00:00"
+            "time": "2017-12-05T10:02:26+00:00"
         },
         {
             "name": "rooftopcms/rooftop-admin-theme",

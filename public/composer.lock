@@ -692,16 +692,16 @@
         },
         {
             "name": "rooftopcms/rooftop-custom-content-setup",
-            "version": "1.2.2",
+            "version": "1.2.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-custom-content-setup.git",
-                "reference": "ad005604db933fc1ea03a8c0121d3b004a397f72"
+                "reference": "39a0da2fa0cbb9a3161202ac62cd1bca3ea016fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rooftopcms/rooftop-custom-content-setup/zipball/ad005604db933fc1ea03a8c0121d3b004a397f72",
-                "reference": "ad005604db933fc1ea03a8c0121d3b004a397f72",
+                "url": "https://api.github.com/repos/rooftopcms/rooftop-custom-content-setup/zipball/39a0da2fa0cbb9a3161202ac62cd1bca3ea016fd",
+                "reference": "39a0da2fa0cbb9a3161202ac62cd1bca3ea016fd",
                 "shasum": ""
             },
             "type": "wordpress-muplugin",
@@ -716,7 +716,7 @@
                 }
             ],
             "description": "Add custom content types, taxonomies and page templates",
-            "time": "2017-12-05T09:59:26+00:00"
+            "time": "2017-12-06T15:19:23+00:00"
         },
         {
             "name": "rooftopcms/rooftop-events",

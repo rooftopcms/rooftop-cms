@@ -293,20 +293,20 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.8.3",
+            "version": "4.8.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "d5bc0df53dd6e6e43082f47ccee89aab2049bc23"
+                "reference": "ba625ba72a59dcbaec0970c3d2991097110a6d45"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/d5bc0df53dd6e6e43082f47ccee89aab2049bc23",
-                "reference": "d5bc0df53dd6e6e43082f47ccee89aab2049bc23",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/ba625ba72a59dcbaec0970c3d2991097110a6d45",
+                "reference": "ba625ba72a59dcbaec0970c3d2991097110a6d45",
                 "shasum": ""
             },
             "require": {
-                "johnpbloch/wordpress-core": "4.8.3",
+                "johnpbloch/wordpress-core": "4.8.4",
                 "johnpbloch/wordpress-core-installer": "^1.0",
                 "php": ">=5.3.2"
             },
@@ -328,27 +328,27 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2017-10-31T16:40:07+00:00"
+            "time": "2017-11-29T22:12:18+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core",
-            "version": "4.8.3",
+            "version": "4.8.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "949e279f9752b458d70288636a77d2b8f66801f6"
+                "reference": "6db8fe24df8ed8375d2ca851175d0febcee47cf3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/949e279f9752b458d70288636a77d2b8f66801f6",
-                "reference": "949e279f9752b458d70288636a77d2b8f66801f6",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/6db8fe24df8ed8375d2ca851175d0febcee47cf3",
+                "reference": "6db8fe24df8ed8375d2ca851175d0febcee47cf3",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.2"
             },
             "provide": {
-                "wordpress/core-implementation": "4.8.3"
+                "wordpress/core-implementation": "4.8.4"
             },
             "type": "wordpress-core",
             "notification-url": "https://packagist.org/downloads/",
@@ -368,7 +368,7 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2017-10-31T16:39:59+00:00"
+            "time": "2017-11-29T22:12:12+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -552,16 +552,16 @@
         },
         {
             "name": "rooftopcms/rooftop-admin-theme",
-            "version": "1.2.1",
+            "version": "1.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-admin-theme.git",
-                "reference": "d5005552159f0cf70018c4966d49573047ff23ac"
+                "reference": "49abd7158a3d444a322e0741f10d616a3d8c085f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rooftopcms/rooftop-admin-theme/zipball/d5005552159f0cf70018c4966d49573047ff23ac",
-                "reference": "d5005552159f0cf70018c4966d49573047ff23ac",
+                "url": "https://api.github.com/repos/rooftopcms/rooftop-admin-theme/zipball/49abd7158a3d444a322e0741f10d616a3d8c085f",
+                "reference": "49abd7158a3d444a322e0741f10d616a3d8c085f",
                 "shasum": ""
             },
             "type": "wordpress-muplugin",
@@ -576,7 +576,7 @@
                 }
             ],
             "description": "Authenticates requests to the API",
-            "time": "2017-09-01T12:03:17+00:00"
+            "time": "2017-11-29T13:58:00+00:00"
         },
         {
             "name": "rooftopcms/rooftop-api-authentication",
@@ -692,16 +692,16 @@
         },
         {
             "name": "rooftopcms/rooftop-custom-content-setup",
-            "version": "1.2.1",
+            "version": "1.2.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-custom-content-setup.git",
-                "reference": "7efc55de7422e119030770d2b13863dcdb840b87"
+                "reference": "39a0da2fa0cbb9a3161202ac62cd1bca3ea016fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rooftopcms/rooftop-custom-content-setup/zipball/7efc55de7422e119030770d2b13863dcdb840b87",
-                "reference": "7efc55de7422e119030770d2b13863dcdb840b87",
+                "url": "https://api.github.com/repos/rooftopcms/rooftop-custom-content-setup/zipball/39a0da2fa0cbb9a3161202ac62cd1bca3ea016fd",
+                "reference": "39a0da2fa0cbb9a3161202ac62cd1bca3ea016fd",
                 "shasum": ""
             },
             "type": "wordpress-muplugin",
@@ -716,20 +716,20 @@
                 }
             ],
             "description": "Add custom content types, taxonomies and page templates",
-            "time": "2017-09-01T12:03:18+00:00"
+            "time": "2017-12-06T15:19:23+00:00"
         },
         {
             "name": "rooftopcms/rooftop-events",
-            "version": "1.2.1",
+            "version": "1.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-events.git",
-                "reference": "9d786c00185c986a68b5b2fbe78ff398db9b797e"
+                "reference": "c2c4c3224686f8f71345a9b2dc148717223a0766"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rooftopcms/rooftop-events/zipball/9d786c00185c986a68b5b2fbe78ff398db9b797e",
-                "reference": "9d786c00185c986a68b5b2fbe78ff398db9b797e",
+                "url": "https://api.github.com/repos/rooftopcms/rooftop-events/zipball/c2c4c3224686f8f71345a9b2dc148717223a0766",
+                "reference": "c2c4c3224686f8f71345a9b2dc148717223a0766",
                 "shasum": ""
             },
             "require": {
@@ -747,7 +747,7 @@
                 }
             ],
             "description": "Authenticates requests to the API",
-            "time": "2017-09-01T11:57:07+00:00"
+            "time": "2017-11-22T15:17:55+00:00"
         },
         {
             "name": "rooftopcms/rooftop-gravityforms-exposer",
@@ -873,16 +873,16 @@
         },
         {
             "name": "rooftopcms/rooftop-request-parser",
-            "version": "1.2.1",
+            "version": "1.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-request-parser.git",
-                "reference": "af98116c5734c3278ef5ae098b44460cb485689e"
+                "reference": "89be22acaf132a7cab1be5f3bd45babe13f54863"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rooftopcms/rooftop-request-parser/zipball/af98116c5734c3278ef5ae098b44460cb485689e",
-                "reference": "af98116c5734c3278ef5ae098b44460cb485689e",
+                "url": "https://api.github.com/repos/rooftopcms/rooftop-request-parser/zipball/89be22acaf132a7cab1be5f3bd45babe13f54863",
+                "reference": "89be22acaf132a7cab1be5f3bd45babe13f54863",
                 "shasum": ""
             },
             "type": "wordpress-muplugin",
@@ -897,7 +897,7 @@
                 }
             ],
             "description": "Manipulate the REST request or server variables to alter queries or remove/change default params",
-            "time": "2017-09-01T12:03:24+00:00"
+            "time": "2017-11-29T10:14:36+00:00"
         },
         {
             "name": "rooftopcms/rooftop-resource-metadata",
@@ -1185,16 +1185,16 @@
         },
         {
             "name": "wpackagist-plugin/duplicate-post",
-            "version": "3.2",
+            "version": "3.2.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/duplicate-post/",
-                "reference": "tags/3.2"
+                "reference": "tags/3.2.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/duplicate-post.3.2.zip",
-                "reference": "tags/3.2",
+                "url": "https://downloads.wordpress.org/plugin/duplicate-post.3.2.1.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {

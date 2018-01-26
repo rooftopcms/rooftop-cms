@@ -4,7 +4,6 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "87c3a1e18dd1205362c1b5b1ba0c6a4b",
     "content-hash": "837146ba962825ab5370dbd88c3ab28d",
     "packages": [
         {
@@ -48,7 +47,7 @@
                 "redis",
                 "resque"
             ],
-            "time": "2012-10-13 07:28:16"
+            "time": "2012-10-13T07:28:16+00:00"
         },
         {
             "name": "chrisboulton/php-resque-scheduler",
@@ -81,7 +80,7 @@
                 }
             ],
             "description": "php-resque-scheduler is a PHP port of resque-scheduler, which adds support for scheduling items in the future to Resque.",
-            "time": "2013-03-10 21:53:45"
+            "time": "2013-03-10T21:53:45+00:00"
         },
         {
             "name": "composer/installers",
@@ -181,7 +180,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2016-04-13 19:46:30"
+            "time": "2016-04-13T19:46:30+00:00"
         },
         {
             "name": "davidbarratt/custom-installer",
@@ -220,7 +219,7 @@
             ],
             "description": "Install custom types into custom locations.",
             "homepage": "https://github.com/davidbarratt/custom-installer",
-            "time": "2016-01-23 14:33:27"
+            "time": "2016-01-23T14:33:27+00:00"
         },
         {
             "name": "icanboogie/inflector",
@@ -269,24 +268,24 @@
                 "issues": "https://github.com/ICanBoogie/Inflector/issues",
                 "source": "https://github.com/ICanBoogie/Inflector"
             },
-            "time": "2015-08-18 20:13:36"
+            "time": "2015-08-18T20:13:36+00:00"
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.8.1",
+            "version": "4.8.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "75bbc8dade6d66b66c7184656df7b3d545d31baa"
+                "reference": "4c6e2ef799e270a4d69198430a92efa4ba09e346"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/75bbc8dade6d66b66c7184656df7b3d545d31baa",
-                "reference": "75bbc8dade6d66b66c7184656df7b3d545d31baa",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/4c6e2ef799e270a4d69198430a92efa4ba09e346",
+                "reference": "4c6e2ef799e270a4d69198430a92efa4ba09e346",
                 "shasum": ""
             },
             "require": {
-                "johnpbloch/wordpress-core": "4.8.1",
+                "johnpbloch/wordpress-core": "4.8.5",
                 "johnpbloch/wordpress-core-installer": "^1.0",
                 "php": ">=5.3.2"
             },
@@ -308,24 +307,27 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2017-08-02 21:47:41"
+            "time": "2018-01-16T23:12:31+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core",
-            "version": "4.8.1",
+            "version": "4.8.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "eee7b6128469d31803da3a07aaac9c442f81758e"
+                "reference": "5d35256ae5ff1e857b76323241118c0c94a33847"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/eee7b6128469d31803da3a07aaac9c442f81758e",
-                "reference": "eee7b6128469d31803da3a07aaac9c442f81758e",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/5d35256ae5ff1e857b76323241118c0c94a33847",
+                "reference": "5d35256ae5ff1e857b76323241118c0c94a33847",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.2"
+            },
+            "provide": {
+                "wordpress/core-implementation": "4.8.5"
             },
             "type": "wordpress-core",
             "notification-url": "https://packagist.org/downloads/",
@@ -345,7 +347,7 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2017-08-02 21:47:36"
+            "time": "2018-01-16T23:12:27+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -394,7 +396,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2017-05-31 18:42:33"
+            "time": "2017-05-31T18:42:33+00:00"
         },
         {
             "name": "predis/predis",
@@ -444,20 +446,20 @@
                 "predis",
                 "redis"
             ],
-            "time": "2016-05-30 15:25:52"
+            "time": "2016-05-30T15:25:52+00:00"
         },
         {
             "name": "rooftopcms/rooftop-acf-exposer",
-            "version": "1.2.1",
+            "version": "1.2.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-acf-exposer.git",
-                "reference": "1c3fcb0834714a8e10afae0df671439ead5ff331"
+                "reference": "f9067e96697b5bbc109cc38824a1eb5339ed8b23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rooftopcms/rooftop-acf-exposer/zipball/1c3fcb0834714a8e10afae0df671439ead5ff331",
-                "reference": "1c3fcb0834714a8e10afae0df671439ead5ff331",
+                "url": "https://api.github.com/repos/rooftopcms/rooftop-acf-exposer/zipball/f9067e96697b5bbc109cc38824a1eb5339ed8b23",
+                "reference": "f9067e96697b5bbc109cc38824a1eb5339ed8b23",
                 "shasum": ""
             },
             "require": {
@@ -475,20 +477,20 @@
                 }
             ],
             "description": "Include the ACF fields in a post response",
-            "time": "2017-09-01 12:03:15"
+            "time": "2018-01-09T13:55:14+00:00"
         },
         {
             "name": "rooftopcms/rooftop-admin-theme",
-            "version": "1.2.1",
+            "version": "1.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-admin-theme.git",
-                "reference": "d5005552159f0cf70018c4966d49573047ff23ac"
+                "reference": "49abd7158a3d444a322e0741f10d616a3d8c085f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rooftopcms/rooftop-admin-theme/zipball/d5005552159f0cf70018c4966d49573047ff23ac",
-                "reference": "d5005552159f0cf70018c4966d49573047ff23ac",
+                "url": "https://api.github.com/repos/rooftopcms/rooftop-admin-theme/zipball/49abd7158a3d444a322e0741f10d616a3d8c085f",
+                "reference": "49abd7158a3d444a322e0741f10d616a3d8c085f",
                 "shasum": ""
             },
             "type": "wordpress-muplugin",
@@ -503,7 +505,7 @@
                 }
             ],
             "description": "Authenticates requests to the API",
-            "time": "2017-09-01 12:03:17"
+            "time": "2017-11-29T13:58:00+00:00"
         },
         {
             "name": "rooftopcms/rooftop-api-authentication",
@@ -531,7 +533,7 @@
                 }
             ],
             "description": "Authenticates requests to the API",
-            "time": "2017-09-01 12:03:17"
+            "time": "2017-09-01T12:03:17+00:00"
         },
         {
             "name": "rooftopcms/rooftop-content-fields",
@@ -559,7 +561,7 @@
                 }
             ],
             "description": "Include the additional fields in a response",
-            "time": "2017-09-01 12:03:17"
+            "time": "2017-09-01T12:03:17+00:00"
         },
         {
             "name": "rooftopcms/rooftop-content-hierarchy",
@@ -587,7 +589,7 @@
                 }
             ],
             "description": "Include the content hierarchy for a given post in its JSON response",
-            "time": "2017-09-01 12:03:17"
+            "time": "2017-09-01T12:03:17+00:00"
         },
         {
             "name": "rooftopcms/rooftop-content-settings",
@@ -615,20 +617,20 @@
                 }
             ],
             "description": "Change some site defaults and the example content when a sub-site is created",
-            "time": "2017-09-01 12:03:18"
+            "time": "2017-09-01T12:03:18+00:00"
         },
         {
             "name": "rooftopcms/rooftop-custom-content-setup",
-            "version": "1.2.1",
+            "version": "1.2.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-custom-content-setup.git",
-                "reference": "7efc55de7422e119030770d2b13863dcdb840b87"
+                "reference": "39a0da2fa0cbb9a3161202ac62cd1bca3ea016fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rooftopcms/rooftop-custom-content-setup/zipball/7efc55de7422e119030770d2b13863dcdb840b87",
-                "reference": "7efc55de7422e119030770d2b13863dcdb840b87",
+                "url": "https://api.github.com/repos/rooftopcms/rooftop-custom-content-setup/zipball/39a0da2fa0cbb9a3161202ac62cd1bca3ea016fd",
+                "reference": "39a0da2fa0cbb9a3161202ac62cd1bca3ea016fd",
                 "shasum": ""
             },
             "type": "wordpress-muplugin",
@@ -643,20 +645,20 @@
                 }
             ],
             "description": "Add custom content types, taxonomies and page templates",
-            "time": "2017-09-01 12:03:18"
+            "time": "2017-12-06T15:19:23+00:00"
         },
         {
             "name": "rooftopcms/rooftop-events",
-            "version": "1.2.1",
+            "version": "1.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-events.git",
-                "reference": "9d786c00185c986a68b5b2fbe78ff398db9b797e"
+                "reference": "c2c4c3224686f8f71345a9b2dc148717223a0766"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rooftopcms/rooftop-events/zipball/9d786c00185c986a68b5b2fbe78ff398db9b797e",
-                "reference": "9d786c00185c986a68b5b2fbe78ff398db9b797e",
+                "url": "https://api.github.com/repos/rooftopcms/rooftop-events/zipball/c2c4c3224686f8f71345a9b2dc148717223a0766",
+                "reference": "c2c4c3224686f8f71345a9b2dc148717223a0766",
                 "shasum": ""
             },
             "require": {
@@ -674,7 +676,7 @@
                 }
             ],
             "description": "Authenticates requests to the API",
-            "time": "2017-09-01 11:57:07"
+            "time": "2017-11-22T15:17:55+00:00"
         },
         {
             "name": "rooftopcms/rooftop-gravityforms-exposer",
@@ -702,7 +704,7 @@
                 }
             ],
             "description": "Authenticates requests to the API",
-            "time": "2017-09-01 12:03:18"
+            "time": "2017-09-01T12:03:18+00:00"
         },
         {
             "name": "rooftopcms/rooftop-network-settings",
@@ -733,7 +735,7 @@
                 }
             ],
             "description": "Network-level admin interface for adding Google Tag Manager config",
-            "time": "2017-09-01 12:03:18"
+            "time": "2017-09-01T12:03:18+00:00"
         },
         {
             "name": "rooftopcms/rooftop-preview-mode-admin",
@@ -764,20 +766,20 @@
                 }
             ],
             "description": "Detect whether a client is making a request in preview mode and define a constant accordingly",
-            "time": "2017-09-01 11:57:08"
+            "time": "2017-09-01T11:57:08+00:00"
         },
         {
             "name": "rooftopcms/rooftop-queue-pusher",
-            "version": "1.2.1",
+            "version": "1.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-queue-pusher.git",
-                "reference": "4100d4d559fd539b8b5b39b9d03ca9e894c6570f"
+                "reference": "4fd21eac310cee294678c17c0d5b3f4cb8166fd6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rooftopcms/rooftop-queue-pusher/zipball/4100d4d559fd539b8b5b39b9d03ca9e894c6570f",
-                "reference": "4100d4d559fd539b8b5b39b9d03ca9e894c6570f",
+                "url": "https://api.github.com/repos/rooftopcms/rooftop-queue-pusher/zipball/4fd21eac310cee294678c17c0d5b3f4cb8166fd6",
+                "reference": "4fd21eac310cee294678c17c0d5b3f4cb8166fd6",
                 "shasum": ""
             },
             "require": {
@@ -796,20 +798,20 @@
                 }
             ],
             "description": "Hook into WP post events to push events onto a queue",
-            "time": "2017-09-01 12:03:21"
+            "time": "2017-10-18T14:10:00+00:00"
         },
         {
             "name": "rooftopcms/rooftop-request-parser",
-            "version": "1.2.1",
+            "version": "1.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-request-parser.git",
-                "reference": "af98116c5734c3278ef5ae098b44460cb485689e"
+                "reference": "89be22acaf132a7cab1be5f3bd45babe13f54863"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rooftopcms/rooftop-request-parser/zipball/af98116c5734c3278ef5ae098b44460cb485689e",
-                "reference": "af98116c5734c3278ef5ae098b44460cb485689e",
+                "url": "https://api.github.com/repos/rooftopcms/rooftop-request-parser/zipball/89be22acaf132a7cab1be5f3bd45babe13f54863",
+                "reference": "89be22acaf132a7cab1be5f3bd45babe13f54863",
                 "shasum": ""
             },
             "type": "wordpress-muplugin",
@@ -824,20 +826,20 @@
                 }
             ],
             "description": "Manipulate the REST request or server variables to alter queries or remove/change default params",
-            "time": "2017-09-01 12:03:24"
+            "time": "2017-11-29T10:14:36+00:00"
         },
         {
             "name": "rooftopcms/rooftop-resource-metadata",
-            "version": "1.2.1",
+            "version": "1.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-resource-metadata.git",
-                "reference": "679b7ab50663b21fbf78f4c370e1c5c6fcffc506"
+                "reference": "7c267900b6bf21e63153ded799b030c3aa6293d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rooftopcms/rooftop-resource-metadata/zipball/679b7ab50663b21fbf78f4c370e1c5c6fcffc506",
-                "reference": "679b7ab50663b21fbf78f4c370e1c5c6fcffc506",
+                "url": "https://api.github.com/repos/rooftopcms/rooftop-resource-metadata/zipball/7c267900b6bf21e63153ded799b030c3aa6293d1",
+                "reference": "7c267900b6bf21e63153ded799b030c3aa6293d1",
                 "shasum": ""
             },
             "type": "wordpress-muplugin",
@@ -852,20 +854,20 @@
                 }
             ],
             "description": "Include the custom post metadata in the responses, under a post-type specific key",
-            "time": "2017-09-01 12:03:26"
+            "time": "2017-11-29T10:23:18+00:00"
         },
         {
             "name": "rooftopcms/rooftop-response-headers",
-            "version": "1.2.1",
+            "version": "1.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-response-headers.git",
-                "reference": "d30f5df23d19d260422f28ab284d67aa53f50083"
+                "reference": "f86a8ac4f40b4d6a1318609815199add2ec54a78"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rooftopcms/rooftop-response-headers/zipball/d30f5df23d19d260422f28ab284d67aa53f50083",
-                "reference": "d30f5df23d19d260422f28ab284d67aa53f50083",
+                "url": "https://api.github.com/repos/rooftopcms/rooftop-response-headers/zipball/f86a8ac4f40b4d6a1318609815199add2ec54a78",
+                "reference": "f86a8ac4f40b4d6a1318609815199add2ec54a78",
                 "shasum": ""
             },
             "require": {
@@ -883,7 +885,7 @@
                 }
             ],
             "description": "Send additional headers to API requests",
-            "time": "2017-09-01 12:03:26"
+            "time": "2017-09-14T15:57:05+00:00"
         },
         {
             "name": "rooftopcms/rooftop-response-sanitiser",
@@ -911,7 +913,7 @@
                 }
             ],
             "description": "The awesome WP-API includes some things in its response that we would rather handle in the client.For example, we remove content['rendered'] and replace with content['json'] with links replaced with shortcodes.",
-            "time": "2017-09-01 12:03:26"
+            "time": "2017-09-01T12:03:26+00:00"
         },
         {
             "name": "rooftopcms/rooftop-s3-upload-setup",
@@ -942,20 +944,20 @@
                 }
             ],
             "description": "Allows sites in a network to define their own S3 credentials",
-            "time": "2017-09-12 21:02:15"
+            "time": "2017-09-12T21:02:15+00:00"
         },
         {
             "name": "rooftopcms/rooftop-theme",
-            "version": "1.2.1",
+            "version": "1.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-theme.git",
-                "reference": "0ee1e4146dc7bca74f5ddb56c8c9e62676bbd19c"
+                "reference": "5d6e2f8615233e76d3af68321ce711da2530b460"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rooftopcms/rooftop-theme/zipball/0ee1e4146dc7bca74f5ddb56c8c9e62676bbd19c",
-                "reference": "0ee1e4146dc7bca74f5ddb56c8c9e62676bbd19c",
+                "url": "https://api.github.com/repos/rooftopcms/rooftop-theme/zipball/5d6e2f8615233e76d3af68321ce711da2530b460",
+                "reference": "5d6e2f8615233e76d3af68321ce711da2530b460",
                 "shasum": ""
             },
             "type": "wordpress-theme",
@@ -970,7 +972,7 @@
                 }
             ],
             "description": "Appearance and menu options",
-            "time": "2017-09-01 12:21:17"
+            "time": "2017-09-20T10:31:06+00:00"
         },
         {
             "name": "rooftopcms/rooftop-webhooks-admin",
@@ -998,7 +1000,7 @@
                 }
             ],
             "description": "Configure the webhook URI's",
-            "time": "2017-09-01 12:03:26"
+            "time": "2017-09-01T12:03:26+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -1048,7 +1050,7 @@
                 "env",
                 "environment"
             ],
-            "time": "2016-09-01 10:05:43"
+            "time": "2016-09-01T10:05:43+00:00"
         },
         {
             "name": "wpackagist-plugin/advanced-custom-fields",
@@ -1061,7 +1063,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.4.4.8.zip",
-                "reference": null,
+                "reference": "tags/4.4.8",
                 "shasum": null
             },
             "require": {
@@ -1081,7 +1083,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/amazon-s3-and-cloudfront.0.9.12.zip",
-                "reference": null,
+                "reference": "tags/0.9.12",
                 "shasum": null
             },
             "require": {
@@ -1101,7 +1103,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/amazon-web-services.1.0.2.zip",
-                "reference": null,
+                "reference": "tags/1.0.2",
                 "shasum": null
             },
             "require": {
@@ -1112,15 +1114,15 @@
         },
         {
             "name": "wpackagist-plugin/duplicate-post",
-            "version": "3.2",
+            "version": "3.2.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/duplicate-post/",
-                "reference": "tags/3.2"
+                "reference": "tags/3.2.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/duplicate-post.3.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/duplicate-post.3.2.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1141,7 +1143,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/simple-custom-post-order.zip?timestamp=1489777411",
-                "reference": null,
+                "reference": "trunk",
                 "shasum": null
             },
             "require": {
@@ -1161,7 +1163,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wp-api-menus.1.2.0.zip",
-                "reference": null,
+                "reference": "tags/1.2.0",
                 "shasum": null
             },
             "require": {

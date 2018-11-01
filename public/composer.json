@@ -43,10 +43,6 @@
     {
         "type": "git",
         "url": "https://github.com/ICanBoogie/Inflector.git"
-    },
-    {
-        "type": "vcs",
-        "url": "git@bitbucket.org:errorstudio/rooftop-hosted-hooks.git"
     }
   ],
   "require": {
@@ -56,7 +52,7 @@
     "vlucas/phpdotenv": "^2.0.1",
     "johnpbloch/wordpress": "~4.8.0",
 
-    "rooftopcms/rooftop-acf-exposer": "1.2.2-beta15",
+    "rooftopcms/rooftop-acf-exposer": "~1.2.0",
     "rooftopcms/rooftop-admin-theme": "~1.2.0",
     "rooftopcms/rooftop-api-authentication": "~1.2.0",
     "rooftopcms/rooftop-content-hierarchy": "~1.2.0",
@@ -70,8 +66,8 @@
     "rooftopcms/rooftop-response-headers": "~1.2.0",
     "rooftopcms/rooftop-request-parser": "~1.2.0",
     "rooftopcms/rooftop-response-sanitiser": "~1.2.0",
-    "rooftopcms/rooftop-resource-metadata": "1.2.2-beta1",
-    "rooftopcms/rooftop-queue-pusher": "1.2.2-beta1",
+    "rooftopcms/rooftop-resource-metadata": "~1.2.0",
+    "rooftopcms/rooftop-queue-pusher": "~1.2.0",
     "rooftopcms/rooftop-s3-upload-setup": "~1.2.0",
     "rooftopcms/rooftop-theme": "~1.2.0",
     "rooftopcms/rooftop-webhooks-admin": "~1.2.0",
@@ -82,8 +78,7 @@
     "wpackagist-plugin/duplicate-post": "~3.2",
     "predis/predis": "~1.0.3",
     "icanboogie/inflector": "1.3.3",
-    "errorstudio/rooftop-hosted-hooks": "dev-development",
-    "rollbar/rollbar": "~0.18.2"
+    "wpackagist-plugin/rollbar":"2.4.7"
   },
   "extra": {
     "installer-paths": {
@@ -91,6 +86,7 @@
       "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin", "type:wordpress-plugin"],
       "web/app/themes/{$name}/": ["type:wordpress-theme"]
     },
+
     "wordpress-install-dir": "web/wp"
   }
 }

@@ -65,11 +65,7 @@ set :log_formats, {
 
 set :access_log, "syslog:server=unix:/dev/log,facility=local7,tag=nginx,nohostname with_subdomain_and_time"
 set :error_log, "syslog:server=unix:/dev/log,facility=local7,tag=nginx,severity=error,nohostname"
-<<<<<<< HEAD
-=======
-
 
 set :custom_nginx_rules, [
     "if ($request_method !~ ^(GET|OPTIONS)$) { return 403; }"
 ]
->>>>>>> qa

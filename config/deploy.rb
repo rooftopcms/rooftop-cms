@@ -22,10 +22,10 @@ set :custom_nginx_aliases, ->{
 }
 
 #development settings
-set :local_domain, "rooftop-cms.dev"
+set :local_domain, "rooftop-cms.local"
 set :local_db_username, "root"
 set :local_db_password, "root"
-set :local_db_server, "vvv.dev"
+set :local_db_server, "vvv.local"
 set :local_db_server_port, 3306
 set :local_db_name, "rooftop_cms"
 

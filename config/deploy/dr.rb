@@ -68,5 +68,5 @@ set :error_log, "syslog:server=unix:/dev/log,facility=local7,tag=nginx,severity=
 
 
 set :custom_nginx_rules, [
-    "if ($request_method != GET) { return 403; }"
+    "if ($request_method !~ ^(GET|OPTIONS)$) { return 403; }"
 ]

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d228b98fc497db3a6bf89b1c0534e681",
+    "content-hash": "67dbc57056e702024572e713276fb6d8",
     "packages": [
         {
             "name": "chrisboulton/php-resque",
@@ -221,27 +221,6 @@
             "description": "Install custom types into custom locations.",
             "homepage": "https://github.com/davidbarratt/custom-installer",
             "time": "2016-01-23T14:33:27+00:00"
-        },
-        {
-            "name": "errorstudio/rooftop-hosted-hooks",
-            "version": "dev-development",
-            "source": {
-                "type": "git",
-                "url": "git@bitbucket.org:errorstudio/rooftop-hosted-hooks.git",
-                "reference": "3255b200ed46a84c9883869d2fb7bbdbd5150c1b"
-            },
-            "type": "wordpress-muplugin",
-            "license": [
-                "GPL-3.0"
-            ],
-            "authors": [
-                {
-                    "name": "Rooftop CMS",
-                    "email": "hello@rooftopcms.com"
-                }
-            ],
-            "description": "A place for the hosted Rooftop install to run its hooks and WP network events",
-            "time": "2017-09-01T12:03:18+00:00"
         },
         {
             "name": "icanboogie/inflector",
@@ -1214,6 +1193,26 @@
             "homepage": "https://wordpress.org/plugins/duplicate-post/"
         },
         {
+            "name": "wpackagist-plugin/rollbar",
+            "version": "2.4.7",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/rollbar/",
+                "reference": "tags/2.4.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/rollbar.2.4.7.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/rollbar/"
+        },
+        {
             "name": "wpackagist-plugin/simple-custom-post-order",
             "version": "2.3.2",
             "source": {
@@ -1258,8 +1257,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "davidbarratt/custom-installer": 20,
-        "errorstudio/rooftop-hosted-hooks": 20
+        "davidbarratt/custom-installer": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

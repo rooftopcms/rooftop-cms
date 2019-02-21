@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d228b98fc497db3a6bf89b1c0534e681",
+    "content-hash": "67dbc57056e702024572e713276fb6d8",
     "packages": [
         {
             "name": "chrisboulton/php-resque",
@@ -221,27 +221,6 @@
             "description": "Install custom types into custom locations.",
             "homepage": "https://github.com/davidbarratt/custom-installer",
             "time": "2016-01-23T14:33:27+00:00"
-        },
-        {
-            "name": "errorstudio/rooftop-hosted-hooks",
-            "version": "dev-development",
-            "source": {
-                "type": "git",
-                "url": "git@bitbucket.org:errorstudio/rooftop-hosted-hooks.git",
-                "reference": "3255b200ed46a84c9883869d2fb7bbdbd5150c1b"
-            },
-            "type": "wordpress-muplugin",
-            "license": [
-                "GPL-3.0"
-            ],
-            "authors": [
-                {
-                    "name": "Rooftop CMS",
-                    "email": "hello@rooftopcms.com"
-                }
-            ],
-            "description": "A place for the hosted Rooftop install to run its hooks and WP network events",
-            "time": "2017-09-01T12:03:18+00:00"
         },
         {
             "name": "icanboogie/inflector",
@@ -911,16 +890,16 @@
         },
         {
             "name": "rooftopcms/rooftop-response-sanitiser",
-            "version": "1.2.1",
+            "version": "1.2.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-response-sanitiser.git",
-                "reference": "84f35918ee377195b064eb484da383317a0907b8"
+                "reference": "a8bb98fa05020df366a08038423f83e88f36682b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rooftopcms/rooftop-response-sanitiser/zipball/84f35918ee377195b064eb484da383317a0907b8",
-                "reference": "84f35918ee377195b064eb484da383317a0907b8",
+                "url": "https://api.github.com/repos/rooftopcms/rooftop-response-sanitiser/zipball/a8bb98fa05020df366a08038423f83e88f36682b",
+                "reference": "a8bb98fa05020df366a08038423f83e88f36682b",
                 "shasum": ""
             },
             "type": "wordpress-muplugin",
@@ -935,7 +914,7 @@
                 }
             ],
             "description": "The awesome WP-API includes some things in its response that we would rather handle in the client.For example, we remove content['rendered'] and replace with content['json'] with links replaced with shortcodes.",
-            "time": "2017-09-01T12:03:26+00:00"
+            "time": "2019-02-21T15:05:38+00:00"
         },
         {
             "name": "rooftopcms/rooftop-s3-upload-setup",
@@ -1214,6 +1193,26 @@
             "homepage": "https://wordpress.org/plugins/duplicate-post/"
         },
         {
+            "name": "wpackagist-plugin/rollbar",
+            "version": "2.4.7",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/rollbar/",
+                "reference": "tags/2.4.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/rollbar.2.4.7.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/rollbar/"
+        },
+        {
             "name": "wpackagist-plugin/simple-custom-post-order",
             "version": "2.3.2",
             "source": {
@@ -1258,8 +1257,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "davidbarratt/custom-installer": 20,
-        "errorstudio/rooftop-hosted-hooks": 20
+        "davidbarratt/custom-installer": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

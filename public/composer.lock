@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d228b98fc497db3a6bf89b1c0534e681",
+    "content-hash": "837146ba962825ab5370dbd88c3ab28d",
     "packages": [
         {
             "name": "chrisboulton/php-resque",
@@ -47,6 +47,7 @@
                 "redis",
                 "resque"
             ],
+            "abandoned": "resque/php-resque",
             "time": "2012-10-13T07:28:16+00:00"
         },
         {
@@ -222,27 +223,6 @@
             "time": "2016-01-23T14:33:27+00:00"
         },
         {
-            "name": "errorstudio/rooftop-hosted-hooks",
-            "version": "dev-development",
-            "source": {
-                "type": "git",
-                "url": "git@bitbucket.org:errorstudio/rooftop-hosted-hooks.git",
-                "reference": "3255b200ed46a84c9883869d2fb7bbdbd5150c1b"
-            },
-            "type": "wordpress-muplugin",
-            "license": [
-                "GPL-3.0"
-            ],
-            "authors": [
-                {
-                    "name": "Rooftop CMS",
-                    "email": "hello@rooftopcms.com"
-                }
-            ],
-            "description": "A place for the hosted Rooftop install to run its hooks and WP network events",
-            "time": "2017-09-01T12:03:18+00:00"
-        },
-        {
             "name": "icanboogie/inflector",
             "version": "v1.3.3",
             "source": {
@@ -293,20 +273,20 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.8.7",
+            "version": "4.8.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "5acd489f2d81e7d70ed436ae59fce48e2cc04a1b"
+                "reference": "08190e92fbdf8d7b8c9af5bf6883684f3dc6c451"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/5acd489f2d81e7d70ed436ae59fce48e2cc04a1b",
-                "reference": "5acd489f2d81e7d70ed436ae59fce48e2cc04a1b",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/08190e92fbdf8d7b8c9af5bf6883684f3dc6c451",
+                "reference": "08190e92fbdf8d7b8c9af5bf6883684f3dc6c451",
                 "shasum": ""
             },
             "require": {
-                "johnpbloch/wordpress-core": "4.8.7",
+                "johnpbloch/wordpress-core": "4.8.9",
                 "johnpbloch/wordpress-core-installer": "^1.0",
                 "php": ">=5.3.2"
             },
@@ -328,27 +308,27 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2018-07-05T18:12:34+00:00"
+            "time": "2019-03-13T01:13:29+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core",
-            "version": "4.8.7",
+            "version": "4.8.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "b03d8afcc49510401ae4f3ec9b782254d5f3142c"
+                "reference": "1e159604cae89b7581cdecfb2ad5e193c5a4db6a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/b03d8afcc49510401ae4f3ec9b782254d5f3142c",
-                "reference": "b03d8afcc49510401ae4f3ec9b782254d5f3142c",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/1e159604cae89b7581cdecfb2ad5e193c5a4db6a",
+                "reference": "1e159604cae89b7581cdecfb2ad5e193c5a4db6a",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.2"
             },
             "provide": {
-                "wordpress/core-implementation": "4.8.7"
+                "wordpress/core-implementation": "4.8.9"
             },
             "type": "wordpress-core",
             "notification-url": "https://packagist.org/downloads/",
@@ -368,20 +348,20 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2018-07-05T18:12:29+00:00"
+            "time": "2019-03-13T01:13:25+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
-            "version": "1.0.0.2",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core-installer.git",
-                "reference": "7941acd71725710a789daabe0557429da63e7ac6"
+                "reference": "fd12f5cfe27223b92b0f4bbc097059eb23cc56c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core-installer/zipball/7941acd71725710a789daabe0557429da63e7ac6",
-                "reference": "7941acd71725710a789daabe0557429da63e7ac6",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core-installer/zipball/fd12f5cfe27223b92b0f4bbc097059eb23cc56c4",
+                "reference": "fd12f5cfe27223b92b0f4bbc097059eb23cc56c4",
                 "shasum": ""
             },
             "require": {
@@ -405,7 +385,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GPL-2.0+"
+                "GPL-2.0-or-later"
             ],
             "authors": [
                 {
@@ -417,7 +397,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2018-01-29T14:49:29+00:00"
+            "time": "2018-11-09T20:10:38+00:00"
         },
         {
             "name": "predis/predis",
@@ -471,16 +451,16 @@
         },
         {
             "name": "rooftopcms/rooftop-acf-exposer",
-            "version": "1.2.3.1",
+            "version": "1.2.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-acf-exposer.git",
-                "reference": "f9067e96697b5bbc109cc38824a1eb5339ed8b23"
+                "reference": "9fbb8b2bfd04476d347487818d2afbcc4c131c6c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rooftopcms/rooftop-acf-exposer/zipball/f9067e96697b5bbc109cc38824a1eb5339ed8b23",
-                "reference": "f9067e96697b5bbc109cc38824a1eb5339ed8b23",
+                "url": "https://api.github.com/repos/rooftopcms/rooftop-acf-exposer/zipball/9fbb8b2bfd04476d347487818d2afbcc4c131c6c",
+                "reference": "9fbb8b2bfd04476d347487818d2afbcc4c131c6c",
                 "shasum": ""
             },
             "require": {
@@ -498,7 +478,7 @@
                 }
             ],
             "description": "Include the ACF fields in a post response",
-            "time": "2018-01-09T13:55:14+00:00"
+            "time": "2019-04-25T13:13:49+00:00"
         },
         {
             "name": "rooftopcms/rooftop-admin-theme",
@@ -910,16 +890,16 @@
         },
         {
             "name": "rooftopcms/rooftop-response-sanitiser",
-            "version": "1.2.1",
+            "version": "1.2.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-response-sanitiser.git",
-                "reference": "84f35918ee377195b064eb484da383317a0907b8"
+                "reference": "c6cdca46cca7957a0d08f0e1f05f2e36c13350c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rooftopcms/rooftop-response-sanitiser/zipball/84f35918ee377195b064eb484da383317a0907b8",
-                "reference": "84f35918ee377195b064eb484da383317a0907b8",
+                "url": "https://api.github.com/repos/rooftopcms/rooftop-response-sanitiser/zipball/c6cdca46cca7957a0d08f0e1f05f2e36c13350c8",
+                "reference": "c6cdca46cca7957a0d08f0e1f05f2e36c13350c8",
                 "shasum": ""
             },
             "type": "wordpress-muplugin",
@@ -934,7 +914,7 @@
                 }
             ],
             "description": "The awesome WP-API includes some things in its response that we would rather handle in the client.For example, we remove content['rendered'] and replace with content['json'] with links replaced with shortcodes.",
-            "time": "2017-09-01T12:03:26+00:00"
+            "time": "2019-02-21T15:05:38+00:00"
         },
         {
             "name": "rooftopcms/rooftop-s3-upload-setup",
@@ -1024,21 +1004,80 @@
             "time": "2017-09-01T12:03:26+00:00"
         },
         {
-            "name": "vlucas/phpdotenv",
-            "version": "v2.5.1",
+            "name": "symfony/polyfill-ctype",
+            "version": "v1.11.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "8abb4f9aa89ddea9d52112c65bbe8d0125e2fa8e"
+                "url": "https://github.com/symfony/polyfill-ctype.git",
+                "reference": "82ebae02209c21113908c229e9883c419720738a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/8abb4f9aa89ddea9d52112c65bbe8d0125e2fa8e",
-                "reference": "8abb4f9aa89ddea9d52112c65bbe8d0125e2fa8e",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/82ebae02209c21113908c229e9883c419720738a",
+                "reference": "82ebae02209c21113908c229e9883c419720738a",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.9"
+                "php": ">=5.3.3"
+            },
+            "suggest": {
+                "ext-ctype": "For best performance"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.11-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Ctype\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                },
+                {
+                    "name": "Gert de Pagter",
+                    "email": "BackEndTea@gmail.com"
+                }
+            ],
+            "description": "Symfony polyfill for ctype functions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "ctype",
+                "polyfill",
+                "portable"
+            ],
+            "time": "2019-02-06T07:57:58+00:00"
+        },
+        {
+            "name": "vlucas/phpdotenv",
+            "version": "v2.6.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vlucas/phpdotenv.git",
+                "reference": "2a7dcf7e3e02dc5e701004e51a6f304b713107d5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/2a7dcf7e3e02dc5e701004e51a6f304b713107d5",
+                "reference": "2a7dcf7e3e02dc5e701004e51a6f304b713107d5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9",
+                "symfony/polyfill-ctype": "^1.9"
             },
             "require-dev": {
                 "phpunit/phpunit": "^4.8.35 || ^5.0"
@@ -1046,7 +1085,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.5-dev"
+                    "dev-master": "2.6-dev"
                 }
             },
             "autoload": {
@@ -1071,7 +1110,7 @@
                 "env",
                 "environment"
             ],
-            "time": "2018-07-29T20:33:41+00:00"
+            "time": "2019-01-29T11:11:52+00:00"
         },
         {
             "name": "wpackagist-plugin/advanced-custom-fields",
@@ -1198,8 +1237,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "davidbarratt/custom-installer": 20,
-        "errorstudio/rooftop-hosted-hooks": 20
+        "davidbarratt/custom-installer": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d228b98fc497db3a6bf89b1c0534e681",
+    "content-hash": "aead79691f76d9af572321311b498f5d",
     "packages": [
         {
             "name": "chrisboulton/php-resque",
@@ -531,16 +531,16 @@
         },
         {
             "name": "rooftopcms/rooftop-api-authentication",
-            "version": "1.2.1",
+            "version": "1.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-api-authentication.git",
-                "reference": "f00c4bc51764b15f4359b1e4402c78206b844b9f"
+                "reference": "fc92239d0ecac3963706e0ccd57f9b8976d64f62"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rooftopcms/rooftop-api-authentication/zipball/f00c4bc51764b15f4359b1e4402c78206b844b9f",
-                "reference": "f00c4bc51764b15f4359b1e4402c78206b844b9f",
+                "url": "https://api.github.com/repos/rooftopcms/rooftop-api-authentication/zipball/fc92239d0ecac3963706e0ccd57f9b8976d64f62",
+                "reference": "fc92239d0ecac3963706e0ccd57f9b8976d64f62",
                 "shasum": ""
             },
             "type": "wordpress-muplugin",
@@ -555,7 +555,7 @@
                 }
             ],
             "description": "Authenticates requests to the API",
-            "time": "2017-09-01T12:03:17+00:00"
+            "time": "2019-09-19T13:01:28+00:00"
         },
         {
             "name": "rooftopcms/rooftop-content-fields",
@@ -1026,16 +1026,16 @@
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.11.0",
+            "version": "v1.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
-                "reference": "82ebae02209c21113908c229e9883c419720738a"
+                "reference": "550ebaac289296ce228a706d0867afc34687e3f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/82ebae02209c21113908c229e9883c419720738a",
-                "reference": "82ebae02209c21113908c229e9883c419720738a",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/550ebaac289296ce228a706d0867afc34687e3f4",
+                "reference": "550ebaac289296ce228a706d0867afc34687e3f4",
                 "shasum": ""
             },
             "require": {
@@ -1047,7 +1047,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.11-dev"
+                    "dev-master": "1.12-dev"
                 }
             },
             "autoload": {
@@ -1064,12 +1064,12 @@
             ],
             "authors": [
                 {
-                    "name": "Symfony Community",
-                    "homepage": "https://symfony.com/contributors"
-                },
-                {
                     "name": "Gert de Pagter",
                     "email": "BackEndTea@gmail.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
                 }
             ],
             "description": "Symfony polyfill for ctype functions",
@@ -1080,7 +1080,7 @@
                 "polyfill",
                 "portable"
             ],
-            "time": "2019-02-06T07:57:58+00:00"
+            "time": "2019-08-06T08:03:45+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -1195,15 +1195,15 @@
         },
         {
             "name": "wpackagist-plugin/duplicate-post",
-            "version": "3.2.2",
+            "version": "3.2.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/duplicate-post/",
-                "reference": "tags/3.2.2"
+                "reference": "tags/3.2.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/duplicate-post.3.2.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/duplicate-post.3.2.3.zip",
                 "reference": null,
                 "shasum": null
             },

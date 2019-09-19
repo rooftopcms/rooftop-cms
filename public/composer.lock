@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d228b98fc497db3a6bf89b1c0534e681",
+    "content-hash": "67dbc57056e702024572e713276fb6d8",
     "packages": [
         {
             "name": "chrisboulton/php-resque",
@@ -223,27 +223,6 @@
             "time": "2016-01-23T14:33:27+00:00"
         },
         {
-            "name": "errorstudio/rooftop-hosted-hooks",
-            "version": "dev-development",
-            "source": {
-                "type": "git",
-                "url": "git@bitbucket.org:errorstudio/rooftop-hosted-hooks.git",
-                "reference": "3255b200ed46a84c9883869d2fb7bbdbd5150c1b"
-            },
-            "type": "wordpress-muplugin",
-            "license": [
-                "GPL-3.0"
-            ],
-            "authors": [
-                {
-                    "name": "Rooftop CMS",
-                    "email": "hello@rooftopcms.com"
-                }
-            ],
-            "description": "A place for the hosted Rooftop install to run its hooks and WP network events",
-            "time": "2017-09-01T12:03:18+00:00"
-        },
-        {
             "name": "icanboogie/inflector",
             "version": "v1.3.3",
             "source": {
@@ -294,22 +273,22 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.8.8",
+            "version": "4.8.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "e885a820268a8f7f5261fcd8435b259f5b82577c"
+                "reference": "32757f4b209b3cd0030445052a4f984feb6b5b1b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/e885a820268a8f7f5261fcd8435b259f5b82577c",
-                "reference": "e885a820268a8f7f5261fcd8435b259f5b82577c",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/32757f4b209b3cd0030445052a4f984feb6b5b1b",
+                "reference": "32757f4b209b3cd0030445052a4f984feb6b5b1b",
                 "shasum": ""
             },
             "require": {
-                "johnpbloch/wordpress-core": "4.8.8",
+                "johnpbloch/wordpress-core": "4.8.10",
                 "johnpbloch/wordpress-core-installer": "^1.0",
-                "php": ">=5.3.2"
+                "php": ">=5.6.20"
             },
             "type": "package",
             "notification-url": "https://packagist.org/downloads/",
@@ -322,34 +301,34 @@
                     "homepage": "http://wordpress.org/about/"
                 }
             ],
-            "description": "WordPress is web software you can use to create a beautiful website or blog.",
+            "description": "WordPress is open source software you can use to create a beautiful website, blog, or app.",
             "homepage": "http://wordpress.org/",
             "keywords": [
                 "blog",
                 "cms",
                 "wordpress"
             ],
-            "time": "2018-12-13T03:43:15+00:00"
+            "time": "2019-09-05T01:02:42+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core",
-            "version": "4.8.8",
+            "version": "4.8.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "5102108895b07eb1d2f5d81796c3cd757cb6b6c9"
+                "reference": "4f3e20ecb4e8bcd5d8329a53da8688e5c2367572"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/5102108895b07eb1d2f5d81796c3cd757cb6b6c9",
-                "reference": "5102108895b07eb1d2f5d81796c3cd757cb6b6c9",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/4f3e20ecb4e8bcd5d8329a53da8688e5c2367572",
+                "reference": "4f3e20ecb4e8bcd5d8329a53da8688e5c2367572",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.2"
             },
             "provide": {
-                "wordpress/core-implementation": "4.8.8"
+                "wordpress/core-implementation": "4.8.10"
             },
             "type": "wordpress-core",
             "notification-url": "https://packagist.org/downloads/",
@@ -362,14 +341,14 @@
                     "homepage": "http://wordpress.org/about/"
                 }
             ],
-            "description": "WordPress is web software you can use to create a beautiful website or blog.",
+            "description": "WordPress is open source software you can use to create a beautiful website, blog, or app.",
             "homepage": "http://wordpress.org/",
             "keywords": [
                 "blog",
                 "cms",
                 "wordpress"
             ],
-            "time": "2018-12-13T03:43:10+00:00"
+            "time": "2019-09-05T01:02:38+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -472,16 +451,16 @@
         },
         {
             "name": "rooftopcms/rooftop-acf-exposer",
-            "version": "1.2.3.1",
+            "version": "1.2.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-acf-exposer.git",
-                "reference": "f9067e96697b5bbc109cc38824a1eb5339ed8b23"
+                "reference": "9fbb8b2bfd04476d347487818d2afbcc4c131c6c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rooftopcms/rooftop-acf-exposer/zipball/f9067e96697b5bbc109cc38824a1eb5339ed8b23",
-                "reference": "f9067e96697b5bbc109cc38824a1eb5339ed8b23",
+                "url": "https://api.github.com/repos/rooftopcms/rooftop-acf-exposer/zipball/9fbb8b2bfd04476d347487818d2afbcc4c131c6c",
+                "reference": "9fbb8b2bfd04476d347487818d2afbcc4c131c6c",
                 "shasum": ""
             },
             "require": {
@@ -499,7 +478,7 @@
                 }
             ],
             "description": "Include the ACF fields in a post response",
-            "time": "2018-01-09T13:55:14+00:00"
+            "time": "2019-04-25T13:13:49+00:00"
         },
         {
             "name": "rooftopcms/rooftop-admin-theme",
@@ -531,16 +510,16 @@
         },
         {
             "name": "rooftopcms/rooftop-api-authentication",
-            "version": "1.2.1",
+            "version": "1.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rooftopcms/rooftop-api-authentication.git",
-                "reference": "f00c4bc51764b15f4359b1e4402c78206b844b9f"
+                "reference": "fc92239d0ecac3963706e0ccd57f9b8976d64f62"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rooftopcms/rooftop-api-authentication/zipball/f00c4bc51764b15f4359b1e4402c78206b844b9f",
-                "reference": "f00c4bc51764b15f4359b1e4402c78206b844b9f",
+                "url": "https://api.github.com/repos/rooftopcms/rooftop-api-authentication/zipball/fc92239d0ecac3963706e0ccd57f9b8976d64f62",
+                "reference": "fc92239d0ecac3963706e0ccd57f9b8976d64f62",
                 "shasum": ""
             },
             "type": "wordpress-muplugin",
@@ -555,7 +534,7 @@
                 }
             ],
             "description": "Authenticates requests to the API",
-            "time": "2017-09-01T12:03:17+00:00"
+            "time": "2019-09-19T13:01:28+00:00"
         },
         {
             "name": "rooftopcms/rooftop-content-fields",
@@ -1026,16 +1005,16 @@
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.10.0",
+            "version": "v1.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
-                "reference": "e3d826245268269cd66f8326bd8bc066687b4a19"
+                "reference": "550ebaac289296ce228a706d0867afc34687e3f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/e3d826245268269cd66f8326bd8bc066687b4a19",
-                "reference": "e3d826245268269cd66f8326bd8bc066687b4a19",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/550ebaac289296ce228a706d0867afc34687e3f4",
+                "reference": "550ebaac289296ce228a706d0867afc34687e3f4",
                 "shasum": ""
             },
             "require": {
@@ -1047,7 +1026,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.9-dev"
+                    "dev-master": "1.12-dev"
                 }
             },
             "autoload": {
@@ -1064,12 +1043,12 @@
             ],
             "authors": [
                 {
-                    "name": "Symfony Community",
-                    "homepage": "https://symfony.com/contributors"
-                },
-                {
                     "name": "Gert de Pagter",
                     "email": "BackEndTea@gmail.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
                 }
             ],
             "description": "Symfony polyfill for ctype functions",
@@ -1080,7 +1059,7 @@
                 "polyfill",
                 "portable"
             ],
-            "time": "2018-08-06T14:22:27+00:00"
+            "time": "2019-08-06T08:03:45+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -1144,8 +1123,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.4.4.8.zip",
-                "reference": "tags/4.4.8",
-                "shasum": null
+                "reference": "tags/4.4.8"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1164,8 +1142,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/amazon-s3-and-cloudfront.0.9.12.zip",
-                "reference": "tags/0.9.12",
-                "shasum": null
+                "reference": "tags/0.9.12"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1184,8 +1161,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/amazon-web-services.1.0.2.zip",
-                "reference": "tags/1.0.2",
-                "shasum": null
+                "reference": "tags/1.0.2"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1195,23 +1171,39 @@
         },
         {
             "name": "wpackagist-plugin/duplicate-post",
-            "version": "3.2.2",
+            "version": "3.2.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/duplicate-post/",
-                "reference": "tags/3.2.2"
+                "reference": "tags/3.2.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/duplicate-post.3.2.2.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/duplicate-post.3.2.3.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/duplicate-post/"
+        },
+        {
+            "name": "wpackagist-plugin/rollbar",
+            "version": "2.4.7",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/rollbar/",
+                "reference": "tags/2.4.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/rollbar.2.4.7.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/rollbar/"
         },
         {
             "name": "wpackagist-plugin/simple-custom-post-order",
@@ -1224,8 +1216,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/simple-custom-post-order.zip?timestamp=1489777411",
-                "reference": "trunk",
-                "shasum": null
+                "reference": "trunk"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1244,8 +1235,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wp-api-menus.1.2.0.zip",
-                "reference": "tags/1.2.0",
-                "shasum": null
+                "reference": "tags/1.2.0"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1258,8 +1248,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "davidbarratt/custom-installer": 20,
-        "errorstudio/rooftop-hosted-hooks": 20
+        "davidbarratt/custom-installer": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

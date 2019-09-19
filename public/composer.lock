@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d228b98fc497db3a6bf89b1c0534e681",
+    "content-hash": "aead79691f76d9af572321311b498f5d",
     "packages": [
         {
             "name": "chrisboulton/php-resque",
@@ -294,22 +294,22 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.8.10",
+            "version": "4.8.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "32757f4b209b3cd0030445052a4f984feb6b5b1b"
+                "reference": "08190e92fbdf8d7b8c9af5bf6883684f3dc6c451"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/32757f4b209b3cd0030445052a4f984feb6b5b1b",
-                "reference": "32757f4b209b3cd0030445052a4f984feb6b5b1b",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/08190e92fbdf8d7b8c9af5bf6883684f3dc6c451",
+                "reference": "08190e92fbdf8d7b8c9af5bf6883684f3dc6c451",
                 "shasum": ""
             },
             "require": {
-                "johnpbloch/wordpress-core": "4.8.10",
+                "johnpbloch/wordpress-core": "4.8.9",
                 "johnpbloch/wordpress-core-installer": "^1.0",
-                "php": ">=5.6.20"
+                "php": ">=5.3.2"
             },
             "type": "package",
             "notification-url": "https://packagist.org/downloads/",
@@ -322,34 +322,34 @@
                     "homepage": "http://wordpress.org/about/"
                 }
             ],
-            "description": "WordPress is open source software you can use to create a beautiful website, blog, or app.",
+            "description": "WordPress is web software you can use to create a beautiful website or blog.",
             "homepage": "http://wordpress.org/",
             "keywords": [
                 "blog",
                 "cms",
                 "wordpress"
             ],
-            "time": "2019-09-05T01:02:42+00:00"
+            "time": "2019-03-13T01:13:29+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core",
-            "version": "4.8.10",
+            "version": "4.8.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "4f3e20ecb4e8bcd5d8329a53da8688e5c2367572"
+                "reference": "1e159604cae89b7581cdecfb2ad5e193c5a4db6a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/4f3e20ecb4e8bcd5d8329a53da8688e5c2367572",
-                "reference": "4f3e20ecb4e8bcd5d8329a53da8688e5c2367572",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/1e159604cae89b7581cdecfb2ad5e193c5a4db6a",
+                "reference": "1e159604cae89b7581cdecfb2ad5e193c5a4db6a",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.2"
             },
             "provide": {
-                "wordpress/core-implementation": "4.8.10"
+                "wordpress/core-implementation": "4.8.9"
             },
             "type": "wordpress-core",
             "notification-url": "https://packagist.org/downloads/",
@@ -362,14 +362,14 @@
                     "homepage": "http://wordpress.org/about/"
                 }
             ],
-            "description": "WordPress is open source software you can use to create a beautiful website, blog, or app.",
+            "description": "WordPress is web software you can use to create a beautiful website or blog.",
             "homepage": "http://wordpress.org/",
             "keywords": [
                 "blog",
                 "cms",
                 "wordpress"
             ],
-            "time": "2019-09-05T01:02:38+00:00"
+            "time": "2019-03-13T01:13:25+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",

@@ -54,7 +54,7 @@
     "composer/installers": "~1.0.12",
     "davidbarratt/custom-installer": "1.0.*@dev",
     "vlucas/phpdotenv": "^2.0.1",
-    "johnpbloch/wordpress": "~4.8.0",
+    "johnpbloch/wordpress": "4.8.9",
     "rooftopcms/rooftop-acf-exposer": "~1.2.0",
     "rooftopcms/rooftop-admin-theme": "~1.2.0",
     "rooftopcms/rooftop-api-authentication": "~1.2.0",

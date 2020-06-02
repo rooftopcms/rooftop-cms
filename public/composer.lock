@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d5d81b5cd9085ee935599be0ee82ab03",
+    "content-hash": "709d39739dffc883ebae844841ce5740",
     "packages": [
         {
             "name": "chrisboulton/php-resque",
@@ -294,22 +294,22 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.8.13",
+            "version": "4.8.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "ac60f65ad557618667386404f5d577ac876643e0"
+                "reference": "08190e92fbdf8d7b8c9af5bf6883684f3dc6c451"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/ac60f65ad557618667386404f5d577ac876643e0",
-                "reference": "ac60f65ad557618667386404f5d577ac876643e0",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/08190e92fbdf8d7b8c9af5bf6883684f3dc6c451",
+                "reference": "08190e92fbdf8d7b8c9af5bf6883684f3dc6c451",
                 "shasum": ""
             },
             "require": {
-                "johnpbloch/wordpress-core": "4.8.13",
+                "johnpbloch/wordpress-core": "4.8.9",
                 "johnpbloch/wordpress-core-installer": "^1.0",
-                "php": ">=5.6.20"
+                "php": ">=5.3.2"
             },
             "type": "package",
             "notification-url": "https://packagist.org/downloads/",
@@ -322,34 +322,34 @@
                     "homepage": "http://wordpress.org/about/"
                 }
             ],
-            "description": "WordPress is open source software you can use to create a beautiful website, blog, or app.",
+            "description": "WordPress is web software you can use to create a beautiful website or blog.",
             "homepage": "http://wordpress.org/",
             "keywords": [
                 "blog",
                 "cms",
                 "wordpress"
             ],
-            "time": "2020-04-29T19:17:25+00:00"
+            "time": "2019-03-13T01:13:29+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core",
-            "version": "4.8.13",
+            "version": "4.8.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "d92d084347067b3adf4995944c5ad47188c0879a"
+                "reference": "1e159604cae89b7581cdecfb2ad5e193c5a4db6a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/d92d084347067b3adf4995944c5ad47188c0879a",
-                "reference": "d92d084347067b3adf4995944c5ad47188c0879a",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/1e159604cae89b7581cdecfb2ad5e193c5a4db6a",
+                "reference": "1e159604cae89b7581cdecfb2ad5e193c5a4db6a",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.2"
             },
             "provide": {
-                "wordpress/core-implementation": "4.8.13"
+                "wordpress/core-implementation": "4.8.9"
             },
             "type": "wordpress-core",
             "notification-url": "https://packagist.org/downloads/",
@@ -359,17 +359,17 @@
             "authors": [
                 {
                     "name": "WordPress Community",
-                    "homepage": "https://wordpress.org/about/"
+                    "homepage": "http://wordpress.org/about/"
                 }
             ],
-            "description": "WordPress is open source software you can use to create a beautiful website, blog, or app.",
-            "homepage": "https://wordpress.org/",
+            "description": "WordPress is web software you can use to create a beautiful website or blog.",
+            "homepage": "http://wordpress.org/",
             "keywords": [
                 "blog",
                 "cms",
                 "wordpress"
             ],
-            "time": "2020-04-29T19:17:20+00:00"
+            "time": "2019-03-13T01:13:25+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
